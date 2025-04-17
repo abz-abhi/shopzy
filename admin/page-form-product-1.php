@@ -1,6 +1,7 @@
 <?php
 include("session.php");
-include('common/header.php') ?>
+include('common/header.php');
+include('include/db_config.php'); ?>
 <section class="content-main">
   <div class="row">
     <div class="col-9">
@@ -15,12 +16,45 @@ include('common/header.php') ?>
           <h4>Basic</h4>
         </div>
         <div class="card-body">
-          <form method="POST">
+
+          <?php
+
+          if (isset($_POST['addProduct'])) {
+
+            $productname = $_POST['productName'];
+            $description = $_POST['description'];
+            $mrp = $_POST['mrp'];
+            $sellprice = $_POST['sellingPrice'];
+            $date_time = date("Y-m-d H-i-s");
+
+            $proimgName = $_FILES['productimg']['name'];
+            $proimgTemp = $_FILES['productimg']['tmp_name'];
+            $uploadDir = "uploads/product/";
+            $targetPath = $uploadDir . basename($proimgName);
+            $categorie_id = $_POST['category_id'];
+
+            if (move_uploaded_file($proimgTemp, $targetPath)) {
+
+              $query = "INSERT INTO `product`(`name`,`categorie_id`,`selling_price`,`mrp`,`discription`,`image`,`status`,`created_on`,`updated_on`)
+                                  VALUES('$productname','$categorie_id','$sellprice','$mrp','$description','$targetPath','1','$date_time','$date_time')";
+
+              if (mysqli_query($con, $query)) {
+                echo '<script>alert("Registration successful!"); window.location.href="page-form-product-1.php"</script>';
+              } else {
+                echo "error !";
+              }
+            }
+          }
+          ?>
+
+
+          <form method="POST" enctype="multipart/form-data">
             <div class="mb-4">
               <label class="form-label" for="product_name">Product title</label>
               <input
                 class="form-control"
                 id="product_name"
+                name="productName"
                 type="text"
                 placeholder="Type here" />
             </div>
@@ -28,25 +62,28 @@ include('common/header.php') ?>
               <label class="form-label">Full description</label>
               <textarea
                 class="form-control"
+                name="description"
                 placeholder="Type here"
                 rows="4"></textarea>
             </div>
             <div class="row">
               <div class="col-lg-4">
                 <div class="mb-4">
-                  <label class="form-label">Regular price</label>
+                  <label class="form-label">MRP</label>
                   <div class="row gx-2"></div>
                   <input
                     class="form-control"
+                    name="mrp"
                     placeholder="$"
                     type="text" />
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="mb-4">
-                  <label class="form-label">Promotional price</label>
+                  <label class="form-label">Selling price</label>
                   <input
                     class="form-control"
+                    name="sellingPrice"
                     placeholder="$"
                     type="text" />
                 </div>
@@ -62,54 +99,6 @@ include('common/header.php') ?>
             </div>
         </div>
       </div>
-      <!-- Shipping -->
-      <div class="card mb-4">
-        <div class="card-header">
-          <h4>Shipping</h4>
-        </div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="mb-4">
-                <label class="form-label" for="product_name">Width</label>
-                <input
-                  class="form-control"
-                  id="product_name"
-                  type="text"
-                  placeholder="inch" />
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="mb-4">
-                <label class="form-label" for="product_name">Height</label>
-                <input
-                  class="form-control"
-                  id="product_name"
-                  type="text"
-                  placeholder="inch" />
-              </div>
-            </div>
-            <div class="mb-4">
-              <label class="form-label" for="product_name">Weight</label>
-              <input
-                class="form-control"
-                id="product_name"
-                type="text"
-                placeholder="gam" />
-            </div>
-            <div class="mb-4">
-              <label class="form-label" for="product_name">Shipping fees</label>
-              <input
-                class="form-control"
-                id="product_name"
-                type="text"
-                placeholder="$" />
-            </div>
-          </div>
-          <div>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="col-lg-3">
       <div class="card mb-4">
@@ -118,8 +107,8 @@ include('common/header.php') ?>
         </div>
         <div class="card-body">
           <div class="input-upload">
-            <img id="previewImage" src="assets/imgs/theme/upload.svg" alt="" />
-            <input class="form-control" type="file" id="imageInput" accept="image/*" />
+            <img name="productImage" id="previewImage" src="assets/imgs/theme/upload.svg" alt="" />
+            <input name="productimg" class="form-control" type="file" id="imageInput" accept="image/*" />
           </div>
         </div>
       </div>
@@ -131,22 +120,28 @@ include('common/header.php') ?>
           <div class="row gx-2">
             <div class="col-sm-6 mb-3">
               <label class="form-label">Category</label>
-              <select class="form-select">
-                <option>Automobiles</option>
-                <option>Home items</option>
-                <option>Electronics</option>
-                <option>Smartphones</option>
-                <option>Sport items</option>
-                <option>Baby and Tous</option>
+              <select class="form-select" name="category_id" required>
+                <option value="">select</option>
+                <?php
+                $result_cat = mysqli_query($con, "SELECT * FROM `categories` WHERE `status`='1' ORDER BY `id`");
+                while ($row_cat = mysqli_fetch_assoc($result_cat)) {
+                ?>
+                  <option value="<?php echo $row_cat['id']; ?>"><?php echo $row_cat['name']; ?></option>
+                <?php } ?>
+
               </select>
             </div>
             <div class="col-sm-6 mb-3">
-              <label class="form-label">Sub-category</label>
-              <select class="form-select">
-                <option>Nissan</option>
-                <option>Honda</option>
-                <option>Mercedes</option>
-                <option>Chevrolet</option>
+              <label class="form-label">Brand</label>
+              <select class="form-select" name="category_id" required>
+                <option value="">select</option>
+                <?php
+                $result_cat = mysqli_query($con, "SELECT * FROM `categories` WHERE `status`='1' ORDER BY `id`");
+                while ($row_cat = mysqli_fetch_assoc($result_cat)) {
+                ?>
+                  <option value="<?php echo $row_cat['id']; ?>"><?php echo $row_cat['name']; ?></option>
+                <?php } ?>
+
               </select>
             </div>
             <div class="mb-4">
@@ -160,7 +155,7 @@ include('common/header.php') ?>
         class="btn btn-light rounded font-sm mr-5 text-body hover-up">
         Save to draft
       </button>
-      <button class="btn btn-md rounded font-sm hover-up">
+      <button onclick="count" name="addProduct" class="btn btn-md rounded font-sm hover-up">
         Add product
       </button>
       </form>
