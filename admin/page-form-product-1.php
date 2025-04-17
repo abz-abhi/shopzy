@@ -133,7 +133,7 @@ include('include/db_config.php'); ?>
             </div>
             <div class="col-sm-6 mb-3">
               <label class="form-label">Brand</label>
-              <select class="form-select" name="category_id" required>
+              <select class="form-select" name="category_id">
                 <option value="">select</option>
                 <?php
                 $result_cat = mysqli_query($con, "SELECT * FROM `categories` WHERE `status`='1' ORDER BY `id`");
@@ -143,10 +143,6 @@ include('include/db_config.php'); ?>
                 <?php } ?>
 
               </select>
-            </div>
-            <div class="mb-4">
-              <label class="form-label" for="product_name">Tags</label>
-              <input class="form-control" type="text" />
             </div>
           </div>
         </div>

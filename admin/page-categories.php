@@ -105,12 +105,12 @@ include('include/db_config.php');
                 while ($row = mysqli_fetch_assoc($result)) {
                 ?>
                   <tr>
-                    <td class="text-center align-middle h-[100px]">
+                    <td class="text-center align-middle h-[100px]" >
                       <img src="<?php echo $row['image']; ?>" style="width: 70px; height: 70px;">
                     </td>
-                    <td><?php echo $row['id'] ?></td>
-                    <td><?php echo $row['name']; ?></td>
-                    <td><?php
+                    <td style="vertical-align: middle;"><?php echo $row['id'] ?></td>
+                    <td style="vertical-align: middle;"><?php echo $row['name']; ?></td>
+                    <td style="vertical-align: middle;"><?php
                         if ($row['status'] == 1) {
                           echo '<span class="badge bg-success" >Active</span>';
                         } else {
@@ -118,7 +118,7 @@ include('include/db_config.php');
                         }
                         ?>
                     </td>
-                    <td class="text-end">
+                    <td style="vertical-align: middle;" class="text-end">
                       <div class="form-check form-switch">
                         <?php if ($row['status'] == 1) {
                           echo '<input onclick="publish(' . $row['id'] . ',0)" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked="">';
@@ -127,7 +127,7 @@ include('include/db_config.php');
                         } ?>
                       </div>
                       <a href="edit-categories.php?id=<?php echo $row['id'] ?>" class="badge bg-warning text-dark">Edit</a>
-                      <button onclick="delete_user('<?php echo $row['id'] ?>')" class="badge bg-danger text-dark">Delete</button>
+                      <button onclick="delete_cat('<?php echo $row['id'] ?>')" class="badge bg-danger text-dark">Delete</button>
                     </td>
                   </tr>
                 <?php $i++;
@@ -149,15 +149,15 @@ include('include/db_config.php');
                     });
                   }
 
-                  function delete_user(id) {
+                  function delete_cat(id) {
                     $.ajax({
                       type: "POST",
                       url: 'controller/common.php',
                       data: {
-                        id: id
+                        catId: id
                       },
                       success: function(response) {
-                        alert("Your data deleted");
+                        alert("Categorie Deleted");
                         $("#categoriesTable").load(window.location.href + " #categoriesTable");
                       }
                     });
