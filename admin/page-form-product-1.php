@@ -6,24 +6,16 @@ include('common/header.php') ?>
     <div class="col-9">
       <div class="content-header">
         <h2 class="content-title">Add New Product</h2>
-        <div>
-          <button
-            class="btn btn-light rounded font-sm mr-5 text-body hover-up">
-            Save to draft
-          </button>
-          <button class="btn btn-md rounded font-sm hover-up">
-            Add product
-          </button>
-        </div>
       </div>
     </div>
     <div class="col-lg-6">
+      <!-- Basic -->
       <div class="card mb-4">
         <div class="card-header">
           <h4>Basic</h4>
         </div>
         <div class="card-body">
-          <form>
+          <form method="POST">
             <div class="mb-4">
               <label class="form-label" for="product_name">Product title</label>
               <input
@@ -68,54 +60,54 @@ include('common/header.php') ?>
                 </select>
               </div>
             </div>
-          </form>
         </div>
       </div>
+      <!-- Shipping -->
       <div class="card mb-4">
         <div class="card-header">
           <h4>Shipping</h4>
         </div>
         <div class="card-body">
-          <form>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="mb-4">
-                  <label class="form-label" for="product_name">Width</label>
-                  <input
-                    class="form-control"
-                    id="product_name"
-                    type="text"
-                    placeholder="inch" />
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="mb-4">
-                  <label class="form-label" for="product_name">Height</label>
-                  <input
-                    class="form-control"
-                    id="product_name"
-                    type="text"
-                    placeholder="inch" />
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-lg-6">
               <div class="mb-4">
-                <label class="form-label" for="product_name">Weight</label>
+                <label class="form-label" for="product_name">Width</label>
                 <input
                   class="form-control"
                   id="product_name"
                   type="text"
-                  placeholder="gam" />
-              </div>
-              <div class="mb-4">
-                <label class="form-label" for="product_name">Shipping fees</label>
-                <input
-                  class="form-control"
-                  id="product_name"
-                  type="text"
-                  placeholder="$" />
+                  placeholder="inch" />
               </div>
             </div>
-          </form>
+            <div class="col-lg-6">
+              <div class="mb-4">
+                <label class="form-label" for="product_name">Height</label>
+                <input
+                  class="form-control"
+                  id="product_name"
+                  type="text"
+                  placeholder="inch" />
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="form-label" for="product_name">Weight</label>
+              <input
+                class="form-control"
+                id="product_name"
+                type="text"
+                placeholder="gam" />
+            </div>
+            <div class="mb-4">
+              <label class="form-label" for="product_name">Shipping fees</label>
+              <input
+                class="form-control"
+                id="product_name"
+                type="text"
+                placeholder="$" />
+            </div>
+          </div>
+          <div>
+          </div>
         </div>
       </div>
     </div>
@@ -164,6 +156,14 @@ include('common/header.php') ?>
           </div>
         </div>
       </div>
+      <button
+        class="btn btn-light rounded font-sm mr-5 text-body hover-up">
+        Save to draft
+      </button>
+      <button class="btn btn-md rounded font-sm hover-up">
+        Add product
+      </button>
+      </form>
     </div>
   </div>
 </section>
