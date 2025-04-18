@@ -55,9 +55,10 @@ include('include/db_config.php'); ?>
         <?php
 
         $result = mysqli_query($con, "SELECT * FROM `product` ORDER BY `id`");
-        while ($row = mysqli_fetch_assoc($result)) {
 
+        while ($row = mysqli_fetch_assoc($result)) {
         ?>
+
           <tbody>
             <tr>
               <td style="vertical-align: middle;"><?php echo $row['id'] ?></td>
@@ -70,9 +71,26 @@ include('include/db_config.php'); ?>
                 <h6 class="mb-0"><?php echo $row['name'] ?></h6>
               </td>
               <td style="vertical-align: middle;"><span><?php echo $row['selling_price'] ?></span></td>
-              <td style="vertical-align: middle;"><span class="badge rounded-pill alert-success">Active</span></td>
+              <td style="vertical-align: middle;">
+                <?php
+                if ($row['status'] == 1) {
+                  echo '<span class="badge rounded-pill alert-success">Active</span>';
+                } else {
+                  echo '<span class="badge rounded-pill alert-danger">Inative</span>';
+                }
+                ?>
+              </td>
               <td style="vertical-align: middle;"> <span><?php echo $row['created_on'] ?></span></td>
               <td style="vertical-align: middle;">
+                <div class="form-check form-switch">
+                  <?php
+                  if ($row['status'] == 1) {
+                    echo '<input onclick="prod_status(' . $row['id'] . ',0)" class="form-check-input" type="checkbox" role="switch" checked="">';
+                  } else {
+                    echo '<input onclick="prod_status(' . $row['id'] . ',1)" class="form-check-input" type="checkbox" role="switch" >';
+                  }
+                  ?>
+                </div>
                 <a class="btn btn-sm font-sm rounded btn-brand mr-5" href="#">
                   <i class="material-icons md-edit"></i> Edit</a>
                 <button class="btn btn-sm font-sm btn-light rounded" onclick="delete_product(<?php echo $row['id'] ?>)">
@@ -86,6 +104,21 @@ include('include/db_config.php'); ?>
   </div>
 </section>
 <script>
+  function prod_status(prod_id, prod_value) {
+    $.ajax({
+      type: "POST",
+      url: 'controller/common.php',
+      data: {
+        active_status_id: prod_id,
+        status_value: prod_value
+      },
+      success: function(response) {
+        alert("product status updated");
+        $("#productTable").load(window.location.href + " #productTable");
+      }
+    })
+  }
+
   function delete_product(id) {
     $.ajax({
       type: "POST",

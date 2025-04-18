@@ -121,9 +121,9 @@ include('include/db_config.php');
                     <td style="vertical-align: middle;" class="text-end">
                       <div class="form-check form-switch">
                         <?php if ($row['status'] == 1) {
-                          echo '<input onclick="publish(' . $row['id'] . ',0)" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked="">';
+                          echo '<input onclick="publish(' . $row['id'] . ',0)" class="form-check-input" type="checkbox" role="switch" checked="">';
                         } else {
-                          echo '<input onclick="publish(' . $row['id'] . ',1)" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" >';
+                          echo '<input onclick="publish(' . $row['id'] . ',1)" class="form-check-input" type="checkbox" role="switch" >';
                         } ?>
                       </div>
                       <a href="edit-categories.php?id=<?php echo $row['id'] ?>" class="badge bg-warning text-dark">Edit</a>
@@ -134,13 +134,13 @@ include('include/db_config.php');
                 }; ?>
 
                 <script>
-                  function publish(user_id, value) {
+                  function publish(cato_id,value) {
                     $.ajax({
                       type: "POST",
                       url: 'controller/common.php',
                       data: {
-                        activate_user_id: user_id,
-                        value: value
+                        activate_cato_id: cato_id,
+                        cato_value: value
                       },
                       success: function(response) {
                         alert("Your data updated");
@@ -172,19 +172,6 @@ include('include/db_config.php');
     </div>
   </div>
 </section>
-<footer class="main-footer font-xs">
-  <div class="row pb-30 pt-15">
-    <div class="col-sm-6">
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-      &copy;, Ecom - HTML Ecommerce Template .
-    </div>
-    <div class="col-sm-6">
-      <div class="text-sm-end">All rights reserved</div>
-    </div>
-  </div>
-</footer>
 </main>
 <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
 <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
