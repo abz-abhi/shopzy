@@ -21,9 +21,9 @@
                       <li><a href="index-10.html">Homepage - 10</a></li>
                     </ul>
                   </li>
-                  <li class="has-children"><a href="shop-grid.php">Shop</a>
+                  <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                     <ul class="sub-menu">
-                      <li><a href="shop-grid.php">Shop Grid</a></li>
+                      <li><a href="shop-grid-2.php">Shop Grid</a></li>
                       <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
@@ -91,7 +91,7 @@
             <div class="mobile-banner">
               <div class="bg-5 block-iphone"><span class="color-brand-3 font-sm-lh32">Starting from $899</span>
                 <h3 class="font-xl mb-10">iPhone 12 Pro 128Gb</h3>
-                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid.php">learn more</a>
+                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid-2.php">learn more</a>
               </div>
             </div>
             <div class="site-copyright color-gray-400 mt-30">Copyright 2022 &copy; Ecom - Marketplace Template.<br>Designed by<a href="http://alithemes.com" target="_blank">&nbsp; AliThemes</a></div>
@@ -121,9 +121,9 @@
                       <li><a href="index-10.html">Homepage - 10</a></li>
                     </ul>
                   </li>
-                  <li class="has-children"><a href="shop-grid.php">Shop</a>
+                  <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                     <ul class="sub-menu">
-                      <li><a href="shop-grid.php">Shop Grid</a></li>
+                      <li><a href="shop-grid-2.php">Shop Grid</a></li>
                       <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
@@ -191,7 +191,7 @@
             <div class="mobile-banner">
               <div class="bg-5 block-iphone"><span class="color-brand-3 font-sm-lh32">Starting from $899</span>
                 <h3 class="font-xl mb-10">iPhone 12 Pro 128Gb</h3>
-                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid.php">learn more</a>
+                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid-2.php">learn more</a>
               </div>
             </div>
             <div class="site-copyright color-gray-400 mt-30">Copyright 2022 &copy; Ecom - Marketplace Template.<br>Designed by<a href="http://alithemes.com" target="_blank">&nbsp; AliThemes</a></div>
@@ -338,7 +338,7 @@
                                 <li class="font-sm color-brand-3">Garden care</li>
                               </ul>
                             </div>
-                            <div class="mt-20"><a class="btn btn-success" href="shop-grid.php">Shop now</a><a class="btn btn-link-brand-3" href="shop-grid.php">Learn more</a></div>
+                            <div class="mt-20"><a class="btn btn-success" href="shop-grid-2.php">Shop now</a><a class="btn btn-link-brand-3" href="shop-grid-2.php">Learn more</a></div>
                           </div>
                           <div class="box-img-banner"> <img src="assets/imgs/page/homepage10/banner.png" alt="Ecom"></div>
                         </div>
@@ -355,7 +355,7 @@
                                 <li class="font-sm color-brand-3">Garden care</li>
                               </ul>
                             </div>
-                            <div class="mt-20"><a class="btn btn-success" href="shop-grid.php">Shop now</a><a class="btn btn-link-brand-3" href="shop-grid.php">Learn more</a></div>
+                            <div class="mt-20"><a class="btn btn-success" href="shop-grid-2.php">Shop now</a><a class="btn btn-link-brand-3" href="shop-grid-2.php">Learn more</a></div>
                           </div>
                           <div class="box-img-banner"> <img src="assets/imgs/page/homepage10/banner.png" alt="Ecom"></div>
                         </div>
@@ -373,7 +373,7 @@
                     <div class="box-count box-count-square">
                       <div class="deals-countdown" data-countdown="2022/09/25 00:00:00"></div>
                     </div>
-                    <div class="mt-30"><a class="btn btn-success" href="shop-grid.php">Shop now</a></div>
+                    <div class="mt-30"><a class="btn btn-success" href="shop-grid-2.php">Shop now</a></div>
                   </div>
                   <div class="box-img-banner-2"> <img src="assets/imgs/page/homepage10/banner2.png" alt="Ecom"></div>
                 </div>
@@ -523,7 +523,7 @@
                   <h1 class="color-gray-1000 mb-10">Sale</h1>
                   <h3 class="color-brand-3 mb-5">70% OFF</h3>
                   <h4 class="color-gray-500 mb-5">Potted in home</h4>
-                  <div class="mt-30"><a class="btn btn-brand-2 btn-arrow-right" href="shop-grid.php">Shop now</a></div>
+                  <div class="mt-30"><a class="btn btn-brand-2 btn-arrow-right" href="shop-grid-2.php">Shop now</a></div>
                 </div>
                 <div class="box-img-banner"> <img class="img1" src="assets/imgs/page/homepage10/banner3.png" alt="Ecom"></div>
               </div>
@@ -534,7 +534,7 @@
                   <h1 class="color-gray-1000 mb-10">Deals</h1>
                   <h3 class="color-gray-500 mb-5">Cactus Collection</h3>
                   <h4 class="color-gray-500 mb-5">Free Shipping</h4>
-                  <div class="mt-30"><a class="btn btn-brand-2 btn-arrow-right" href="shop-grid.php">Shop now</a></div>
+                  <div class="mt-30"><a class="btn btn-brand-2 btn-arrow-right" href="shop-grid-2.php">Shop now</a></div>
                 </div>
                 <div class="box-img-banner"> <img class="img2" src="assets/imgs/page/homepage10/banner4.png" alt="Ecom"></div>
               </div>
@@ -544,7 +544,7 @@
                 <div class="info-banner">
                   <h1 class="color-gray-1000">Hot <br class="d-none d-lg-block">Trend</h1>
                   <h3 class="color-gray-500 mb-0">Summer 2022</h3>
-                  <div class="mt-0"><a class="btn btn-link-brand-2 btn-arrow-brand-2 font-normal" href="shop-grid.php">Learn more</a></div>
+                  <div class="mt-0"><a class="btn btn-link-brand-2 btn-arrow-brand-2 font-normal" href="shop-grid-2.php">Learn more</a></div>
                 </div>
                 <div class="box-img-banner"> <img class="img3" src="assets/imgs/page/homepage10/banner5.png" alt="Ecom"></div>
               </div>

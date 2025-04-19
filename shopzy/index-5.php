@@ -21,9 +21,9 @@
                       <li><a href="index-10.html">Homepage - 10</a></li>
                     </ul>
                   </li>
-                  <li class="has-children"><a href="shop-grid.php">Shop</a>
+                  <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                     <ul class="sub-menu">
-                      <li><a href="shop-grid.php">Shop Grid</a></li>
+                      <li><a href="shop-grid-2.php">Shop Grid</a></li>
                       <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
@@ -91,7 +91,7 @@
             <div class="mobile-banner">
               <div class="bg-5 block-iphone"><span class="color-brand-3 font-sm-lh32">Starting from $899</span>
                 <h3 class="font-xl mb-10">iPhone 12 Pro 128Gb</h3>
-                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid.php">learn more</a>
+                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid-2.php">learn more</a>
               </div>
             </div>
             <div class="site-copyright color-gray-400 mt-30">Copyright 2022 &copy; Ecom - Marketplace Template.<br>Designed by<a href="http://alithemes.com" target="_blank">&nbsp; AliThemes</a></div>
@@ -121,9 +121,9 @@
                       <li><a href="index-10.html">Homepage - 10</a></li>
                     </ul>
                   </li>
-                  <li class="has-children"><a href="shop-grid.php">Shop</a>
+                  <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                     <ul class="sub-menu">
-                      <li><a href="shop-grid.php">Shop Grid</a></li>
+                      <li><a href="shop-grid-2.php">Shop Grid</a></li>
                       <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
@@ -191,7 +191,7 @@
             <div class="mobile-banner">
               <div class="bg-5 block-iphone"><span class="color-brand-3 font-sm-lh32">Starting from $899</span>
                 <h3 class="font-xl mb-10">iPhone 12 Pro 128Gb</h3>
-                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid.php">learn more</a>
+                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid-2.php">learn more</a>
               </div>
             </div>
             <div class="site-copyright color-gray-400 mt-30">Copyright 2022 &copy; Ecom - Marketplace Template.<br>Designed by<a href="http://alithemes.com" target="_blank">&nbsp; AliThemes</a></div>
@@ -211,25 +211,25 @@
                   </div>
                   <div class="sidebar-content">
                     <ul class="list-nav-arrow">
-                      <li><a href="shop-grid.php">Computers &amp; Laptop<span class="number">09</span></a></li>
-                      <li><a href="shop-grid.php">Electric accessories<span class="number">12</span></a></li>
-                      <li><a href="shop-grid.php">Mainboard &amp; CPU<span class="number">24</span></a></li>
-                      <li><a href="shop-grid.php">Bluetooth devices<span class="number">34</span></a></li>
-                      <li><a href="shop-grid.php">Mouse &amp; Keyboard<span class="number">65</span></a></li>
-                      <li><a href="shop-grid.php">Wired Headphone<span class="number">15</span></a></li>
-                      <li><a href="shop-grid.php">Gaming Gatgets<span class="number">76</span></a></li>
-                      <li><a href="shop-grid.php">Smart watches<span class="number">89</span></a></li>
-                      <li><a href="shop-grid.php">Cell Phones<span class="number">23</span></a></li>
-                      <li><a href="shop-grid.php">Headphone<span class="number">98</span></a></li>
+                      <li><a href="shop-grid-2.php">Computers &amp; Laptop<span class="number">09</span></a></li>
+                      <li><a href="shop-grid-2.php">Electric accessories<span class="number">12</span></a></li>
+                      <li><a href="shop-grid-2.php">Mainboard &amp; CPU<span class="number">24</span></a></li>
+                      <li><a href="shop-grid-2.php">Bluetooth devices<span class="number">34</span></a></li>
+                      <li><a href="shop-grid-2.php">Mouse &amp; Keyboard<span class="number">65</span></a></li>
+                      <li><a href="shop-grid-2.php">Wired Headphone<span class="number">15</span></a></li>
+                      <li><a href="shop-grid-2.php">Gaming Gatgets<span class="number">76</span></a></li>
+                      <li><a href="shop-grid-2.php">Smart watches<span class="number">89</span></a></li>
+                      <li><a href="shop-grid-2.php">Cell Phones<span class="number">23</span></a></li>
+                      <li><a href="shop-grid-2.php">Headphone<span class="number">98</span></a></li>
                     </ul>
                     <div>
                       <div class="collapse" id="moreMenu">
                         <ul class="list-nav-arrow">
-                          <li><a href="shop-grid.php">Home theater<span class="number">98</span></a></li>
-                          <li><a href="shop-grid.php">Cameras & drones<span class="number">124</span></a></li>
-                          <li><a href="shop-grid.php">PC gaming<span class="number">56</span></a></li>
-                          <li><a href="shop-grid.php">Smart home<span class="number">87</span></a></li>
-                          <li><a href="shop-grid.php">Networking<span class="number">36</span></a></li>
+                          <li><a href="shop-grid-2.php">Home theater<span class="number">98</span></a></li>
+                          <li><a href="shop-grid-2.php">Cameras & drones<span class="number">124</span></a></li>
+                          <li><a href="shop-grid-2.php">PC gaming<span class="number">56</span></a></li>
+                          <li><a href="shop-grid-2.php">Smart home<span class="number">87</span></a></li>
+                          <li><a href="shop-grid-2.php">Networking<span class="number">36</span></a></li>
                         </ul>
                       </div><a class="link-see-more mt-5" data-bs-toggle="collapse" href="#moreMenu" role="button" aria-expanded="false" aria-controls="moreMenu">See More</a>
                     </div>
@@ -252,7 +252,7 @@
                                     <p class="font-sm color-brand-3">Curabitur id lectus in felis hendrerit efficitur quis quis lectus. Donec sollicitudin elit eu ipsum maximus blandit. Curabitur blandit tempus consectetur.</p>
                                   </div>
                                 </div>
-                                <div class="mt-30"><a class="btn btn-brand-2" href="shop-grid.php">Shop now</a><a class="btn btn-link" href="shop-grid.php">Learn more</a></div>
+                                <div class="mt-30"><a class="btn btn-brand-2" href="shop-grid-2.php">Shop now</a><a class="btn btn-link" href="shop-grid-2.php">Learn more</a></div>
                               </div>
                             </div>
                             <div class="col-xl-4 banner-image"><img src="assets/imgs/page/homepage8/banner.png" alt="Ecom"></div>
@@ -271,7 +271,7 @@
                                     <p class="font-sm color-brand-3">Curabitur id lectus in felis hendrerit efficitur quis quis lectus. Donec sollicitudin elit eu ipsum maximus blandit. Curabitur blandit tempus consectetur.</p>
                                   </div>
                                 </div>
-                                <div class="mt-30"><a class="btn btn-brand-2" href="shop-grid.php">Shop now</a><a class="btn btn-link" href="shop-grid.php">Learn more</a></div>
+                                <div class="mt-30"><a class="btn btn-brand-2" href="shop-grid-2.php">Shop now</a><a class="btn btn-link" href="shop-grid-2.php">Learn more</a></div>
                               </div>
                             </div>
                             <div class="col-xl-4 banner-image"><img src="assets/imgs/page/homepage8/banner.png" alt="Ecom"></div>

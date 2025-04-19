@@ -21,9 +21,9 @@
                       <li><a href="index-10.html">Homepage - 10</a></li>
                     </ul>
                   </li>
-                  <li class="has-children"><a href="shop-grid.php">Shop</a>
+                  <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                     <ul class="sub-menu">
-                      <li><a href="shop-grid.php">Shop Grid</a></li>
+                      <li><a href="shop-grid-2.php">Shop Grid</a></li>
                       <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
@@ -91,7 +91,7 @@
             <div class="mobile-banner">
               <div class="bg-5 block-iphone"><span class="color-brand-3 font-sm-lh32">Starting from $899</span>
                 <h3 class="font-xl mb-10">iPhone 12 Pro 128Gb</h3>
-                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid.php">learn more</a>
+                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid-2.php">learn more</a>
               </div>
             </div>
             <div class="site-copyright color-gray-400 mt-30">Copyright 2022 &copy; Ecom - Marketplace Template.<br>Designed by<a href="http://alithemes.com" target="_blank">&nbsp; AliThemes</a></div>
@@ -117,120 +117,120 @@
       <ul class="menu-texts menu-close">
         <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/armchair.svg" alt="Ecom"></span><span class="text-link">Armchair</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Cross Back</a></li>
-            <li><a href="shop-grid.php">Open Back</a></li>
-            <li><a href="shop-grid.php">Queen Anne Back</a></li>
-            <li><a href="shop-grid.php">Solid Back</a></li>
-            <li><a href="shop-grid.php">Wing Back</a></li>
+            <li><a href="shop-grid-2.php">Cross Back</a></li>
+            <li><a href="shop-grid-2.php">Open Back</a></li>
+            <li><a href="shop-grid-2.php">Queen Anne Back</a></li>
+            <li><a href="shop-grid-2.php">Solid Back</a></li>
+            <li><a href="shop-grid-2.php">Wing Back</a></li>
           </ul>
         </li>
         <li class="has-children"><a href="#"><span class="img-link"><img src="assets/imgs/page/homepage6/bathhub.svg" alt="Ecom"></span><span class="text-link">Bathtub</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Freestanding Bathtubs</a></li>
-            <li><a href="shop-grid.php">Drop-In Bathtubs</a></li>
-            <li><a href="shop-grid.php">Recessed Bathtubs</a></li>
-            <li><a href="shop-grid.php">Faucets & Showerheads</a></li>
-            <li><a href="shop-grid.php">Baby Bath Tubs</a></li>
+            <li><a href="shop-grid-2.php">Freestanding Bathtubs</a></li>
+            <li><a href="shop-grid-2.php">Drop-In Bathtubs</a></li>
+            <li><a href="shop-grid-2.php">Recessed Bathtubs</a></li>
+            <li><a href="shop-grid-2.php">Faucets & Showerheads</a></li>
+            <li><a href="shop-grid-2.php">Baby Bath Tubs</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/bed.svg" alt="Ecom"></span><span class="text-link">Bed</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/bed.svg" alt="Ecom"></span><span class="text-link">Bed</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Bamboo, Wood</a></li>
-            <li><a href="shop-grid.php">Fabric, Leather</a></li>
-            <li><a href="shop-grid.php">Glass, Plastic</a></li>
-            <li><a href="shop-grid.php">Leather, Metal</a></li>
-            <li><a href="shop-grid.php">Manufactured Wood</a></li>
+            <li><a href="shop-grid-2.php">Bamboo, Wood</a></li>
+            <li><a href="shop-grid-2.php">Fabric, Leather</a></li>
+            <li><a href="shop-grid-2.php">Glass, Plastic</a></li>
+            <li><a href="shop-grid-2.php">Leather, Metal</a></li>
+            <li><a href="shop-grid-2.php">Manufactured Wood</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/office.svg" alt="Ecom"></span><span class="text-link">Office Cabinet</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/office.svg" alt="Ecom"></span><span class="text-link">Office Cabinet</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Chair</a></li>
-            <li><a href="shop-grid.php">Chest</a></li>
-            <li><a href="shop-grid.php">Cross Back</a></li>
-            <li><a href="shop-grid.php">Open Back</a></li>
-            <li><a href="shop-grid.php">Queen Anne Back</a></li>
-            <li><a href="shop-grid.php">Solid Back</a></li>
-            <li><a href="shop-grid.php">Wing Back</a></li>
+            <li><a href="shop-grid-2.php">Chair</a></li>
+            <li><a href="shop-grid-2.php">Chest</a></li>
+            <li><a href="shop-grid-2.php">Cross Back</a></li>
+            <li><a href="shop-grid-2.php">Open Back</a></li>
+            <li><a href="shop-grid-2.php">Queen Anne Back</a></li>
+            <li><a href="shop-grid-2.php">Solid Back</a></li>
+            <li><a href="shop-grid-2.php">Wing Back</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/chair.svg" alt="Ecom"></span><span class="text-link">Chair</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/chair.svg" alt="Ecom"></span><span class="text-link">Chair</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Home Office Desk</a></li>
-            <li><a href="shop-grid.php">Living Room</a></li>
-            <li><a href="shop-grid.php">Computer Gaming</a></li>
-            <li><a href="shop-grid.php">Kitchen & Dining Room</a></li>
-            <li><a href="shop-grid.php">Office  & Sofas</a></li>
-            <li><a href="shop-grid.php">Managerial  & Executive</a></li>
-            <li><a href="shop-grid.php">Video Game</a></li>
+            <li><a href="shop-grid-2.php">Home Office Desk</a></li>
+            <li><a href="shop-grid-2.php">Living Room</a></li>
+            <li><a href="shop-grid-2.php">Computer Gaming</a></li>
+            <li><a href="shop-grid-2.php">Kitchen & Dining Room</a></li>
+            <li><a href="shop-grid-2.php">Office  & Sofas</a></li>
+            <li><a href="shop-grid-2.php">Managerial  & Executive</a></li>
+            <li><a href="shop-grid-2.php">Video Game</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/chest.svg" alt="Ecom"></span><span class="text-link">Chest</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/chest.svg" alt="Ecom"></span><span class="text-link">Chest</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Chests of Drawers</a></li>
-            <li><a href="shop-grid.php">Ottomans</a></li>
-            <li><a href="shop-grid.php">Storage Benches</a></li>
-            <li><a href="shop-grid.php">Decorative Boxes</a></li>
-            <li><a href="shop-grid.php">Storage Chests</a></li>
-            <li><a href="shop-grid.php">Storage Trunks</a></li>
+            <li><a href="shop-grid-2.php">Chests of Drawers</a></li>
+            <li><a href="shop-grid-2.php">Ottomans</a></li>
+            <li><a href="shop-grid-2.php">Storage Benches</a></li>
+            <li><a href="shop-grid-2.php">Decorative Boxes</a></li>
+            <li><a href="shop-grid-2.php">Storage Chests</a></li>
+            <li><a href="shop-grid-2.php">Storage Trunks</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/dressing.svg" alt="Ecom"></span><span class="text-link">Dressing Table</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/dressing.svg" alt="Ecom"></span><span class="text-link">Dressing Table</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Antique</a></li>
-            <li><a href="shop-grid.php">Casual</a></li>
-            <li><a href="shop-grid.php">Chinese</a></li>
-            <li><a href="shop-grid.php">Classic</a></li>
-            <li><a href="shop-grid.php">Colonial</a></li>
-            <li><a href="shop-grid.php">Contemporary</a></li>
+            <li><a href="shop-grid-2.php">Antique</a></li>
+            <li><a href="shop-grid-2.php">Casual</a></li>
+            <li><a href="shop-grid-2.php">Chinese</a></li>
+            <li><a href="shop-grid-2.php">Classic</a></li>
+            <li><a href="shop-grid-2.php">Colonial</a></li>
+            <li><a href="shop-grid-2.php">Contemporary</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/lamp.svg" alt="Ecom"></span><span class="text-link">Lamp</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/lamp.svg" alt="Ecom"></span><span class="text-link">Lamp</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Desk Lamps</a></li>
-            <li><a href="shop-grid.php">Floor Lamps</a></li>
-            <li><a href="shop-grid.php">Table Lamps</a></li>
-            <li><a href="shop-grid.php">Lamp Sets</a></li>
-            <li><a href="shop-grid.php">Colonial</a></li>
-            <li><a href="shop-grid.php">Lamp Shades</a></li>
+            <li><a href="shop-grid-2.php">Desk Lamps</a></li>
+            <li><a href="shop-grid-2.php">Floor Lamps</a></li>
+            <li><a href="shop-grid-2.php">Table Lamps</a></li>
+            <li><a href="shop-grid-2.php">Lamp Sets</a></li>
+            <li><a href="shop-grid-2.php">Colonial</a></li>
+            <li><a href="shop-grid-2.php">Lamp Shades</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/sofa.svg" alt="Ecom"></span><span class="text-link">Sofa</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/sofa.svg" alt="Ecom"></span><span class="text-link">Sofa</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Zinus</a></li>
-            <li><a href="shop-grid.php">Lifestyle Solutions</a></li>
-            <li><a href="shop-grid.php">Generic</a></li>
-            <li><a href="shop-grid.php">Rivet</a></li>
-            <li><a href="shop-grid.php">Design by Ashley</a></li>
-            <li><a href="shop-grid.php">Knight Home</a></li>
+            <li><a href="shop-grid-2.php">Zinus</a></li>
+            <li><a href="shop-grid-2.php">Lifestyle Solutions</a></li>
+            <li><a href="shop-grid-2.php">Generic</a></li>
+            <li><a href="shop-grid-2.php">Rivet</a></li>
+            <li><a href="shop-grid-2.php">Design by Ashley</a></li>
+            <li><a href="shop-grid-2.php">Knight Home</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/storage.svg" alt="Ecom"></span><span class="text-link">Storage</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/storage.svg" alt="Ecom"></span><span class="text-link">Storage</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Convertible</a></li>
-            <li><a href="shop-grid.php">Divan</a></li>
-            <li><a href="shop-grid.php">Futon</a></li>
-            <li><a href="shop-grid.php">Loveseat</a></li>
-            <li><a href="shop-grid.php">Recliner</a></li>
-            <li><a href="shop-grid.php">Standard</a></li>
+            <li><a href="shop-grid-2.php">Convertible</a></li>
+            <li><a href="shop-grid-2.php">Divan</a></li>
+            <li><a href="shop-grid-2.php">Futon</a></li>
+            <li><a href="shop-grid-2.php">Loveseat</a></li>
+            <li><a href="shop-grid-2.php">Recliner</a></li>
+            <li><a href="shop-grid-2.php">Standard</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/electric.svg" alt="Ecom"></span><span class="text-link">Electric Table</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/electric.svg" alt="Ecom"></span><span class="text-link">Electric Table</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">Modern</a></li>
-            <li><a href="shop-grid.php">Contemporary</a></li>
-            <li><a href="shop-grid.php">Armless</a></li>
-            <li><a href="shop-grid.php">Pillow-top</a></li>
-            <li><a href="shop-grid.php">Rolled-panel</a></li>
-            <li><a href="shop-grid.php">Leather</a></li>
+            <li><a href="shop-grid-2.php">Modern</a></li>
+            <li><a href="shop-grid-2.php">Contemporary</a></li>
+            <li><a href="shop-grid-2.php">Armless</a></li>
+            <li><a href="shop-grid-2.php">Pillow-top</a></li>
+            <li><a href="shop-grid-2.php">Rolled-panel</a></li>
+            <li><a href="shop-grid-2.php">Leather</a></li>
           </ul>
         </li>
-        <li class="has-children"><a href="shop-grid.php"><span class="img-link"><img src="assets/imgs/page/homepage6/wardrobe.svg" alt="Ecom"></span><span class="text-link">Wardrobe</span></a>
+        <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/page/homepage6/wardrobe.svg" alt="Ecom"></span><span class="text-link">Wardrobe</span></a>
           <ul class="sub-menu">
-            <li><a href="shop-grid.php">ClosetMaid</a></li>
-            <li><a href="shop-grid.php">South Shore</a></li>
-            <li><a href="shop-grid.php">Sauder</a></li>
-            <li><a href="shop-grid.php">Bush Furniture</a></li>
-            <li><a href="shop-grid.php">Walker Edison</a></li>
+            <li><a href="shop-grid-2.php">ClosetMaid</a></li>
+            <li><a href="shop-grid-2.php">South Shore</a></li>
+            <li><a href="shop-grid-2.php">Sauder</a></li>
+            <li><a href="shop-grid-2.php">Bush Furniture</a></li>
+            <li><a href="shop-grid-2.php">Walker Edison</a></li>
           </ul>
         </li>
       </ul>
@@ -257,9 +257,9 @@
                       <li><a href="index-10.html">Homepage - 10</a></li>
                     </ul>
                   </li>
-                  <li class="has-children"><a href="shop-grid.php">Shop</a>
+                  <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                     <ul class="sub-menu">
-                      <li><a href="shop-grid.php">Shop Grid</a></li>
+                      <li><a href="shop-grid-2.php">Shop Grid</a></li>
                       <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
@@ -327,7 +327,7 @@
             <div class="mobile-banner">
               <div class="bg-5 block-iphone"><span class="color-brand-3 font-sm-lh32">Starting from $899</span>
                 <h3 class="font-xl mb-10">iPhone 12 Pro 128Gb</h3>
-                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid.php">learn more</a>
+                <p class="font-base color-brand-3 mb-10">Special Sale</p><a class="btn btn-arrow" href="shop-grid-2.php">learn more</a>
               </div>
             </div>
             <div class="site-copyright color-gray-400 mt-30">Copyright 2022 &copy; Ecom - Marketplace Template.<br>Designed by<a href="http://alithemes.com" target="_blank">&nbsp; AliThemes</a></div>
