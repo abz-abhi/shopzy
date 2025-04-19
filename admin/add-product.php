@@ -32,6 +32,7 @@ include('include/db_config.php'); ?>
             $uploadDir = "uploads/product/";
             $targetPath = $uploadDir . basename($proimgName);
             $categorie_id = $_POST['category_id'];
+            
 
             if (move_uploaded_file($proimgTemp, $targetPath)) {
 
@@ -131,19 +132,7 @@ include('include/db_config.php'); ?>
 
               </select>
             </div>
-            <div class="col-sm-6 mb-3">
-              <label class="form-label">Brand</label>
-              <select class="form-select" name="category_id">
-                <option value="">select</option>
-                <?php
-                $result_cat = mysqli_query($con, "SELECT * FROM `categories` WHERE `status`='1' ORDER BY `id`");
-                while ($row_cat = mysqli_fetch_assoc($result_cat)) {
-                ?>
-                  <option value="<?php echo $row_cat['id']; ?>"><?php echo $row_cat['name']; ?></option>
-                <?php } ?>
-
-              </select>
-            </div>
+       
           </div>
         </div>
       </div>

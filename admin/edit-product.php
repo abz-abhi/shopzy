@@ -110,17 +110,12 @@ if ($_GET['id'] != '') {
                                 $result_cato = mysqli_query($con, " SELECT * FROM `categories` WHERE `status`='1' ORDER BY `id` DESC");
                                 while ($cato_row = mysqli_fetch_assoc($result_cato)) { ?>
                                     <option value="<?php echo $cato_row['id'] ?>"
-                                    <?php if($cato_row['id'] == $pro_res_row['categorie_id']){echo 'selected';} ?> >
-                                                   <?php echo $cato_row['name'] ?></option>
+                                        <?php if ($cato_row['id'] == $pro_res_row['categorie_id']) {
+                                            echo 'selected';
+                                        } ?>>
+                                        <?php echo $cato_row['name'] ?></option>
 
                                 <?php } ?>
-                            </select>
-                        </div>
-
-                        <div class="col-sm-6 mb-3">
-                            <label class="form-label">Brand</label>
-                            <select class="form-select" name="category_id" required>
-                                <option value="">select</option>
                             </select>
                         </div>
                     </div>
