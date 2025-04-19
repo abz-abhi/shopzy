@@ -10,7 +10,7 @@ include('include/db_config.php'); ?>
     <div>
       <a class="btn btn-light rounded font-md" href="#">Export</a>
       <a class="btn btn-light rounded font-md" href="#">Import</a>
-      <a class="btn btn-primary btn-sm rounded" href="page-form-product-1.php">Create new</a>
+      <a class="btn btn-primary btn-sm rounded" href="add-product.php">Create new</a>
     </div>
   </div>
   <div class="card mb-4">
@@ -91,7 +91,7 @@ include('include/db_config.php'); ?>
                   }
                   ?>
                 </div>
-                <a class="btn btn-sm font-sm rounded btn-brand mr-5" href="#">
+                <a class="btn btn-sm font-sm rounded btn-brand mr-5" href="edit-product.php?id=<?php echo $row['id'] ?>">
                   <i class="material-icons md-edit"></i> Edit</a>
                 <button class="btn btn-sm font-sm btn-light rounded" onclick="delete_product(<?php echo $row['id'] ?>)">
                   <i class="material-icons md-delete_forever"></i> Delete</button>

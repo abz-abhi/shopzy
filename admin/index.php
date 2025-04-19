@@ -2,6 +2,12 @@
 ob_start();
 session_start();
 include("include/db_config.php");
+
+if(isset($_SESSION["user_id"])){
+ 
+  echo "<script> window.location.href='dashboard.php';</script>";
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

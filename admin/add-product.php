@@ -39,7 +39,7 @@ include('include/db_config.php'); ?>
                                   VALUES('$productname','$categorie_id','$sellprice','$mrp','$description','$targetPath','1','$date_time','$date_time')";
 
               if (mysqli_query($con, $query)) {
-                echo '<script>alert("Registration successful!"); window.location.href="page-form-product-1.php"</script>';
+                echo '<script>alert("Registration successful!"); window.location.href="add-product.php"</script>';
               } else {
                 echo "error !";
               }

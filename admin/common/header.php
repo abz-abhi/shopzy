@@ -46,7 +46,7 @@
                     </div>
                 </li>
                 <li class="menu-item ">
-                    <a class="menu-link" href="page-form-product-1.php">
+                    <a class="menu-link" href="add-product.php">
                         <i class="icon material-icons md-add_box"></i>
                         <span class="text">Add product</span></a>
                 </li>
