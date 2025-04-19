@@ -15,6 +15,44 @@ if ($_GET['id'] != '') {
     }
 }
 
+if (isset($_POST['editProduct'])) {
+
+    $edit_pro_name = mysqli_real_escape_string($con, $_POST['productName']);
+    $edit_pro_disc = mysqli_real_escape_string($con, $_POST['description']);
+    $edit_pro_mrp = $_POST['mrp'];
+    $edit_pro_sell = $_POST['sellingPrice'];
+    $edit_dateTime = date("Y-m-d H:i:s");
+    $edit_cat_id = $_POST['category_id'];
+
+    if ($_FILES['productimg']['name'] != '') {
+
+        $edit_pro_img = $_FILES['productimg']['name'];
+        $edit_img_temp = $_FILES['productimg']['tmp_name'];
+        $uploadDir = 'uploads/product';
+        $targetPath = $uploadDir . basename($edit_pro_img);
+
+        if (move_uploaded_file($edit_img_temp, $targetPath)) {
+            $edit_target = $targetPath;
+        } else {
+            echo "upload faild";
+        }
+    } else {
+        $targetPath1 = $row['image'];
+    }
+
+    $query = " UPDATE `product` SET `name`='$edit_pro_name',
+                                    `discription`='$edit_pro_disc',
+                                    `mrp`='$edit_pro_mrp',
+                                    `selling_price`='$edit_pro_sell',
+                                    `image`='$edit_target',
+                                    `categorie_id`='$edit_cat_id',
+                                    `updated_on`='$edit_dateTime'
+                                    WHERE `id`='" . $_GET['id'] . "'";
+    if (mysqli_query($con, $query)) {
+        echo "<script>window.location.href='page-products-list.php'</script>";
+    }
+}
+
 
 ?>
 <section class="content-main">
@@ -57,7 +95,7 @@ if ($_GET['id'] != '') {
                                     <input
                                         class="form-control"
                                         name="mrp"
-                                        type="text"
+                                        type="number"
                                         value="<?php echo $pro_res_row['mrp']; ?>" />
                                 </div>
                             </div>
@@ -68,7 +106,7 @@ if ($_GET['id'] != '') {
                                         class="form-control"
                                         name="sellingPrice"
                                         placeholder="$"
-                                        type="text"
+                                        type="number"
                                         value="<?php echo $pro_res_row['selling_price']; ?> " />
                                 </div>
                             </div>
@@ -125,8 +163,8 @@ if ($_GET['id'] != '') {
                 class="btn btn-light rounded font-sm mr-5 text-body hover-up">
                 Save to draft
             </button>
-            <button onclick="count" name="addProduct" class="btn btn-md rounded font-sm hover-up">
-                Add product
+            <button onclick="count" name="editProduct" class="btn btn-md rounded font-sm hover-up">
+                Edit product
             </button>
             </form>
         </div>

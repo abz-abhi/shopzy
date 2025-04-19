@@ -21,8 +21,8 @@ include('include/db_config.php'); ?>
 
           if (isset($_POST['addProduct'])) {
 
-            $productname = $_POST['productName'];
-            $description = $_POST['description'];
+            $productname = mysqli_real_escape_string($con, $_POST['productName']);
+            $description = mysqli_real_escape_string($con, $_POST['description']);
             $mrp = $_POST['mrp'];
             $sellprice = $_POST['sellingPrice'];
             $date_time = date("Y-m-d H-i-s");
@@ -32,7 +32,7 @@ include('include/db_config.php'); ?>
             $uploadDir = "uploads/product/";
             $targetPath = $uploadDir . basename($proimgName);
             $categorie_id = $_POST['category_id'];
-            
+
 
             if (move_uploaded_file($proimgTemp, $targetPath)) {
 
@@ -76,7 +76,7 @@ include('include/db_config.php'); ?>
                     class="form-control"
                     name="mrp"
                     placeholder="$"
-                    type="text" />
+                    type="number" />
                 </div>
               </div>
               <div class="col-lg-4">
@@ -86,7 +86,7 @@ include('include/db_config.php'); ?>
                     class="form-control"
                     name="sellingPrice"
                     placeholder="$"
-                    type="text" />
+                    type="number" />
                 </div>
               </div>
               <div class="col-lg-4">
@@ -132,7 +132,7 @@ include('include/db_config.php'); ?>
 
               </select>
             </div>
-       
+
           </div>
         </div>
       </div>
