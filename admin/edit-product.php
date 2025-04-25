@@ -126,6 +126,7 @@ if (isset($_POST['editProduct'])) {
             <div class="card mb-4">
                 <div class="card-header">
                     <h4>Media</h4>
+                    <p>Dimensions (894 x 1251)</p>
                 </div>
                 <div class="card-body">
                     <div class="input-upload">
@@ -133,6 +134,7 @@ if (isset($_POST['editProduct'])) {
                         <input name="productimg" class="form-control" type="file" id="imageInput" accept="image/*" />
                     </div>
                 </div>
+
             </div>
             <div class="card mb-4">
                 <div class="card-header">

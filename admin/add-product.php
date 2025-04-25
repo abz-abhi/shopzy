@@ -105,6 +105,7 @@ include('include/db_config.php'); ?>
       <div class="card mb-4">
         <div class="card-header">
           <h4>Media</h4>
+          <p>Dimensions (894 x 1251)</p>
         </div>
         <div class="card-body">
           <div class="input-upload">
