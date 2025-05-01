@@ -28,9 +28,9 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product.php">Single Product</a></li>
-                      <li><a href="shop-single-product-2.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-3.php">Single Product 3</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
                       <li><a href="shop-single-product-4.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
@@ -295,9 +295,9 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product.php">Single Product</a></li>
-                      <li><a href="shop-single-product-2.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-3.php">Single Product 3</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
                       <li><a href="shop-single-product-4.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
@@ -400,8 +400,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>
@@ -420,8 +420,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>
@@ -440,8 +440,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub3.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub3.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>
@@ -460,8 +460,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub4.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub4.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>
@@ -480,8 +480,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub5.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub5.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>
@@ -500,8 +500,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>
@@ -520,8 +520,8 @@
                 </div>
                 <div class="wishlist-product">
                   <div class="product-wishlist">
-                    <div class="product-image"><a href="shop-single-product.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="shop-single-product.php">
+                    <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
+                    <div class="product-info"><a href="shop-single-product-4.php">
                         <h6 class="color-brand-3">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star Refrigerator </h6></a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     </div>

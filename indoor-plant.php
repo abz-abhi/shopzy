@@ -106,9 +106,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp1.png" alt="Ecom"></a>
+              <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp1.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -118,9 +118,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp2.png" alt="Ecom"></a>
+              <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp2.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -130,9 +130,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp3.png" alt="Ecom"></a>
+              <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp3.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -142,9 +142,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp4.png" alt="Ecom"></a>
+              <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp4.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -154,9 +154,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp5.png" alt="Ecom"></a>
+              <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp5.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -166,9 +166,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp6.png" alt="Ecom"></a>
+              <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp6.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -178,9 +178,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp7.png" alt="Ecom"></a>
+              <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp7.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -190,9 +190,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp8.png" alt="Ecom"></a>
+              <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp8.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -202,9 +202,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp9.png" alt="Ecom"></a>
+              <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp9.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -214,9 +214,9 @@ include('../admin/include/db_config.php');
           <div class="card-grid-style-3 home6-style home7-style">
             <div class="card-grid-inner">
               <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-              <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage10/sp10.png" alt="Ecom"></a>
+              <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/sp10.png" alt="Ecom"></a>
               </div>
-              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
+              <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Amish</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Crown of Thorns. 2 months. Good vitality. Including pots.</a>
                 <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                 <div class="price-info mb-10"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 <div class="mt-10 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -313,9 +313,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -329,9 +329,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -345,9 +345,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Sonos Ray Compact Soundbar with Wall Mount</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Sonos Ray Compact Soundbar with Wall Mount</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -361,9 +361,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Universal Balance Hoverboard Electric Scooter</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Universal Balance Hoverboard Electric Scooter</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -377,9 +377,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Inspire 7255e All-in-One InkJet Printer</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Inspire 7255e All-in-One InkJet Printer</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -405,9 +405,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -421,9 +421,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -437,9 +437,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Sonos Ray Compact Soundbar with Wall Mount</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Sonos Ray Compact Soundbar with Wall Mount</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -453,9 +453,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Universal Balance Hoverboard Electric Scooter</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Universal Balance Hoverboard Electric Scooter</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -469,9 +469,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Inspire 7255e All-in-One InkJet Printer</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Inspire 7255e All-in-One InkJet Printer</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -497,9 +497,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -513,9 +513,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -529,9 +529,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Sonos Ray Compact Soundbar with Wall Mount</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Sonos Ray Compact Soundbar with Wall Mount</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -545,9 +545,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Universal Balance Hoverboard Electric Scooter</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Universal Balance Hoverboard Electric Scooter</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -561,9 +561,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Inspire 7255e All-in-One InkJet Printer</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Inspire 7255e All-in-One InkJet Printer</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -589,9 +589,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots1.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -605,9 +605,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-3.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-danger">Hot</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots2.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-3.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Wyze Cam v3 1080p HD Indoor/Outdoor</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -621,9 +621,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
+                        <div class="image-box"><span class="label bg-success">New</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots3.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Sonos Ray Compact Soundbar with Wall Mount</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Sonos Ray Compact Soundbar with Wall Mount</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -637,9 +637,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots4.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Universal Balance Hoverboard Electric Scooter</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Universal Balance Hoverboard Electric Scooter</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -653,9 +653,9 @@ include('../admin/include/db_config.php');
                     <div class="card-grid-style-3">
                       <div class="card-grid-inner">
                         <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/pots5.png" alt="Ecom"></a>
                         </div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Inspire 7255e All-in-One InkJet Printer</a>
+                        <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Inspire 7255e All-in-One InkJet Printer</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                           <ul class="list-features">
@@ -722,8 +722,8 @@ include('../admin/include/db_config.php');
                   <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -731,8 +731,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -740,8 +740,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -749,8 +749,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -758,8 +758,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -767,8 +767,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -776,8 +776,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -785,8 +785,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -794,8 +794,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -815,8 +815,8 @@ include('../admin/include/db_config.php');
                   <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -824,8 +824,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -833,8 +833,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -842,8 +842,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -851,8 +851,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -860,8 +860,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -869,8 +869,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -878,8 +878,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -887,8 +887,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -908,8 +908,8 @@ include('../admin/include/db_config.php');
                   <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -917,8 +917,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -926,8 +926,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -935,8 +935,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -944,8 +944,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -953,8 +953,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -962,8 +962,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -971,8 +971,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -980,8 +980,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1001,8 +1001,8 @@ include('../admin/include/db_config.php');
                   <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool1.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1010,8 +1010,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool2.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1019,8 +1019,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool3.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1028,8 +1028,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool4.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1037,8 +1037,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool5.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1046,8 +1046,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool6.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1055,8 +1055,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool7.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1064,8 +1064,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool8.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>
@@ -1073,8 +1073,8 @@ include('../admin/include/db_config.php');
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                       <div class="card-grid-style-2">
-                        <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
-                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                        <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage10/tool9.png" alt="Ecom"></a></div>
+                        <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                           <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         </div>

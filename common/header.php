@@ -30,15 +30,12 @@ include('admin/include/db_config.php');
                                 <div class="box-category">
                                     <select class="select-active select2-hidden-accessible">
                                         <option>All categories</option>
-                                        <option value="Computers Accessories">Computers Accessories</option>
-                                        <option value="Cell Phones">Cell Phones</option>
-                                        <option value="Gaming Gatgets">Gaming Gatgets</option>
-                                        <option value="Smart watches">Smart watches</option>
-                                        <option value="Wired Headphone">Wired Headphone</option>
-                                        <option value="Mouse &amp; Keyboard">Mouse Keyboard</option>
-                                        <option value="Headphone">Headphone</option>
-                                        <option value="Bluetooth devices">Bluetooth devices</option>
-                                        <option value="Cloud Software">Cloud Software</option>
+                                        <?php
+                                        $result = mysqli_query($con, "SELECT * FROM `categories` ORDER BY `id`  ");
+
+                                        while ($row = mysqli_fetch_assoc($result)) { ?>
+                                        <option><a><?php echo $row['name'] ?></a> </option>
+                                        <?php } ?>
                                     </select>
                                 </div>
                                 <div class="box-keysearch">
@@ -58,26 +55,12 @@ include('admin/include/db_config.php');
 
                                         while ($row = mysqli_fetch_assoc($result)) { ?>
                                             <li><a href="catogery-product.php?$cat_id=<?php echo $row['id'] ?>"><?php echo $row['name']; ?></a></li>
-
-
-
-
-
-                                            <!-- <li><a href="index.php">Home</a></li>
-                                        <li><a href="index-2.php">Homepage - 2</a></li>
-                                        <li><a href="index-3.php">Homepage - 3</a></li>
-                                        <li><a href="furnitures.php">Furnitures</a></li>
-                                        <li><a href="book.php">Books</a></li>
-                                        <li><a href="index-6.php">Homepage - 6</a></li>
-                                        <li><a href="indoor-plant.php">Indoor Plants</a></li> -->
                                         <?php } ?>
                                     </ul>
                                 </li>
                                 <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                                     <ul class="sub-menu two-col">
-                                        <li><a href="shop-grid-2.php">Shop Grid 2</a></li>
-                                        <li><a href="shop-list-2.php">Shop list - Right sidebar</a></li>
-                                        <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                                        <li><a href="shop-single-product-4.php">Single Product </a></li>
                                         <li><a href="shop-cart.php">Shop Cart</a></li>
                                         <li><a href="shop-compare.php">Shop Compare</a></li>
                                         <li><a href="shop-wishlist.php">Shop Wishlist</a></li>
@@ -110,13 +93,13 @@ include('admin/include/db_config.php');
                             <div class="dropdown-cart">
                                 <div class="item-cart mb-20">
                                     <div class="cart-image"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></div>
-                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                                         <p><span class="color-brand-2 font-sm-bold">1 x $2856.4</span></p>
                                     </div>
                                 </div>
                                 <div class="item-cart mb-20">
                                     <div class="cart-image"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></div>
-                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="shop-single-product-2.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                                         <p><span class="color-brand-2 font-sm-bold">1 x $2856.4</span></p>
                                     </div>
                                 </div>

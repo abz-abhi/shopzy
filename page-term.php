@@ -29,9 +29,9 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product.php">Single Product</a></li>
-                      <li><a href="shop-single-product-2.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-3.php">Single Product 3</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
                       <li><a href="shop-single-product-4.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
@@ -296,9 +296,9 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product.php">Single Product</a></li>
-                      <li><a href="shop-single-product-2.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-3.php">Single Product 3</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
                       <li><a href="shop-single-product-4.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>

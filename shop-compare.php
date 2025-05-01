@@ -28,9 +28,9 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product.php">Single Product</a></li>
-                      <li><a href="shop-single-product-2.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-3.php">Single Product 3</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
                       <li><a href="shop-single-product-4.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
@@ -295,9 +295,9 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product.php">Single Product</a></li>
-                      <li><a href="shop-single-product-2.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-3.php">Single Product 3</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
+                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
                       <li><a href="shop-single-product-4.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
@@ -390,13 +390,13 @@
                       <tr>
                         <td><span>Products</span></td>
                         <td><img src="assets/imgs/page/compare/img1.png" alt="Ecom">
-                          <h6><a class="text-brand-3" href="shop-single-product.php">Dell Optiplex 9020 Small Form Business Desktop Tower PC</a></h6>
+                          <h6><a class="text-brand-3" href="shop-single-product-4.php">Dell Optiplex 9020 Small Form Business Desktop Tower PC</a></h6>
                         </td>
                         <td><img src="assets/imgs/page/compare/img2.png" alt="Ecom">
-                          <h6><a class="text-brand-3" href="shop-single-product-2.php">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a></h6>
+                          <h6><a class="text-brand-3" href="shop-single-product-4.php">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a></h6>
                         </td>
                         <td><img src="assets/imgs/page/compare/img3.png" alt="Ecom">
-                          <h6><a class="text-brand-3" href="shop-single-product-3.php">Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</a></h6>
+                          <h6><a class="text-brand-3" href="shop-single-product-4.php">Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</a></h6>
                         </td>
                       </tr>
                       <tr>
@@ -469,9 +469,9 @@
           <div class="row mt-40 mb-40">
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
-                <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a>
+                <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Dell</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product.php">Dell Optiplex 9020 Small Form Business Desktop</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Dell</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">Dell Optiplex 9020 Small Form Business Desktop</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 </div>
@@ -479,9 +479,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
-                <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a>
+                <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">HP</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product.php">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a>
+                <div class="info-right"><span class="font-xs color-gray-500">HP</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 </div>
@@ -489,9 +489,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
-                <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a>
+                <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Gateway</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product.php">Gateway 23.8&quot; All-in-one Desktop</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Gateway</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">Gateway 23.8&quot; All-in-one Desktop</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 </div>
@@ -499,9 +499,9 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
-                <div class="image-box"><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a>
+                <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">HP</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product.php">HP 22 All-in-One PC, Intel Pentium Silver J5040</a>
+                <div class="info-right"><span class="font-xs color-gray-500">HP</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">HP 22 All-in-One PC, Intel Pentium Silver J5040</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                 </div>
@@ -513,8 +513,8 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">HP</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">HP 24mh FHD Monitor - Computer Monitor</a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">HP</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP 24mh FHD Monitor - Computer Monitor</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -529,8 +529,8 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Logitech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Logitech H390 Wired Headset, Stereo Headphones</a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Logitech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Logitech H390 Wired Headset, Stereo Headphones</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -545,8 +545,8 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Samsung</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy</a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Samsung</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -561,8 +561,8 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2022 Apple iMac with Retina 5K Display 8GB RAM</a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -577,8 +577,8 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Samsung</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy</a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Samsung</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>

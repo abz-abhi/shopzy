@@ -34,12 +34,12 @@
                   <li><a href="shop-list.php">Shop List</a></li>
                   <li><a href="shop-list-2.php">Shop List 2</a></li>
                   <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                  <li><a href="shop-single-product.php">Single Product</a></li>
+                  <li><a href="shop-single-product-4.php">Single Product</a></li>
                   <li>
-                    <a href="shop-single-product-2.php">Single Product 2</a>
+                    <a href="shop-single-product-4.php">Single Product 2</a>
                   </li>
                   <li>
-                    <a href="shop-single-product-3.php">Single Product 3</a>
+                    <a href="shop-single-product-4.php">Single Product 3</a>
                   </li>
                   <li>
                     <a href="shop-single-product-4.php">Single Product 4</a>
@@ -451,12 +451,12 @@
                   <li><a href="shop-list.php">Shop List</a></li>
                   <li><a href="shop-list-2.php">Shop List 2</a></li>
                   <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                  <li><a href="shop-single-product.php">Single Product</a></li>
+                  <li><a href="shop-single-product-4.php">Single Product</a></li>
                   <li>
-                    <a href="shop-single-product-2.php">Single Product 2</a>
+                    <a href="shop-single-product-4.php">Single Product 2</a>
                   </li>
                   <li>
-                    <a href="shop-single-product-3.php">Single Product 3</a>
+                    <a href="shop-single-product-4.php">Single Product 3</a>
                   </li>
                   <li>
                     <a href="shop-single-product-4.php">Single Product 4</a>
@@ -1331,7 +1331,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-2.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp3.png"
                       alt="Ecom"
@@ -1344,7 +1344,7 @@
                     >Dell</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-2.php"
+                    href="shop-single-product-4.php"
                     >Dell Optiplex 9020 Small Form Business Desktop Tower</a
                   >
                   <div class="rating">
@@ -1409,7 +1409,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-2.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp4.png"
                       alt="Ecom"
@@ -1422,7 +1422,7 @@
                     >HP</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-2.php"
+                    href="shop-single-product-4.php"
                     >HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a
                   >
                   <div class="rating">
@@ -1487,7 +1487,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-2.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp5.png"
                       alt="Ecom"
@@ -1500,7 +1500,7 @@
                     >Gateway</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-2.php"
+                    href="shop-single-product-4.php"
                     >Gateway 23.8&quot; All-in-one Desktop, Fully Adjustable</a
                   >
                   <div class="rating">
@@ -1565,7 +1565,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-2.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp6.png"
                       alt="Ecom"
@@ -1578,7 +1578,7 @@
                     >HP</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-2.php"
+                    href="shop-single-product-4.php"
                     >HP 22 All-in-One PC, Intel Pentium Silver J5040, 4GB RAM</a
                   >
                   <div class="rating">
@@ -1643,7 +1643,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-2.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp7.png"
                       alt="Ecom"
@@ -1656,7 +1656,7 @@
                     >Sceptre</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-2.php"
+                    href="shop-single-product-4.php"
                     >Sceptre 24&quot; Professional Thin 75Hz 1080p LED
                     Monitor</a
                   >
@@ -1726,7 +1726,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp3.png"
                       alt="Ecom"
@@ -1739,7 +1739,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >HP DeskJet 2755e Wireless Color All-in-One Printer</a
                   >
                   <div class="rating">
@@ -1804,7 +1804,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp4.png"
                       alt="Ecom"
@@ -1817,7 +1817,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Razer Power Up Gaming Bundle V2 - Cynosa Lite</a
                   >
                   <div class="rating">
@@ -1882,7 +1882,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp5.png"
                       alt="Ecom"
@@ -1895,7 +1895,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Apple AirPods Pro with MagSafe Charging Case</a
                   >
                   <div class="rating">
@@ -1960,7 +1960,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp6.png"
                       alt="Ecom"
@@ -1973,7 +1973,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >SAMSUNG Galaxy Tab A7 Lite, 8.7&quot; Tablet 32GB</a
                   >
                   <div class="rating">
@@ -2038,7 +2038,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp7.png"
                       alt="Ecom"
@@ -2051,7 +2051,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >HP 24mh FHD Monitor - Computer Monitor</a
                   >
                   <div class="rating">
@@ -2095,7 +2095,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
                 <div class="image-box">
-                  <a href="shop-single-product-3.php"
+                  <a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp1.png"
                       alt="Ecom"
@@ -2104,7 +2104,7 @@
                 <div class="info-right">
                   <span class="font-xs color-gray-500">Apple</span><br /><a
                     class="color-brand-3 font-xs-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >SAMSUNG Galaxy Tab A7 Lite, 8.7&quot; Tablet 32GB</a
                   >
                   <div class="rating">
@@ -2136,7 +2136,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
                 <div class="image-box">
-                  <a href="shop-single-product-3.php"
+                  <a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp2.png"
                       alt="Ecom"
@@ -2145,7 +2145,7 @@
                 <div class="info-right">
                   <span class="font-xs color-gray-500">Apple</span><br /><a
                     class="color-brand-3 font-xs-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Class 4K UHD (2160P) LED Roku Smart TV HDR</a
                   >
                   <div class="rating">
@@ -2177,7 +2177,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
                 <div class="image-box">
-                  <a href="shop-single-product-3.php"
+                  <a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp1.png"
                       alt="Ecom"
@@ -2186,7 +2186,7 @@
                 <div class="info-right">
                   <span class="font-xs color-gray-500">Apple</span><br /><a
                     class="color-brand-3 font-xs-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >HP 24mh FHD Monitor - Computer Monitor with 23.8-Inch</a
                   >
                   <div class="rating">
@@ -2218,7 +2218,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card-grid-style-2 card-grid-none-border hover-up">
                 <div class="image-box">
-                  <a href="shop-single-product-3.php"
+                  <a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp2.png"
                       alt="Ecom"
@@ -2227,7 +2227,7 @@
                 <div class="info-right">
                   <span class="font-xs color-gray-500">Apple</span><br /><a
                     class="color-brand-3 font-xs-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Logitech H390 Wired Headset, Stereo Headphones</a
                   >
                   <div class="rating">
@@ -2288,7 +2288,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp3.png"
                       alt="Ecom"
@@ -2301,7 +2301,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Logitech MK345 Wireless Combo Full-Sized Keyboard</a
                   >
                   <div class="rating">
@@ -2366,7 +2366,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp4.png"
                       alt="Ecom"
@@ -2379,7 +2379,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</a
                   >
                   <div class="rating">
@@ -2444,7 +2444,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp5.png"
                       alt="Ecom"
@@ -2457,7 +2457,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >HP 24mh FHD Monitor - Computer Monitor</a
                   >
                   <div class="rating">
@@ -2522,7 +2522,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp6.png"
                       alt="Ecom"
@@ -2535,7 +2535,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >2022 Apple iMac with Retina 5K Display 8GB RAM</a
                   >
                   <div class="rating">
@@ -2600,7 +2600,7 @@
                 </div>
                 <div class="image-box">
                   <span class="label bg-brand-2">-17%</span
-                  ><a href="shop-single-product-3.php"
+                  ><a href="shop-single-product-4.php"
                     ><img
                       src="assets/imgs/page/homepage1/imgsp7.png"
                       alt="Ecom"
@@ -2613,7 +2613,7 @@
                     >Apple</a
                   ><br /><a
                     class="color-brand-3 font-sm-bold"
-                    href="shop-single-product-3.php"
+                    href="shop-single-product-4.php"
                     >Seagate Portable 2TB External Hard Drive</a
                   >
                   <div class="rating">

@@ -262,8 +262,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -278,8 +278,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -294,8 +294,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -310,8 +310,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -326,8 +326,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -346,8 +346,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -362,8 +362,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -378,8 +378,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -394,8 +394,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -410,8 +410,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -430,8 +430,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -446,8 +446,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -462,8 +462,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -478,8 +478,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -494,8 +494,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -514,8 +514,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -530,8 +530,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -546,8 +546,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -562,8 +562,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -578,8 +578,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -609,7 +609,7 @@
                   <div class="d-inline-block box-text-hurryup"><span class="font-md-bold color-gray-900">Hurry up!</span><br><span class="font-xs color-gray-500">Offers end in:</span></div>
                   <div class="box-count box-count-square hide-period">
                     <div class="deals-countdown" data-countdown="2023/08/25 00:00:00"></div>
-                  </div><a class="btn btn-view-all font-md-bold" href="shop-single-product.php">View All</a>
+                  </div><a class="btn btn-view-all font-md-bold" href="shop-single-product-4.php">View All</a>
                 </div>
               </div>
             </div>
@@ -618,7 +618,7 @@
             <div class="col-lg-4">
               <div class="card-grid-style-3 hover-show hurry-up">
                 <div class="card-grid-inner">
-                  <div class="tools"><a class="btn btn-trend mb-10" href="shop-single-product.php"></a><a class="btn btn-wishlist mb-10" href="shop-single-product.php"></a><a class="btn btn-compare mb-10" href="shop-single-product.php"></a><a class="btn btn-quickview" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div><span class="label"><span class="font-lg-bold color-white">Hurry Up!</span></span>
+                  <div class="tools"><a class="btn btn-trend mb-10" href="shop-single-product-4.php"></a><a class="btn btn-wishlist mb-10" href="shop-single-product-4.php"></a><a class="btn btn-compare mb-10" href="shop-single-product-4.php"></a><a class="btn btn-quickview" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div><span class="label"><span class="font-lg-bold color-white">Hurry Up!</span></span>
                   <div class="image-box">
                     <div class="box-swiper">
                       <div class="swiper-container swiper-group-1">
@@ -639,7 +639,7 @@
                     <div class="deals-countdown" data-countdown="2023/08/25 00:00:00"></div>
                   </div>
                   <div class="divide"></div>
-                  <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">
+                  <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">
                       <h5>2022 Apple iMac Retina 5K Display</h5></a>
                     <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                     <div class="price-info">
@@ -670,9 +670,9 @@
                   <div class="card-grid-style-3">
                     <div class="card-grid-inner">
                       <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a>
+                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a>
                       </div>
-                      <div class="info-right"><span class="font-xs color-gray-500">Samsung</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Samsung 30-100 inches The Freestyle FHD HDR Smart Projector</a>
+                      <div class="info-right"><span class="font-xs color-gray-500">Samsung</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Samsung 30-100 inches The Freestyle FHD HDR Smart Projector</a>
                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                         <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -687,9 +687,9 @@
                   <div class="card-grid-style-3">
                     <div class="card-grid-inner">
                       <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a>
+                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a>
                       </div>
-                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Lenovo Legion 5i 15.6&quot; Laptop, Intel Core i5-10500H</a>
+                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Lenovo Legion 5i 15.6&quot; Laptop, Intel Core i5-10500H</a>
                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                         <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -704,9 +704,9 @@
                   <div class="card-grid-style-3">
                     <div class="card-grid-inner">
                       <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a>
+                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a>
                       </div>
-                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple AirPods Pro with MagSafe Charging Case</a>
+                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple AirPods Pro with MagSafe Charging Case</a>
                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                         <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -721,9 +721,9 @@
                   <div class="card-grid-style-3">
                     <div class="card-grid-inner">
                       <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a>
+                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a>
                       </div>
-                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Razer Power Up Gaming Bundle V2 - Cynosa Lite, Gigantus</a>
+                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Razer Power Up Gaming Bundle V2 - Cynosa Lite, Gigantus</a>
                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                         <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -738,9 +738,9 @@
                   <div class="card-grid-style-3">
                     <div class="card-grid-inner">
                       <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a>
+                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a>
                       </div>
-                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">ASUS ROG Strix GL10 Gaming Desktop, AMD Ryzen 5-3600X</a>
+                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">ASUS ROG Strix GL10 Gaming Desktop, AMD Ryzen 5-3600X</a>
                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                         <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -755,9 +755,9 @@
                   <div class="card-grid-style-3">
                     <div class="card-grid-inner">
                       <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a>
+                      <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a>
                       </div>
-                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Fujifilm INSTAX Mini Link 2 Smartphone Printer Exclusive</a>
+                      <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Fujifilm INSTAX Mini Link 2 Smartphone Printer Exclusive</a>
                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                         <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                         <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -775,9 +775,9 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Klipsch ProMedia 2.1 Bluetooth Computer Speakers</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Klipsch ProMedia 2.1 Bluetooth Computer Speakers</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -790,9 +790,9 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple TV HD 32GB (2nd Generation) (Latest Model)</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple TV HD 32GB (2nd Generation) (Latest Model)</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -805,9 +805,9 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Hisense 40&quot; Class 2K FHD LED LCD Roku Smart TV H4030F</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Hisense 40&quot; Class 2K FHD LED LCD Roku Smart TV H4030F</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -820,9 +820,9 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple 10.9-inch iPad Air Wi-Fi 64GB - Space Gray</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple 10.9-inch iPad Air Wi-Fi 64GB - Space Gray</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -835,9 +835,9 @@
             <div class="card-grid-style-3">
               <div class="card-grid-inner">
                 <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a>
+                <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a>
                 </div>
-                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">LeapFrog LeapPad Academy Kids Tablet with LeapFrog</a>
+                <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">LeapFrog LeapPad Academy Kids Tablet with LeapFrog</a>
                   <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                   <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                   <div class="mt-20"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -921,8 +921,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -937,8 +937,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -953,8 +953,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -969,8 +969,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -985,8 +985,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1005,8 +1005,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1021,8 +1021,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1037,8 +1037,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1053,8 +1053,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1069,8 +1069,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1089,8 +1089,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1105,8 +1105,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1121,8 +1121,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1137,8 +1137,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1153,8 +1153,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1173,8 +1173,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Kami Tech</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$156.3</strong><span class="color-gray-500 price-line">$250.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1189,8 +1189,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1205,8 +1205,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Philips</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$154.0.3</strong><span class="color-gray-500 price-line">$162.5</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1221,8 +1221,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2325.3</strong><span class="color-gray-500 price-line">$2225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1237,8 +1237,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$530.3</strong><span class="color-gray-500 price-line">$560.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1274,8 +1274,8 @@
                       <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1283,8 +1283,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Philips</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Philips</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1292,8 +1292,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1301,8 +1301,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1310,8 +1310,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Kami Tech</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Kami Tech</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1319,8 +1319,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1332,8 +1332,8 @@
                       <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp2.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1341,8 +1341,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Philips</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp1.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Philips</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Philips H4205 On-Ear Wireless Headphones with 32mm</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1350,8 +1350,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2020 Apple MacBook Air Laptop: Apple M1 Chip, 13”</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1359,8 +1359,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1368,8 +1368,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Kami Tech</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">Kami by YI 4pc 1080p Home Security Cameras</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Kami Tech</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kami by YI 4pc 1080p Home Security Cameras</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1377,8 +1377,8 @@
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
-                            <div class="image-box"><a href="shop-single-product-2.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-2.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
