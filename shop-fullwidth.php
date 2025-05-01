@@ -28,10 +28,10 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                      <li><a href="single-product.php">Single Product</a></li>
+                      <li><a href="single-product.php">Single Product 2</a></li>
+                      <li><a href="single-product.php">Single Product 3</a></li>
+                      <li><a href="single-product.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
                       <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -295,10 +295,10 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                      <li><a href="single-product.php">Single Product</a></li>
+                      <li><a href="single-product.php">Single Product 2</a></li>
+                      <li><a href="single-product.php">Single Product 3</a></li>
+                      <li><a href="single-product.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
                       <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -386,8 +386,8 @@
               <div class="swiper-wrapper pt-5">
                 <div class="swiper-slide">
                   <div class="card-grid-style-2"><span class="label bg-brand-2">-12%</span>
-                    <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage2/cat-img-6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><span class="font-xs color-gray-500">YSSOA Store</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Chair Mesh Ergonomic Adjustable Swivel Task Chair with Headrest</a>
+                    <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage2/cat-img-6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><span class="font-xs color-gray-500">YSSOA Store</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Chair Mesh Ergonomic Adjustable Swivel Task Chair with Headrest</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                     </div>
@@ -395,8 +395,8 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="card-grid-style-2"><span class="label bg-brand-2">-17%</span>
-                    <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage2/cat-img-9.png" alt="Ecom"></a></div>
-                    <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Straight Talk Samsung Galaxy A03s, 32GB, Black</a>
+                    <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage2/cat-img-9.png" alt="Ecom"></a></div>
+                    <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Straight Talk Samsung Galaxy A03s, 32GB, Black</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                     </div>
@@ -404,8 +404,8 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="card-grid-style-2"><span class="label bg-brand-2">-20%</span>
-                    <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage2/cat-img-10.png" alt="Ecom"></a></div>
-                    <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">iMac MNE92LL/A 27 Inch, 3.4 GHz Intel Core i5, 8GB RAM, 1TB Drive</a>
+                    <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage2/cat-img-10.png" alt="Ecom"></a></div>
+                    <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">iMac MNE92LL/A 27 Inch, 3.4 GHz Intel Core i5, 8GB RAM, 1TB Drive</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                     </div>
@@ -413,8 +413,8 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="card-grid-style-2"><span class="label bg-brand-2">-22%</span>
-                    <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage2/cat-img-16.png" alt="Ecom"></a></div>
-                    <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 8 [GPS 45mm] Smart Watch w/ Midnight Case </a>
+                    <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage2/cat-img-16.png" alt="Ecom"></a></div>
+                    <div class="info-right"><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Apple Watch Series 8 [GPS 45mm] Smart Watch w/ Midnight Case </a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                     </div>
@@ -478,8 +478,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Samsung 970 EVO Plus SSD 2TB NVMe M.2 Internal Solid State</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Samsung 970 EVO Plus SSD 2TB NVMe M.2 Internal Solid State</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -494,8 +494,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">EVO Select Micro SD-Memory-Card + Adapter</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">EVO Select Micro SD-Memory-Card + Adapter</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -510,8 +510,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -526,8 +526,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Logitech MK345 Wireless Combo Full-Sized Keyboard</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Logitech MK345 Wireless Combo Full-Sized Keyboard</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -542,8 +542,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Logitech H390 Wired Headset, Stereo Headphones</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Logitech H390 Wired Headset, Stereo Headphones</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -558,8 +558,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP 24mh FHD Monitor - Computer Monitor</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HP 24mh FHD Monitor - Computer Monitor</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -574,8 +574,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Logitech C920x HD Pro Webcam, Full HD</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Logitech C920x HD Pro Webcam, Full HD</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -590,8 +590,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Original HP 63XL Black High-yield Ink</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Original HP 63XL Black High-yield Ink</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -606,8 +606,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">SanDisk 128GB Ultra microSDXC UHS-I Memory</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">SanDisk 128GB Ultra microSDXC UHS-I Memory</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -622,8 +622,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Seagate Portable 2TB External Hard Drive Portable</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Seagate Portable 2TB External Hard Drive Portable</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -638,8 +638,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Sceptre 24&quot; Professional Thin 75Hz 1080p</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Sceptre 24&quot; Professional Thin 75Hz 1080p</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -654,8 +654,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Kasa Outdoor Smart Plug, Smart Home Wi-Fi Outlet</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Kasa Outdoor Smart Plug, Smart Home Wi-Fi Outlet</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -670,8 +670,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy Star</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -686,8 +686,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP DeskJet 2755e Wireless Color All-in-One Printer</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HP DeskJet 2755e Wireless Color All-in-One Printer</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -702,8 +702,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Razer Power Up Gaming Bundle V2 - Cynosa Lite</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Razer Power Up Gaming Bundle V2 - Cynosa Lite</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -718,8 +718,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">SAMSUNG Galaxy Tab A7 Lite, 8.7&quot; Tablet 32GB</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">SAMSUNG Galaxy Tab A7 Lite, 8.7&quot; Tablet 32GB</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -734,8 +734,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple AirPods Pro with MagSafe Charging Case</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Apple AirPods Pro with MagSafe Charging Case</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -750,8 +750,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Lenovo Legion 5i 15.6&quot; Laptop, Intel Core i5</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Lenovo Legion 5i 15.6&quot; Laptop, Intel Core i5</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -766,8 +766,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HDR Smart Portable Projector - SP-LSP3</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HDR Smart Portable Projector - SP-LSP3</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -782,8 +782,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">LG 65&quot; Class 4K UHD Smart TV OLED A1 Series </a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">LG 65&quot; Class 4K UHD Smart TV OLED A1 Series </a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -798,8 +798,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Chromecast with Google TV - Streaming Entertainment</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Chromecast with Google TV - Streaming Entertainment</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -814,8 +814,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Hisense 43&quot; Class 4K UHD LED XClass Smart TV HDR</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Hisense 43&quot; Class 4K UHD LED XClass Smart TV HDR</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -830,8 +830,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Apple Watch Series 7 GPS + Cellular, 41mm Midnight</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Apple Watch Series 7 GPS + Cellular, 41mm Midnight</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -846,8 +846,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">ASUS VivoBook 15.6&quot; 1080p PC Laptops, Intel Core i3</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">ASUS VivoBook 15.6&quot; 1080p PC Laptops, Intel Core i3</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -862,8 +862,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Bose Sport Earbuds True Wireless Bluetooth Headphones</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Bose Sport Earbuds True Wireless Bluetooth Headphones</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -878,8 +878,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">RCA 43&quot; Class 4K Ultra HD (2160P) HDR Roku Smart</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">RCA 43&quot; Class 4K Ultra HD (2160P) HDR Roku Smart</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -894,8 +894,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">MSI Optix G272 27&quot; Full HD LED Gaming LCD Monitor</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">MSI Optix G272 27&quot; Full HD LED Gaming LCD Monitor</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -910,8 +910,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP 11.6&quot; Chromebook, AMD A4, 4GB RAM, 32GB Storage</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HP 11.6&quot; Chromebook, AMD A4, 4GB RAM, 32GB Storage</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -926,8 +926,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">SAMSUNG Galaxy Tab S7 Plus 12.4&quot; 128GB Mystic Black</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">SAMSUNG Galaxy Tab S7 Plus 12.4&quot; 128GB Mystic Black</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -942,8 +942,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Class 4K UHD (2160P) LED Roku Smart TV HDR</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Class 4K UHD (2160P) LED Roku Smart TV HDR</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -958,8 +958,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP Slim Desktop, Intel Celeron J4025, 4GB RAM</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HP Slim Desktop, Intel Celeron J4025, 4GB RAM</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -974,8 +974,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP 22 All-in-One PC, Intel Pentium Silver J5040</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HP 22 All-in-One PC, Intel Pentium Silver J5040</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -990,8 +990,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Gateway 23.8&quot; All-in-one Desktop, Fully Adjustable</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Gateway 23.8&quot; All-in-one Desktop, Fully Adjustable</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1006,8 +1006,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1022,8 +1022,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Dell Optiplex 9020 Small Form Business Desktop Tower PC</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Dell Optiplex 9020 Small Form Business Desktop Tower PC</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1038,8 +1038,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Sceptre 24&quot; Professional Thin 75Hz 1080p LED Monitor</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp3.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Sceptre 24&quot; Professional Thin 75Hz 1080p LED Monitor</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1054,8 +1054,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Seagate Portable 2TB External Hard Drive Portable</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Seagate Portable 2TB External Hard Drive Portable</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1070,8 +1070,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">SanDisk 128GB Ultra microSDXC UHS-I Memory Card</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">SanDisk 128GB Ultra microSDXC UHS-I Memory Card</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1086,8 +1086,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Original HP 63XL Black High-yield Ink Cartridge</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp6.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Original HP 63XL Black High-yield Ink Cartridge</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>
@@ -1102,8 +1102,8 @@
                 <div class="card-grid-style-3">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend" data-bs-placement="left"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
-                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy</a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage1/imgsp7.png" alt="Ecom"></a></div>
+                    <div class="info-right"><a class="font-xs color-gray-500" href="shop-vendor-single.html">Apple</a><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Samsung 36&quot; French door 28 cu. ft. Smart Energy</a>
                       <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                       <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                       <div class="mt-20 box-btn-cart"><a class="btn btn-cart" href="shop-cart.php">Add To Cart</a></div>

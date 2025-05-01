@@ -28,10 +28,10 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                      <li><a href="single-product.php">Single Product</a></li>
+                      <li><a href="single-product.php">Single Product 2</a></li>
+                      <li><a href="single-product.php">Single Product 3</a></li>
+                      <li><a href="single-product.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
                       <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -295,10 +295,10 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                      <li><a href="single-product.php">Single Product</a></li>
+                      <li><a href="single-product.php">Single Product 2</a></li>
+                      <li><a href="single-product.php">Single Product 3</a></li>
+                      <li><a href="single-product.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
                       <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -474,8 +474,8 @@
                   <div class="item-wishlist">
                     <div class="wishlist-product">
                       <div class="product-wishlist">
-                        <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
-                        <div class="product-info"><a href="shop-single-product-4.php">
+                        <div class="product-image"><a href="single-product.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
+                        <div class="product-info"><a href="single-product.php">
                             <h6 class="color-brand-3">Gateway 23.8&quot; All-in-one Desktop, Fully Adjustable Stand</h6></a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                         </div>
@@ -491,8 +491,8 @@
                   <div class="item-wishlist">
                     <div class="wishlist-product">
                       <div class="product-wishlist">
-                        <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
-                        <div class="product-info"><a href="shop-single-product-4.php">
+                        <div class="product-image"><a href="single-product.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
+                        <div class="product-info"><a href="single-product.php">
                             <h6 class="color-brand-3">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</h6></a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                         </div>
@@ -508,8 +508,8 @@
                   <div class="item-wishlist">
                     <div class="wishlist-product">
                       <div class="product-wishlist">
-                        <div class="product-image"><a href="shop-single-product-4.php"><img src="assets/imgs/page/product/img-sub3.png" alt="Ecom"></a></div>
-                        <div class="product-info"><a href="shop-single-product-4.php">
+                        <div class="product-image"><a href="single-product.php"><img src="assets/imgs/page/product/img-sub3.png" alt="Ecom"></a></div>
+                        <div class="product-info"><a href="single-product.php">
                             <h6 class="color-brand-3">Dell Optiplex 9020 Small Form Business Desktop Tower PC</h6></a>
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                         </div>

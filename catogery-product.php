@@ -60,7 +60,7 @@
                             <div class="d-inline-block box-text-hurryup"><span class="font-md-bold color-gray-900">Hurry up!</span><br><span class="font-xs color-gray-500">Offers end in:</span></div>
                             <div class="box-count box-count-square hide-period">
                                 <div class="deals-countdown" data-countdown="2023/08/25 00:00:00"></div>
-                            </div><a class="btn btn-view-all font-md-bold" href="shop-single-product-4.php">View All</a>
+                            </div><a class="btn btn-view-all font-md-bold" href="single-product.php">View All</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                                     </div>
                                     <div class="image-box">
                                         <span class="label bg-brand-2">-17%</span>
-                                        <a href="shop-single-product-4.php">
+                                        <a href="single-product.php?$prod_id=<?php echo $row['id']; ?>">
                                             <img src="admin/<?php echo $row['image']; ?>" alt="Ecom">
                                         </a>
                                     </div>
@@ -101,7 +101,7 @@
                                                     <span class="font-xs color-gray-500">(65)</span>
                                                 </div>
                                             </div>
-                                        </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php"><?php echo $row['discription']; ?></a>
+                                        </div><a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
                                         <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main"><?php echo $row['selling_price']; ?></strong>
                                             <span class="color-gray-500 price-line"><?php echo $row['mrp']; ?></span>
                                         </div>
@@ -152,12 +152,12 @@
                                                 <div class="card-grid-style-2">
                                                     <label class="label font-xs color-gray-500 bg-success">New</label>
                                                     <div class="image-box">
-                                                        <a href="shop-single-product-4.php">
+                                                        <a href="single-product.php">
                                                             <img src="admin/<?php echo $row['image']; ?>" alt="Ecom"></a>
                                                     </div>
                                                     <div class="info-right">
                                                         <span class="font-xs color-gray-500"><?php echo $row['name']; ?></span><br>
-                                                        <a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php"><?php echo $row['discription']; ?></a>
+                                                        <a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
                                                         <div class="rating">
                                                             <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                             <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
@@ -316,10 +316,10 @@
                                             ?>
                                                 <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                     <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="shop-single-product-4.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                     </div>
                                                     <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php"><?php echo $row['discription'] ?></a>
+                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
                                                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                             <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                         </div>
@@ -354,10 +354,10 @@
                                             ?>
                                                 <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                     <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="shop-single-product-4.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                     </div>
                                                     <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php"><?php echo $row['discription'] ?></a>
+                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
                                                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                             <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                         </div>
@@ -392,10 +392,10 @@
                                             ?>
                                                 <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                     <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="shop-single-product-4.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                     </div>
                                                     <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php"><?php echo $row['discription'] ?></a>
+                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
                                                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                             <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                         </div>
@@ -430,10 +430,10 @@
                                             ?>
                                                 <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                     <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="shop-single-product-4.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                     </div>
                                                     <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php"><?php echo $row['discription'] ?></a>
+                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
                                                         <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                             <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                         </div>

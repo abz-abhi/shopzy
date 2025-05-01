@@ -28,10 +28,10 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                      <li><a href="single-product.php">Single Product</a></li>
+                      <li><a href="single-product.php">Single Product 2</a></li>
+                      <li><a href="single-product.php">Single Product 3</a></li>
+                      <li><a href="single-product.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
                       <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -128,10 +128,10 @@
                       <li><a href="shop-list.php">Shop List</a></li>
                       <li><a href="shop-list-2.php">Shop List 2</a></li>
                       <li><a href="shop-fullwidth.html">Shop Fullwidth</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 2</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 3</a></li>
-                      <li><a href="shop-single-product-4.php">Single Product 4</a></li>
+                      <li><a href="single-product.php">Single Product</a></li>
+                      <li><a href="single-product.php">Single Product 2</a></li>
+                      <li><a href="single-product.php">Single Product 3</a></li>
+                      <li><a href="single-product.php">Single Product 4</a></li>
                       <li><a href="shop-cart.php">Shop Cart</a></li>
                       <li><a href="shop-checkout.php">Shop Checkout</a></li>
                       <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -345,7 +345,7 @@
                   <div class="d-inline-block box-text-hurryup"><span class="font-md-bold color-gray-900">Hurry up!</span><br><span class="font-xs color-gray-500">Offers end in:</span></div>
                   <div class="box-count box-count-square hide-period">
                     <div class="deals-countdown" data-countdown="2023/08/25 00:00:00"></div>
-                  </div><a class="btn btn-view-all font-md-bold" href="shop-single-product-4.php">View All</a>
+                  </div><a class="btn btn-view-all font-md-bold" href="single-product.php">View All</a>
                 </div>
               </div>
             </div>
@@ -356,7 +356,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp1.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp1.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -364,7 +364,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -372,7 +372,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp2.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp2.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -380,7 +380,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -388,7 +388,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp3.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp3.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -396,7 +396,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -404,7 +404,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp4.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp4.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -412,7 +412,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -420,7 +420,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp5.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp5.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -428,7 +428,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -436,7 +436,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp6.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp6.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -444,7 +444,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -452,7 +452,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp7.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp7.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -460,7 +460,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -468,7 +468,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp8.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp8.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -476,7 +476,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -484,7 +484,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp9.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp9.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -492,7 +492,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -500,7 +500,7 @@
                 <div class="card-grid-style-3 card-style-full-image">
                   <div class="card-grid-inner">
                     <div class="tools"><a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a><a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a><a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a><a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a></div>
-                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/sp10.png" alt="Ecom"></a>
+                    <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/sp10.png" alt="Ecom"></a>
                     </div>
                     <div class="info-right">
                       <div class="row"> 
@@ -508,7 +508,7 @@
                         <div class="col-6 text-end"> 
                           <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <img src="assets/imgs/template/icons/star.svg" alt="Ecom"> <span class="font-xs color-gray-500">(65)</span></div>
                         </div>
-                      </div><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
+                      </div><a class="color-brand-3 font-sm-bold" href="single-product.php">Start with Why: How Great Leaders Inspire Everyone to Take Action</a>
                       <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main">$198.5</strong><span class="color-gray-500 price-line">$256.3</span></div>
                     </div>
                   </div>
@@ -565,7 +565,7 @@
                               </div>
                             </div>
                             <div class="top-deals-right">
-                              <div class="info-right"></div><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">
+                              <div class="info-right"></div><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">
                                 <h5>2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</h5></a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info">
@@ -612,7 +612,7 @@
                               </div>
                             </div>
                             <div class="top-deals-right">
-                              <div class="info-right"></div><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">
+                              <div class="info-right"></div><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">
                                 <h5>Apple MacBook Air with Apple M1 Chip 13-inch, 8GB RAM</h5></a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info">
@@ -659,7 +659,7 @@
                               </div>
                             </div>
                             <div class="top-deals-right">
-                              <div class="info-right"></div><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">
+                              <div class="info-right"></div><span class="font-xs color-gray-500">Apple</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">
                                 <h5>Apple MacBook Air with Apple M1 Chip 13-inch, 8GB RAM</h5></a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info">
@@ -714,8 +714,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-success">New</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book1.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book1.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -724,8 +724,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-info">Deal</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book2.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book2.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -734,8 +734,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500">-175</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book3.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book3.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -744,8 +744,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-danger">Hot</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book4.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book4.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -754,8 +754,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-danger">Hot</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -764,8 +764,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-success">New</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book6.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book6.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -774,8 +774,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500">-17%</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book7.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book7.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -784,8 +784,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-success">New</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book8.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book8.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -794,8 +794,8 @@
                         <div class="col-lg-4 col-md-6 col-sm-12">
                           <div class="card-grid-style-2">
                             <label class="label font-xs color-gray-500 bg-danger">Hot</label>
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book9.png" alt="Ecom"></a></div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="shop-single-product-4.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book9.png" alt="Ecom"></a></div>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-sm-bold" href="single-product.php">Eight Unconventional CEOs and Their Radically Rational Blueprint for Success</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500">(65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -934,33 +934,33 @@
                       <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book1.png" alt="Ecom"></a>
+                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/book1.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book2.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book2.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book6.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book6.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book3.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book3.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -985,33 +985,33 @@
                       <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book4.png" alt="Ecom"></a>
+                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/book4.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book6.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book6.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book7.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book7.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1036,33 +1036,33 @@
                       <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book7.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book7.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book8.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book8.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book9.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book9.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a>
+                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
@@ -1087,33 +1087,33 @@
                       <div class="swiper-wrapper pt-5">
                         <div class="swiper-slide">
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book4.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book4.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a>
+                            <div class="image-box"><span class="label bg-brand-2">-17%</span><a href="single-product.php"><img src="assets/imgs/page/homepage8/book5.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book9.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book9.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>
                           </div>
                           <div class="card-grid-style-2 card-grid-none-border hover-up">
-                            <div class="image-box"><a href="shop-single-product-4.php"><img src="assets/imgs/page/homepage8/book1.png" alt="Ecom"></a>
+                            <div class="image-box"><a href="single-product.php"><img src="assets/imgs/page/homepage8/book1.png" alt="Ecom"></a>
                             </div>
-                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="shop-single-product-4.php">How Great Leaders Inspire Everyone to Take Action</a>
+                            <div class="info-right"><span class="font-xs color-gray-500">Steven Job</span><br><a class="color-brand-3 font-xs-bold" href="single-product.php">How Great Leaders Inspire Everyone to Take Action</a>
                               <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
                               <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main">$2556.3</strong><span class="color-gray-500 price-line">$3225.6</span></div>
                             </div>

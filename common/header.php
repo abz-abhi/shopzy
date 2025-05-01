@@ -60,7 +60,7 @@ include('admin/include/db_config.php');
                                 </li>
                                 <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                                     <ul class="sub-menu two-col">
-                                        <li><a href="shop-single-product-4.php">Single Product </a></li>
+                                        <li><a href="single-product.php">Single Product </a></li>
                                         <li><a href="shop-cart.php">Shop Cart</a></li>
                                         <li><a href="shop-compare.php">Shop Compare</a></li>
                                         <li><a href="shop-wishlist.php">Shop Wishlist</a></li>
@@ -93,13 +93,13 @@ include('admin/include/db_config.php');
                             <div class="dropdown-cart">
                                 <div class="item-cart mb-20">
                                     <div class="cart-image"><img src="assets/imgs/page/homepage1/imgsp5.png" alt="Ecom"></div>
-                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                                         <p><span class="color-brand-2 font-sm-bold">1 x $2856.4</span></p>
                                     </div>
                                 </div>
                                 <div class="item-cart mb-20">
                                     <div class="cart-image"><img src="assets/imgs/page/homepage1/imgsp4.png" alt="Ecom"></div>
-                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="shop-single-product-4.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
+                                    <div class="cart-info"><a class="font-sm-bold color-brand-3" href="single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM, 256GB SSD</a>
                                         <p><span class="color-brand-2 font-sm-bold">1 x $2856.4</span></p>
                                     </div>
                                 </div>
