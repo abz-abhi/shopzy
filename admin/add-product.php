@@ -40,6 +40,69 @@ include('include/db_config.php'); ?>
                                   VALUES('$productname','$categorie_id','$sellprice','$mrp','$description','$targetPath','1','$date_time','$date_time')";
 
               if (mysqli_query($con, $query)) {
+
+                $pro_id = mysqli_insert_id($con);
+                $galleryDir = "uploads/product/gallery/";
+                $allowedFileType = array('jpg', 'png', 'jpeg');
+
+                if (!empty(array_filter($_FILES['productGall']['name']))) {
+
+                  foreach ($_FILES['productGall']['name'] as $id => $val) {
+
+                    $gallImgName = $_FILES['productGall']['name'][$id];
+                    $gallImgTemp = $_FILES['productGall']['tmp_name'][$id];
+                    $cat_banner = time() . '.' . $gallImgName;
+                    $targetGallPath = $galleryDir . $cat_banner;
+                    $fileType = strtolower(pathinfo($targetGallPath, PATHINFO_EXTENSION));
+
+                    if (in_array($fileType,  $allowedFileType)) {
+                      
+
+                      if (move_uploaded_file($gallImgTemp, $targetGallPath)) {
+ 
+                        $sqlVal = "('$pro_id','" . $targetGallPath . "','" . $date_time . "')";
+         
+                      } else {
+
+                        $response = array(
+                          "status" => "alert-danger",
+                          "message" => "File coud not be uploaded."
+                        );
+                      }
+                    } else {
+
+                      $response = array(
+                        "status" => "alert-danger",
+                        "message" => "Only .jpg, .jpeg and .png file formats allowed."
+                      );
+                    }
+                    if (! empty($sqlVal)) {
+                      echo '<script>alert("kitty")</script>';
+
+                      $pro_gallery = "INSERT INTO product_gallery (pro_id, image, created_on) VALUES $sqlVal ";
+                      $insert = mysqli_query($con, $pro_gallery);
+
+                      if ($insert) {
+
+                        $response = array(
+                          "status" => "alert-success",
+                          "message" => "Files successfully uploaded."
+                        );
+                      } else {
+                        $response = array(
+                          "status" => "alert-danger",
+                          "message" => "Files coudn't be uploaded due to database error."
+                        );
+                      }
+                    }
+                  }
+                } else {
+                  // Error
+                  $response = array(
+                    "status" => "alert-danger",
+                    "message" => "Please select a file to upload."
+                  );
+                }
                 echo '<script>alert("Registration successful!"); window.location.href="add-product.php"</script>';
               } else {
                 echo "error !";
@@ -137,6 +200,22 @@ include('include/db_config.php'); ?>
           </div>
         </div>
       </div>
+
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h4>Product gallery </h4>
+          <p>Dimensions (894 x 1251)</p>
+        </div>
+        <div class="card-body">
+          <div class="input-upload">
+            <img name="productImage" id="previewImages" src="assets/imgs/theme/upload.svg" alt="" />
+            <input name="productGall[]" class="form-control" type="file" id="imageInputs" accept="image/*" multiple />
+          </div>
+        </div>
+      </div>
       <button
         class="btn btn-light rounded font-sm mr-5 text-body hover-up">
         Save to draft
@@ -170,6 +249,23 @@ include('include/db_config.php'); ?>
       reader.readAsDataURL(file);
     }
   });
+
+  const imageInputs = document.getElementById('imageInputs');
+  const previewImages = document.getElementById('previewImages');
+
+  imageInputs.addEventListener('change', function() {
+    const file = this.files[0];
+
+    if (file) {
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        previewImages.setAttribute('src', event.target.result);
+      }
+
+      reader.readAsDataURL(file);
+    }
+  })
 </script>
 
 <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
