@@ -31,6 +31,7 @@
                 <div class="detail-gallery">
                   <label class="label">-17%</label>
                   <div class="product-image-slider">
+
                     <figure class="border-radius-10">
                       <img
                         src="admin/<?php echo $row['image']; ?>"
@@ -66,9 +67,11 @@
                         src="assets/imgs/page/product/img-gallery-7.jpg"
                         alt="product image" />
                     </figure>
-                  </div>
+
+                  </div>             
                 </div>
                 <div class="slider-nav-thumbnails">
+
                   <div>
                     <div class="item-thumb">
                       <img
@@ -118,6 +121,8 @@
                         alt="product image" />
                     </div>
                   </div>
+
+
                 </div>
               </div>
             </div>
@@ -166,9 +171,6 @@
               class="btn btn-wishlist mr-5 opacity-100 transform-none"></span><span class="font-md color-gray-900">Add to Wish list</span></a><a href="shop-compare.php"><span
               class="btn btn-compare mr-5 opacity-100 transform-none"></span><span class="font-md color-gray-900">Add to Compare</span></a>
           <div class="info-product mt-20 font-md color-gray-900">
-            SKU: EcomTech12321<br />Category: Smartphones<br />Tags: Blue,
-            Smartphone
-          </div>
           <div class="mt-20">
             <a class="font-md color-gray-900" href="shop-compare.php">Compare with similar items</a>
           </div>
@@ -1351,303 +1353,10 @@
             </div>
           </div>
           <div class="border-bottom pt-20 mb-40"></div>
-          <h4 class="color-brand-3">Similar products to compare</h4>
-          <div class="list-products-5 mt-20">
-            <div class="card-grid-style-3">
-              <div class="card-grid-inner">
-                <div class="tools">
-                  <a
-                    class="btn btn-trend btn-tooltip mb-10"
-                    href="#"
-                    aria-label="Trend"
-                    data-bs-placement="left"></a><a
-                    class="btn btn-wishlist btn-tooltip mb-10"
-                    href="shop-wishlist.php"
-                    aria-label="Add To Wishlist"></a><a
-                    class="btn btn-compare btn-tooltip mb-10"
-                    href="shop-compare.php"
-                    aria-label="Compare"></a><a
-                    class="btn btn-quickview btn-tooltip"
-                    aria-label="Quick view"
-                    href="#ModalQuickview"
-                    data-bs-toggle="modal"></a>
-                </div>
-                <div class="image-box">
-                  <span class="label bg-brand-2">-17%</span><a href="single-product.php"><img
-                      src="assets/imgs/page/homepage1/imgsp3.png"
-                      alt="Ecom" /></a>
-                </div>
-                <div class="info-right">
-                  <a
-                    class="font-xs color-gray-500"
-                    href="shop-vendor-single.html">Apple</a><br /><a
-                    class="color-brand-3 font-sm-bold"
-                    href="single-product.php">Logitech MK345 Wireless Combo Full-Sized Keyboard</a>
-                  <div class="rating">
-                    <img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><span class="font-xs color-gray-500">(65)</span>
-                  </div>
-                  <div class="price-info">
-                    <strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span>
-                  </div>
-                  <div class="mt-20 box-btn-cart">
-                    <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
-                  </div>
-                  <ul class="list-features">
-                    <li>27-inch (diagonal) Retina 5K display</li>
-                    <li>3.1GHz 6-core 10th-generation Intel Core i5</li>
-                    <li>AMD Radeon Pro 5300 graphics</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="card-grid-style-3">
-              <div class="card-grid-inner">
-                <div class="tools">
-                  <a
-                    class="btn btn-trend btn-tooltip mb-10"
-                    href="#"
-                    aria-label="Trend"
-                    data-bs-placement="left"></a><a
-                    class="btn btn-wishlist btn-tooltip mb-10"
-                    href="shop-wishlist.php"
-                    aria-label="Add To Wishlist"></a><a
-                    class="btn btn-compare btn-tooltip mb-10"
-                    href="shop-compare.php"
-                    aria-label="Compare"></a><a
-                    class="btn btn-quickview btn-tooltip"
-                    aria-label="Quick view"
-                    href="#ModalQuickview"
-                    data-bs-toggle="modal"></a>
-                </div>
-                <div class="image-box">
-                  <span class="label bg-brand-2">-17%</span><a href="single-product.php"><img
-                      src="assets/imgs/page/homepage1/imgsp4.png"
-                      alt="Ecom" /></a>
-                </div>
-                <div class="info-right">
-                  <a
-                    class="font-xs color-gray-500"
-                    href="shop-vendor-single.html">Apple</a><br /><a
-                    class="color-brand-3 font-sm-bold"
-                    href="single-product.php">Logitech Brio 4K Webcam, Ultra 4K HD Video Calling</a>
-                  <div class="rating">
-                    <img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><span class="font-xs color-gray-500">(65)</span>
-                  </div>
-                  <div class="price-info">
-                    <strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span>
-                  </div>
-                  <div class="mt-20 box-btn-cart">
-                    <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
-                  </div>
-                  <ul class="list-features">
-                    <li>27-inch (diagonal) Retina 5K display</li>
-                    <li>3.1GHz 6-core 10th-generation Intel Core i5</li>
-                    <li>AMD Radeon Pro 5300 graphics</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="card-grid-style-3">
-              <div class="card-grid-inner">
-                <div class="tools">
-                  <a
-                    class="btn btn-trend btn-tooltip mb-10"
-                    href="#"
-                    aria-label="Trend"
-                    data-bs-placement="left"></a><a
-                    class="btn btn-wishlist btn-tooltip mb-10"
-                    href="shop-wishlist.php"
-                    aria-label="Add To Wishlist"></a><a
-                    class="btn btn-compare btn-tooltip mb-10"
-                    href="shop-compare.php"
-                    aria-label="Compare"></a><a
-                    class="btn btn-quickview btn-tooltip"
-                    aria-label="Quick view"
-                    href="#ModalQuickview"
-                    data-bs-toggle="modal"></a>
-                </div>
-                <div class="image-box">
-                  <span class="label bg-brand-2">-17%</span><a href="single-product.php"><img
-                      src="assets/imgs/page/homepage1/imgsp5.png"
-                      alt="Ecom" /></a>
-                </div>
-                <div class="info-right">
-                  <a
-                    class="font-xs color-gray-500"
-                    href="shop-vendor-single.html">Apple</a><br /><a
-                    class="color-brand-3 font-sm-bold"
-                    href="single-product.php">HP 24mh FHD Monitor - Computer Monitor</a>
-                  <div class="rating">
-                    <img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><span class="font-xs color-gray-500">(65)</span>
-                  </div>
-                  <div class="price-info">
-                    <strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span>
-                  </div>
-                  <div class="mt-20 box-btn-cart">
-                    <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
-                  </div>
-                  <ul class="list-features">
-                    <li>27-inch (diagonal) Retina 5K display</li>
-                    <li>3.1GHz 6-core 10th-generation Intel Core i5</li>
-                    <li>AMD Radeon Pro 5300 graphics</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="card-grid-style-3">
-              <div class="card-grid-inner">
-                <div class="tools">
-                  <a
-                    class="btn btn-trend btn-tooltip mb-10"
-                    href="#"
-                    aria-label="Trend"
-                    data-bs-placement="left"></a><a
-                    class="btn btn-wishlist btn-tooltip mb-10"
-                    href="shop-wishlist.php"
-                    aria-label="Add To Wishlist"></a><a
-                    class="btn btn-compare btn-tooltip mb-10"
-                    href="shop-compare.php"
-                    aria-label="Compare"></a><a
-                    class="btn btn-quickview btn-tooltip"
-                    aria-label="Quick view"
-                    href="#ModalQuickview"
-                    data-bs-toggle="modal"></a>
-                </div>
-                <div class="image-box">
-                  <span class="label bg-brand-2">-17%</span><a href="single-product.php"><img
-                      src="assets/imgs/page/homepage1/imgsp6.png"
-                      alt="Ecom" /></a>
-                </div>
-                <div class="info-right">
-                  <a
-                    class="font-xs color-gray-500"
-                    href="shop-vendor-single.html">Apple</a><br /><a
-                    class="color-brand-3 font-sm-bold"
-                    href="single-product.php">2022 Apple iMac with Retina 5K Display 8GB RAM</a>
-                  <div class="rating">
-                    <img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><span class="font-xs color-gray-500">(65)</span>
-                  </div>
-                  <div class="price-info">
-                    <strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span>
-                  </div>
-                  <div class="mt-20 box-btn-cart">
-                    <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
-                  </div>
-                  <ul class="list-features">
-                    <li>27-inch (diagonal) Retina 5K display</li>
-                    <li>3.1GHz 6-core 10th-generation Intel Core i5</li>
-                    <li>AMD Radeon Pro 5300 graphics</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="card-grid-style-3">
-              <div class="card-grid-inner">
-                <div class="tools">
-                  <a
-                    class="btn btn-trend btn-tooltip mb-10"
-                    href="#"
-                    aria-label="Trend"
-                    data-bs-placement="left"></a><a
-                    class="btn btn-wishlist btn-tooltip mb-10"
-                    href="shop-wishlist.php"
-                    aria-label="Add To Wishlist"></a><a
-                    class="btn btn-compare btn-tooltip mb-10"
-                    href="shop-compare.php"
-                    aria-label="Compare"></a><a
-                    class="btn btn-quickview btn-tooltip"
-                    aria-label="Quick view"
-                    href="#ModalQuickview"
-                    data-bs-toggle="modal"></a>
-                </div>
-                <div class="image-box">
-                  <span class="label bg-brand-2">-17%</span><a href="single-product.php"><img
-                      src="assets/imgs/page/homepage1/imgsp7.png"
-                      alt="Ecom" /></a>
-                </div>
-                <div class="info-right">
-                  <a
-                    class="font-xs color-gray-500"
-                    href="shop-vendor-single.html">Apple</a><br /><a
-                    class="color-brand-3 font-sm-bold"
-                    href="single-product.php">Seagate Portable 2TB External Hard Drive</a>
-                  <div class="rating">
-                    <img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><img
-                      src="assets/imgs/template/icons/star.svg"
-                      alt="Ecom" /><span class="font-xs color-gray-500">(65)</span>
-                  </div>
-                  <div class="price-info">
-                    <strong class="font-lg-bold color-brand-3 price-main">$2856.3</strong><span class="color-gray-500 price-line">$3225.6</span>
-                  </div>
-                  <div class="mt-20 box-btn-cart">
-                    <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
-                  </div>
-                  <ul class="list-features">
-                    <li>27-inch (diagonal) Retina 5K display</li>
-                    <li>3.1GHz 6-core 10th-generation Intel Core i5</li>
-                    <li>AMD Radeon Pro 5300 graphics</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
-  <div class="container mt-20">
-    <div class="text-center">
-      <a href="#"><img src="assets/imgs/page/product/banner-ads.png" alt="Ecom" /></a>
-    </div>
-  </div>
   <section class="section-box mt-90 mb-50">
     <div class="container">
       <ul class="list-col-5">
