@@ -84,9 +84,10 @@
                                     </div>
                                     <div class="image-box">
                                         <span class="label bg-brand-2">-17%</span>
-                                        <a href="single-product.php?$prod_id=<?php echo $row['id']; ?>">
+                                        <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>">
                                             <img src="admin/<?php echo $row['image']; ?>" alt="Ecom">
                                         </a>
+
                                     </div>
                                     <div class="info-right">
                                         <div class="row">
