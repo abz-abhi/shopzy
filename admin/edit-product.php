@@ -26,30 +26,78 @@ if (isset($_POST['editProduct'])) {
 
     if ($_FILES['productimg']['name'] != '') {
 
-        $edit_pro_img = $_FILES['productimg']['name'];
+        $edit_pro_img = time() . '.' . $_FILES['productimg']['name'];
         $edit_img_temp = $_FILES['productimg']['tmp_name'];
         $uploadDir = 'uploads/product';
         $targetPath = $uploadDir . basename($edit_pro_img);
 
         if (move_uploaded_file($edit_img_temp, $targetPath)) {
-            $edit_target = $targetPath;
+            $finalImagePath  = $targetPath;
         } else {
-            echo "upload faild";
+            $finalImagePath = $pro_res_row['image'];
         }
     } else {
-        $targetPath1 = $row['image'];
+        $finalImagePath = $pro_res_row['image'];
     }
 
     $query = " UPDATE `product` SET `name`='$edit_pro_name',
                                     `discription`='$edit_pro_disc',
                                     `mrp`='$edit_pro_mrp',
                                     `selling_price`='$edit_pro_sell',
-                                    `image`='$edit_target',
+                                    `image`='$finalImagePath',
                                     `categorie_id`='$edit_cat_id',
                                     `updated_on`='$edit_dateTime'
                                     WHERE `id`='" . $_GET['id'] . "'";
-    if (mysqli_query($con, $query)) {
-        echo "<script>window.location.href='page-products-list.php'</script>";
+    mysqli_query($con, $query);
+
+    $editGallDir = "uploads/product/gallery/";
+    $allowedFileType = array('jpg', 'png', 'jpeg');
+
+    if (!empty(array_filter($_FILES['editProductGall']['name']))) {
+
+        foreach ($_FILES['editProductGall']['name'] as $id => $val) {
+
+            $prod_id = $pro_res_row['id'];
+
+            $editGall_imgName = $_FILES['editProductGall']['name'][$id];
+            $editGall_imgTemp = $_FILES['editProductGall']['tmp_name'][$id];
+            $cat_banner = time() . '.' . $editGall_imgName;
+            $edit_target_path = $editGallDir . $cat_banner;
+            $chechExten = strtolower(pathinfo($edit_target_path, PATHINFO_EXTENSION));
+
+            if (in_array($chechExten, $allowedFileType)) {
+
+                if (move_uploaded_file($editGall_imgTemp, $edit_target_path)) {
+                    $editSqlVal = "('$prod_id','" . $edit_target_path . "','" . $edit_dateTime . "')";
+                } else {
+
+                    $response = array(
+                        "status" => "alert-danger",
+                        "message" => "File coud not be uploaded."
+                    );
+                }
+            } else {
+
+                $response = array(
+                    "status" => "alert-danger",
+                    "message" => "Only .jpg, .jpeg and .png file formats allowed."
+                );
+            }
+
+            if (!empty($editSqlVal)) {
+                $edit_prod_gall = " INSERT INTO product_gallery (pro_id, image, created_on) VALUES $editSqlVal ";
+                $editInsert = mysqli_query($con, $edit_prod_gall);
+
+                if ($editInsert) {
+                    echo "<script>window.location.href='page-products-list.php'</script>";
+                } else {
+                    $response = array(
+                        "status" => "alert-danger",
+                        "message" => "Files coudn't be uploaded due to database error."
+                    );
+                }
+            }
+        }
     }
 }
 
@@ -107,7 +155,7 @@ if (isset($_POST['editProduct'])) {
                                         name="sellingPrice"
                                         placeholder="$"
                                         type="number"
-                                        value="<?php echo $pro_res_row['selling_price']; ?> " />
+                                        value="<?php echo $pro_res_row['selling_price']; ?>" />
                                 </div>
                             </div>
                             <div class="col-lg-4">
@@ -161,6 +209,22 @@ if (isset($_POST['editProduct'])) {
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Product gallery </h4>
+                    <p>Dimensions (894 x 1251)</p>
+                </div>
+                <div class="card-body">
+                    <div class="input-upload">
+                        <img name="editProductImage" id="previewImages" src="assets/imgs/theme/upload.svg" alt="" />
+                        <input name="editProductGall[]" class="form-control" type="file" id="imageInputs" accept="image/*" multiple />
+                    </div>
+                </div>
+            </div>
+
             <button
                 class="btn btn-light rounded font-sm mr-5 text-body hover-up">
                 Save to draft

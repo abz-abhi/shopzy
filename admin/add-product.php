@@ -77,7 +77,6 @@ include('include/db_config.php'); ?>
                       );
                     }
                     if (! empty($sqlVal)) {
-                      echo '<script>alert("kitty")</script>';
 
                       $pro_gallery = "INSERT INTO product_gallery (pro_id, image, created_on) VALUES $sqlVal ";
                       $insert = mysqli_query($con, $pro_gallery);
@@ -200,7 +199,6 @@ include('include/db_config.php'); ?>
           </div>
         </div>
       </div>
-
     </div>
 
     <div class="col-lg-3">
