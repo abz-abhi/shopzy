@@ -624,37 +624,31 @@
             $select = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` = '" . $_GET['cat_id'] . "' ");
             while ($row = mysqli_fetch_assoc($select)) {
             ?>
-
               <div class="card-grid-style-3">
                 <div class="card-grid-inner">
                   <div class="tools">
                     <a
-                      class="btn btn-trend btn-tooltip mb-10"
-                      href="#"
-                      aria-label="Trend"
-                      data-bs-placement="left"></a><a
                       class="btn btn-wishlist btn-tooltip mb-10"
                       href="shop-wishlist.php"
-                      aria-label="Add To Wishlist"></a><a
+                      aria-label="Add To Wishlist"></a>
+                    <a
                       class="btn btn-compare btn-tooltip mb-10"
                       href="shop-compare.php"
-                      aria-label="Compare"></a><a
-                      class="btn btn-quickview btn-tooltip"
-                      aria-label="Quick view"
-                      href="#ModalQuickview"
-                      data-bs-toggle="modal"></a>
+                      aria-label="Compare"></a>
                   </div>
                   <div class="image-box">
-                    <span class="label bg-brand-2">-17%</span><a href="single-product.php"><img
+                    <span class="label bg-brand-2">-17%</span>
+                    <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>">
+                      <img
                         src="admin/<?php echo $row['image'] ?>"
                         alt="Ecom" /></a>
                   </div>
                   <div class="info-right">
                     <a
-                      class="font-xs color-gray-500"
-                      href="shop-vendor-single.html"><?php echo $row['name'] ?></a><br /><a
-                      class="color-brand-3 font-sm-bold"
-                      href="single-product.php"><?php echo $row['discription'] ?></a>
+                      class="font-xs color-gray-500">
+                      <?php echo $row['name'] ?></a><br /><a
+                      class="color-brand-3 font-sm-bold">
+                      <?php echo $row['discription'] ?></a>
                     <div class="rating">
                       <img
                         src="assets/imgs/template/icons/star.svg"
