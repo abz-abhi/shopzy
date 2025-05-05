@@ -1,6 +1,5 @@
 <?php
 include('common\header.php');
-include('../admin/include/db_config.php');
 ?>
 <main class="main">
   <section class="section-box shop-template mt-60">

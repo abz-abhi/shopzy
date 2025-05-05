@@ -60,7 +60,6 @@ include('admin/include/db_config.php');
                                 </li>
                                 <li class="has-children"><a href="shop-grid-2.php">Shop</a>
                                     <ul class="sub-menu two-col">
-                                        <li><a href="single-product.php">Single Product </a></li>
                                         <li><a href="shop-cart.php">Shop Cart</a></li>
                                         <li><a href="shop-compare.php">Shop Compare</a></li>
                                         <li><a href="shop-wishlist.php">Shop Wishlist</a></li>
@@ -83,7 +82,7 @@ include('admin/include/db_config.php');
                                     <li><a href="page-account.php">My Account</a></li>
                                     <li><a href="page-account.php">Order Tracking</a></li>
                                     <li><a href="page-account.php">My Orders</a></li>
-                                    <li><a href="page-account.php">My Wishlist</a></li>
+                                    <li><a href="shop-wishlist.php">My Wishlist</a></li>
                                     <li><a href="page-account.php">Setting</a></li>
                                     <li><a href="page-login.php">Sign out</a></li>
                                 </ul>

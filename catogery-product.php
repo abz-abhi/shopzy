@@ -71,45 +71,47 @@
 
                         <?php
                         $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "'  ");
-                        while ($row = mysqli_fetch_assoc($result)) {
+                        if ($result && mysqli_num_rows($result) > 0) {
+                            while ($row = mysqli_fetch_assoc($result)) {
                         ?>
 
-                            <div class="card-grid-style-3 card-style-full-image">
-                                <div class="card-grid-inner">
-                                    <div class="tools">
-                                        <a class="btn btn-trend btn-tooltip mb-10" href="#" aria-label="Trend"></a>
-                                        <a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a>
-                                        <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
-                                        <a class="btn btn-quickview btn-tooltip" aria-label="Quick view" href="#ModalQuickview" data-bs-toggle="modal"></a>
-                                    </div>
-                                    <div class="image-box">
-                                        <span class="label bg-brand-2">-17%</span>
-                                        <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>">
-                                            <img src="admin/<?php echo $row['image']; ?>" alt="Ecom">
-                                        </a>
+                                <div class="card-grid-style-3 card-style-full-image">
+                                    <div class="card-grid-inner">
+                                        <div class="tools">
+                                            <a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a>
+                                            <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
+                                        </div>
+                                        <div class="image-box">
+                                            <span class="label bg-brand-2">-17%</span>
+                                            <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>">
+                                                <img src="admin/<?php echo $row['image']; ?>" alt="Ecom">
+                                            </a>
 
-                                    </div>
-                                    <div class="info-right">
-                                        <div class="row">
-                                            <div class="col-6"> <span class="font-xs color-gray-500"><?php echo $row['name']; ?></span></div>
-                                            <div class="col-6 text-end">
-                                                <div class="rating">
-                                                    <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                    <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                    <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                    <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                    <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                    <span class="font-xs color-gray-500">(65)</span>
+                                        </div>
+                                        <div class="info-right">
+                                            <div class="row">
+                                                <div class="col-6"> <span class="font-xs color-gray-500"><?php echo $row['name']; ?></span></div>
+                                                <div class="col-6 text-end">
+                                                    <div class="rating">
+                                                        <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                        <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                        <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                        <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                        <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                        <span class="font-xs color-gray-500">(65)</span>
+                                                    </div>
                                                 </div>
+                                            </div><a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
+                                            <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main"><?php echo $row['selling_price']; ?></strong>
+                                                <span class="color-gray-500 price-line"><?php echo $row['mrp']; ?></span>
                                             </div>
-                                        </div><a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
-                                        <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main"><?php echo $row['selling_price']; ?></strong>
-                                            <span class="color-gray-500 price-line"><?php echo $row['mrp']; ?></span>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                         <?php  }
+                        } else {
+                            echo "<p>No products found in this category.</p>";
+                        }
                         ?>
 
                     </div>
@@ -146,34 +148,38 @@
                                     <div class="row">
                                         <?php
                                         $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 9  ");
-                                        while ($row = mysqli_fetch_assoc($result)) {
+                                        if ($result && mysqli_num_rows($result) > 0) {
+                                            while ($row = mysqli_fetch_assoc($result)) {
                                         ?>
 
-                                            <div class="col-lg-4 col-md-6 col-sm-12">
-                                                <div class="card-grid-style-2">
-                                                    <label class="label font-xs color-gray-500 bg-success">New</label>
-                                                    <div class="image-box">
-                                                        <a href="single-product.php">
-                                                            <img src="admin/<?php echo $row['image']; ?>" alt="Ecom"></a>
-                                                    </div>
-                                                    <div class="info-right">
-                                                        <span class="font-xs color-gray-500"><?php echo $row['name']; ?></span><br>
-                                                        <a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
-                                                        <div class="rating">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <span class="font-xs color-gray-500">(65)</span>
+                                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <div class="card-grid-style-2">
+                                                        <label class="label font-xs color-gray-500 bg-success">New</label>
+                                                        <div class="image-box">
+                                                            <a href="single-product.php">
+                                                                <img src="admin/<?php echo $row['image']; ?>" alt="Ecom"></a>
                                                         </div>
-                                                        <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price']; ?></strong>
-                                                            <span class="color-gray-500 price-line"><?php echo $row['mrp']; ?></span>
+                                                        <div class="info-right">
+                                                            <span class="font-xs color-gray-500"><?php echo $row['name']; ?></span><br>
+                                                            <a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
+                                                            <div class="rating">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <span class="font-xs color-gray-500">(65)</span>
+                                                            </div>
+                                                            <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price']; ?></strong>
+                                                                <span class="color-gray-500 price-line"><?php echo $row['mrp']; ?></span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        <?php } ?>
+                                        <?php }
+                                        } else {
+                                            echo "<p>No products found in this category.</p>";
+                                        } ?>
 
                                     </div>
                                 </div>
@@ -313,23 +319,27 @@
                                         <div class="swiper-slide">
                                             <?php
                                             $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 3 ");
-                                            while ($row = mysqli_fetch_assoc($result)) {
+                                            if ($result && mysqli_num_rows($result) > 0) {
+                                                while ($row = mysqli_fetch_assoc($result)) {
                                             ?>
-                                                <div class="card-grid-style-2 card-grid-none-border hover-up">
-                                                    <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
-                                                    </div>
-                                                    <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
-                                                        <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                    <div class="card-grid-style-2 card-grid-none-border hover-up">
+                                                        <div class="image-box"><span class="label bg-brand-2">-17%</span>
+                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
-                                                        <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
-                                                            <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                        <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
+                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                            </div>
+                                                            <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
+                                                                <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            <?php } ?>
+                                            <?php }
+                                            } else {
+                                                echo "<p>No products found in this category.</p>";
+                                            } ?>
                                         </div>
                                     </div>
                                 </div>
@@ -351,23 +361,27 @@
                                         <div class="swiper-slide">
                                             <?php
                                             $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 3 OFFSET 3 ");
-                                            while ($row = mysqli_fetch_assoc($result)) {
+                                            if ($result && mysqli_num_rows($result) > 0) {
+                                                while ($row = mysqli_fetch_assoc($result)) {
                                             ?>
-                                                <div class="card-grid-style-2 card-grid-none-border hover-up">
-                                                    <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
-                                                    </div>
-                                                    <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
-                                                        <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                    <div class="card-grid-style-2 card-grid-none-border hover-up">
+                                                        <div class="image-box"><span class="label bg-brand-2">-17%</span>
+                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
-                                                        <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
-                                                            <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                        <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
+                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                            </div>
+                                                            <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
+                                                                <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            <?php } ?>
+                                            <?php }
+                                            } else {
+                                                echo "<p>No products found in this category.</p>";
+                                            } ?>
                                         </div>
                                     </div>
                                 </div>
@@ -389,23 +403,27 @@
                                         <div class="swiper-slide">
                                             <?php
                                             $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 2 OFFSET 6 ");
-                                            while ($row = mysqli_fetch_assoc($result)) {
+                                            if ($result && mysqli_num_rows($result) > 0) {
+                                                while ($row = mysqli_fetch_assoc($result)) {
                                             ?>
-                                                <div class="card-grid-style-2 card-grid-none-border hover-up">
-                                                    <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
-                                                    </div>
-                                                    <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
-                                                        <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                    <div class="card-grid-style-2 card-grid-none-border hover-up">
+                                                        <div class="image-box"><span class="label bg-brand-2">-17%</span>
+                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
-                                                        <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
-                                                            <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                        <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
+                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                            </div>
+                                                            <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
+                                                                <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            <?php } ?>
+                                            <?php }
+                                            } else {
+                                                echo "<p>No products found in this category.</p>";
+                                            } ?>
                                         </div>
                                     </div>
                                 </div>
@@ -427,23 +445,27 @@
                                         <div class="swiper-slide">
                                             <?php
                                             $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 3 OFFSET  ");
-                                            while ($row = mysqli_fetch_assoc($result)) {
+                                            if ($result && mysqli_num_rows($result) > 0) {
+                                                while ($row = mysqli_fetch_assoc($result)) {
                                             ?>
-                                                <div class="card-grid-style-2 card-grid-none-border hover-up">
-                                                    <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                        <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
-                                                    </div>
-                                                    <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                        <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
-                                                        <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                                                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                    <div class="card-grid-style-2 card-grid-none-border hover-up">
+                                                        <div class="image-box"><span class="label bg-brand-2">-17%</span>
+                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
-                                                        <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
-                                                            <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                        <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
+                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                                                                <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
+                                                            </div>
+                                                            <div class="price-info"><strong class="font-lg-bold color-brand-3 price-main"><?php echo $row['selling_price'] ?></strong>
+                                                                <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            <?php } ?>
+                                            <?php }
+                                            } else {
+                                                echo "<p>No products found in this category.</p>";
+                                            } ?>
                                         </div>
                                     </div>
                                 </div>
