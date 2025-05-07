@@ -1,4 +1,4 @@
-<footer class="footer" >
+<footer class="footer">
     <div class="footer-1">
         <div class="container">
             <div class="row">
@@ -88,6 +88,59 @@
         </div>
     </div>
 </footer>
+
+
+<script>
+    function add_cart(id, price) {
+
+        var qty = document.getElementById('qty').value;
+        // alert(qty);
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                cart_pro_id: id,
+                price: price,
+                qty: qty
+            },
+            success: function(response) {
+                alert("product added to cart");
+                window.location.reload();
+
+            }
+        });
+
+
+    }
+
+    function add_cart_session(id, price) {
+
+        var qty = document.getElementById('qty').value;
+        // alert(qty);
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                cart_pro_id_session: id,
+                price_session: price,
+                qty_session: qty
+            },
+            success: function(response) {
+                alert("product added to cart");
+                window.location.reload();
+
+            }
+        });
+
+
+    }
+</script>
+
+
+
+
+
+
 <script src="assets/js/vendors/modernizr-3.6.0.min.js"></script>
 <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
 <script src="assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>

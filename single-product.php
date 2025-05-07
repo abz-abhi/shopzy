@@ -1,4 +1,7 @@
-<?php include('common/header.php') ?>
+<?php
+include('session.php');
+include('common/header.php') ?>
+
 <main class="main">
   <div class="section-box">
     <div class="breadcrumbs-div">
@@ -21,148 +24,175 @@
   <section class="section-box shop-template">
     <?php
     $result = mysqli_query($con, "SELECT * FROM `product` WHERE `id` = '" . $_GET['prod_id'] . "' ");
-    while ($row = mysqli_fetch_assoc($result)) {
+    $row = mysqli_fetch_assoc($result);
     ?>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="gallery-image">
-              <div class="galleries">
-                <div class="detail-gallery">
-                  <label class="label">-17%</label>
-                  <div class="product-image-slider">
+    <div class="container">
 
-                    <figure class="border-radius-10">
-                      <img
-                        src="admin/<?php echo $row['image']; ?>"
-                        alt=" product image" />
-                    </figure>
-                    <figure class="border-radius-10">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-2.jpg"
-                        alt="product image" />
-                    </figure>
-                    <figure class="border-radius-10">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-3.jpg"
-                        alt="product image" />
-                    </figure>
-                    <figure class="border-radius-10">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-4.jpg"
-                        alt="product image" />
-                    </figure>
-                    <figure class="border-radius-10">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-5.jpg"
-                        alt="product image" />
-                    </figure>
-                    <figure class="border-radius-10">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-6.jpg"
-                        alt="product image" />
-                    </figure>
-                    <figure class="border-radius-10">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-7.jpg"
-                        alt="product image" />
-                    </figure>
 
-                  </div>
-                </div>
-                <div class="slider-nav-thumbnails">
 
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-1.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-2.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-3.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-4.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-5.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-6.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
-                  <div>
-                    <div class="item-thumb">
-                      <img
-                        src="assets/imgs/page/product/img-gallery-7.jpg"
-                        alt="product image" />
-                    </div>
-                  </div>
 
+
+
+
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="gallery-image">
+            <div class="galleries">
+              <div class="detail-gallery">
+                <label class="label">-17%</label>
+                <div class="product-image-slider">
+
+                  <figure class="border-radius-10">
+                    <img
+                      src="admin/<?php echo $row['image']; ?>"
+                      alt=" product image" />
+                  </figure>
+                  <figure class="border-radius-10">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-2.jpg"
+                      alt="product image" />
+                  </figure>
+                  <figure class="border-radius-10">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-3.jpg"
+                      alt="product image" />
+                  </figure>
+                  <figure class="border-radius-10">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-4.jpg"
+                      alt="product image" />
+                  </figure>
+                  <figure class="border-radius-10">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-5.jpg"
+                      alt="product image" />
+                  </figure>
+                  <figure class="border-radius-10">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-6.jpg"
+                      alt="product image" />
+                  </figure>
+                  <figure class="border-radius-10">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-7.jpg"
+                      alt="product image" />
+                  </figure>
 
                 </div>
               </div>
+              <div class="slider-nav-thumbnails">
+
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-1.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-2.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-3.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-4.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-5.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-6.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+                <div>
+                  <div class="item-thumb">
+                    <img
+                      src="assets/imgs/page/product/img-gallery-7.jpg"
+                      alt="product image" />
+                  </div>
+                </div>
+
+
+              </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <h3 class="color-brand-3 mb-25">
-              <?php echo $row['name'] ?>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="color-brand-3 mb-25">
+            <?php echo $row['name'] ?>
+          </h3>
+          <div class="rating mt-5">
+            <img src="assets/imgs/template/icons/star.svg" alt="Ecom" /><img
+              src="assets/imgs/template/icons/star.svg"
+              alt="Ecom" /><img src="assets/imgs/template/icons/star.svg" alt="Ecom" /><img
+              src="assets/imgs/template/icons/star.svg"
+              alt="Ecom" /><img src="assets/imgs/template/icons/star.svg" alt="Ecom" /><span
+              class="font-xs color-gray-500">
+              (65)</span>
+          </div>
+          <div class="border-bottom pt-20 mb-40"></div>
+          <div class="box-product-price">
+            <h3 class="color-brand-3 price-main d-inline-block mr-10">
+              <?php echo $row['selling_price'] ?>
             </h3>
-            <div class="rating mt-5">
-              <img src="assets/imgs/template/icons/star.svg" alt="Ecom" /><img
-                src="assets/imgs/template/icons/star.svg"
-                alt="Ecom" /><img src="assets/imgs/template/icons/star.svg" alt="Ecom" /><img
-                src="assets/imgs/template/icons/star.svg"
-                alt="Ecom" /><img src="assets/imgs/template/icons/star.svg" alt="Ecom" /><span
-                class="font-xs color-gray-500">
-                (65)</span>
-            </div>
-            <div class="border-bottom pt-20 mb-40"></div>
-            <div class="box-product-price">
-              <h3 class="color-brand-3 price-main d-inline-block mr-10">
-                <?php echo $row['selling_price'] ?>
-              </h3>
-              <span class="color-gray-500 price-line font-xl line-througt"><?php echo $row['mrp'] ?></span>
-            </div>
+            <span class="color-gray-500 price-line font-xl line-througt"><?php echo $row['mrp'] ?></span>
+          </div>
 
-            <div class="product-description mt-20 color-gray-900">
-              <?php echo $row['discription'] ?>
-            </div>
-          <?php } ?>
+          <div class="product-description mt-20 color-gray-900">
+            <?php echo $row['discription'] ?>
+          </div>
+
           <div class="buy-product mt-20">
             <p class="font-sm mb-20">Quantity</p>
             <div class="box-quantity">
               <div class="input-quantity">
+
+                <?php $check_result = mysqli_query($con, "SELECT * FROM cart WHERE pro_id='" . $row['id'] . "' AND user_id='$session_id' ");
+                if (mysqli_num_rows($check_result) > 0) {
+                  $row_cart_item = mysqli_fetch_assoc($check_result);
+                  $qty = $row_cart_item['qty'];
+                } else { {
+                    $qty = 1;
+                  }
+                } ?>
+
                 <input
                   class="font-xl color-brand-3"
                   type="text"
-                  value="1" /><span class="minus-cart"></span><span class="plus-cart"></span>
+                  id="qty" name="qty" value="<?php echo $qty; ?>" /><span class="minus-cart"></span><span class="plus-cart"></span>
               </div>
               <div class="button-buy">
-                <a class="btn btn-cart" href="shop-cart.php">Add to cart</a><a class="btn btn-buy" href="shop-checkout.php">Buy now</a>
+
+                <?php if (isset($_SESSION['user_id'])) { ?>
+                  <button class="btn btn-cart" onclick="add_cart(<?php echo $row['id'] ?>,<?php echo $row['selling_price'] ?>);">Add to cart</button>
+                <?php } else { ?>
+                  <button class="btn btn-cart" onclick="add_cart_session(<?php echo $row['id'] ?>,<?php echo $row['selling_price'] ?>);">Add to cart</button>
+                <?php } ?>
+
+
+
+                <!-- <a class="btn btn-buy" href="shop-checkout.php">Buy now</a> -->
               </div>
             </div>
           </div>
@@ -175,9 +205,9 @@
               <a class="font-md color-gray-900" href="shop-compare.php">Compare with similar items</a>
             </div>
           </div>
-          </div>
-          <div class="border-bottom pt-20 mb-40"></div>
         </div>
+        <div class="border-bottom pt-20 mb-40"></div>
+      </div>
   </section>
   <section class="section-box shop-template">
     <div class="container">

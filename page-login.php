@@ -1,5 +1,7 @@
-<?php
+<?php 
+include('session.php');
 include('common/header.php');
+
 ?>
 <main class="main">
   <section class="section-box shop-template mt-60">
@@ -16,6 +18,13 @@ include('common/header.php');
             $result = mysqli_query($con, $select_query);
 
             if (mysqli_num_rows($result) > 0) {
+              $row = mysqli_fetch_assoc($result);
+
+              $_SESSION['user_id'] = $row['id'];
+
+
+
+
               echo "<script>alert('Login sucess'); window.location.href='index.php'</script>";
             } else {
               echo "<script>alert('Entered wrong user name or password'); window.location.href='page-login.php'</script>";
@@ -62,3 +71,4 @@ include('common/header.php');
       </div>
     </div>
 </main>
+<?php include('common/footer.php'); ?>
