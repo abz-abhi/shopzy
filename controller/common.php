@@ -26,12 +26,29 @@ if ($_POST['cart_pro_id_session'] != '') {
     $qty = $_POST['qty_session'];
 
 
-    $itemData = array( 
-        'id' => $_POST['cart_pro_id_session'], 
-        'qty' =>  $_POST['qty_session'],         
+    $itemData = array(
+        'id' => $_POST['cart_pro_id_session'],
+        'qty' =>  $_POST['qty_session'],
         'price' => $_POST['price_session']
-    ); 
+    );
 
 
     $_SESSION['cart'][$item_id] =  $itemData;
+}
+
+if ($_POST['cart_proId'] != '') {
+    $delete = mysqli_query($con, "DELETE FROM `cart` WHERE `id`='" . $_POST['cart_proId'] . "'");
+}
+
+if ($_POST['qty_pro_id'] != '') {
+    $select_cart = mysqli_query($con, "SELECT * FROM `cart` WHERE `id`='" . $_POST['qty_pro_id'] . "'");
+    $resCart = mysqli_fetch_assoc($select_cart);
+
+    $minusQty = $resCart['qty'] - 1;
+
+    if ($minusQty < 1) {
+        $minusQty = 1;
+    }
+
+    $updateMinus = mysqli_query($con, "UPDATE `cart` SET `qty`='$minusQty' WHERE `id`='" . $_POST['qty_pro_id'] . "'");
 }

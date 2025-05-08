@@ -1,4 +1,6 @@
-<?php include('common/header.php') ?>
+<?php 
+include('session.php');
+include('common/header.php') ?>
     <main class="main">
       <div class="section-box">
         <div class="breadcrumbs-div">

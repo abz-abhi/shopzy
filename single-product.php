@@ -22,19 +22,13 @@ include('common/header.php') ?>
     </div>
   </div>
   <section class="section-box shop-template">
+
     <?php
     $result = mysqli_query($con, "SELECT * FROM `product` WHERE `id` = '" . $_GET['prod_id'] . "' ");
     $row = mysqli_fetch_assoc($result);
     ?>
+
     <div class="container">
-
-
-
-
-
-
-
-
       <div class="row">
         <div class="col-lg-6">
           <div class="gallery-image">
@@ -180,7 +174,9 @@ include('common/header.php') ?>
                 <input
                   class="font-xl color-brand-3"
                   type="text"
-                  id="qty" name="qty" value="<?php echo $qty; ?>" /><span class="minus-cart"></span><span class="plus-cart"></span>
+                  id="qty" name="qty" value="<?php echo $qty; ?>" />
+                  <span class="minus-cart"></span>
+                  <span class="plus-cart"></span>
               </div>
               <div class="button-buy">
 
@@ -191,15 +187,18 @@ include('common/header.php') ?>
                 <?php } ?>
 
 
-
-                <!-- <a class="btn btn-buy" href="shop-checkout.php">Buy now</a> -->
               </div>
             </div>
           </div>
           <div class="border-bottom pt-30 mb-20"></div>
-          <a class="mr-30" href="shop-wishlist.php"><span
-              class="btn btn-wishlist mr-5 opacity-100 transform-none"></span><span class="font-md color-gray-900">Add to Wish list</span></a><a href="shop-compare.php"><span
-              class="btn btn-compare mr-5 opacity-100 transform-none"></span><span class="font-md color-gray-900">Add to Compare</span></a>
+          <a class="mr-30" href="shop-wishlist.php">
+            <span class="btn btn-wishlist mr-5 opacity-100 transform-none"></span>
+            <span class="font-md color-gray-900">Add to Wish list</span>
+          </a>
+          <a href="shop-compare.php">
+            <span class="btn btn-compare mr-5 opacity-100 transform-none"></span>
+            <span class="font-md color-gray-900">Add to Compare</span>
+          </a>
           <div class="info-product mt-20 font-md color-gray-900">
             <div class="mt-20">
               <a class="font-md color-gray-900" href="shop-compare.php">Compare with similar items</a>

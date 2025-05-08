@@ -134,6 +134,36 @@
 
 
     }
+
+    function deleteCart_item(cartPro_id) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                cart_proId: cartPro_id
+            },
+            success: function(response) {
+                alert("item deleted");
+                $("#cartList").load(window.location.href + " #cartList");
+            }
+
+        })
+    }
+
+    function minusQty(QtyPro_id,cartPro_qty) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                qty_pro_id: QtyPro_id,
+                cartItem_qty:cartPro_qty
+            },
+            success: function(response) {
+                alert("qty decrease");
+                $("#cartList").load(window.location.href + " #cartList");
+            }
+        });
+    }
 </script>
 
 

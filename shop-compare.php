@@ -1,4 +1,6 @@
-<?php include('common/header.php') ?>
+<?php 
+include('session.php');
+include('common/header.php'); ?>
     <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
       <div class="mobile-header-wrapper-inner">
         <div class="mobile-header-content-area">

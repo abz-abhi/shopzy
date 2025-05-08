@@ -24,7 +24,7 @@
                     <div class="header-search">
                         <div class="box-header-search">
                             <form class="form-search" method="post" action="#">
-                                <div class="box-category" style="background-color: red;">
+                                <div class="box-category">
                                     <select class="select-active select2-hidden-accessible">
                                         <option>All categories</option>
                                         <?php
@@ -70,9 +70,20 @@
                                 </li>
                             </ul>
                         </nav>
-                        <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
+                        <div class="burger-icon burger-icon-white">
+                            <span class="burger-icon-top"></span>
+                            <span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span>
+                        </div>
                     </div>
+                    <span> Welcome <?php if (isset($_SESSION['user_id'])) {
+                                        echo $row_user['user_name'];
+                                    } else {
+                                        echo 'Guest';
+                                    } ?></span>
                     <div class="header-shop">
+
+
+
                         <?php if (isset($_SESSION['user_id'])) { ?>
                             <div class="d-inline-block box-dropdown-cart"><span class="font-lg icon-list icon-account"><span>Account</span></span>
                                 <div class="dropdown-account">
@@ -176,14 +187,14 @@
                             // } 
                             ?>
                             <div class="d-inline-block box-dropdown-cart">
-                                <span class="font-lg icon-list icon-cart"><span>Cart</span><span class="number-item font-xs"><?php echo count( $session_cart); ?></span></span>
+                                <span class="font-lg icon-list icon-cart"><span>Cart</span><span class="number-item font-xs"><?php echo count($session_cart); ?></span></span>
                                 <div class="dropdown-cart">
 
                                     <?php if (isset($_SESSION['cart'])) { ?>
 
-                                        <?php 
-                                         $total_cart_amt =0;
-                                         foreach ($session_cart as $key => $value) {
+                                        <?php
+                                        $total_cart_amt = 0;
+                                        foreach ($session_cart as $key => $value) {
 
                                             $result_cartproduct = mysqli_query($con, "SELECT * FROM product WHERE id='" . $value['id'] . "'");
                                             $row_cartproduct = mysqli_fetch_assoc($result_cartproduct);
@@ -244,170 +255,3 @@
             </div>
         </div>
     </header>
-    <div class="sidebar-left"><a class="btn btn-open" href="#"></a>
-        <ul class="menu-icons hidden">
-            <li><a href="javascript:void(0)"><img src="assets/imgs/template/monitor.svg" alt="Ecom"></a></li>
-            <li><a href="javascript:void(0)"><img src="assets/imgs/template/mobile.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/game.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/clock.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/airpod.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/airpods.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/mouse.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/music-play.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/bluetooth.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/clound.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/electricity.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/cpu.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/devices.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/driver.svg" alt="Ecom"></a></li>
-            <li><a href="#"><img src="assets/imgs/template/lamp.svg" alt="Ecom"></a></li>
-        </ul>
-        <ul class="menu-texts menu-close">
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/monitor.svg" alt="Ecom"></span><span class="text-link">Computers &amp; Accessories</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Computer Accessories</a></li>
-                    <li><a href="shop-grid-2.php">Computer Cases</a></li>
-                    <li><a href="shop-grid-2.php">Laptop</a></li>
-                    <li><a href="shop-grid-2.php">HDD</a></li>
-                    <li><a href="shop-grid-2.php">RAM</a></li>
-                    <li><a href="shop-grid-2.php">Headphone</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="#"><span class="img-link"><img src="assets/imgs/template/mobile.svg" alt="Ecom"></span><span class="text-link">Cell Phones</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Phone Accessories</a></li>
-                    <li><a href="shop-grid-2.php">Phone Cases</a></li>
-                    <li><a href="shop-grid-2.php">Postpaid Phones</a></li>
-                    <li><a href="shop-grid-2.php">Unlocked Phones</a></li>
-                    <li><a href="shop-grid-2.php">Prepaid Phones</a></li>
-                    <li><a href="shop-grid-2.php">Prepaid Plans</a></li>
-                    <li><a href="shop-grid-2.php">Refurbished Phones</a></li>
-                    <li><a href="shop-grid-2.php">Straight Talk</a></li>
-                    <li><a href="shop-grid-2.php">iPhone</a></li>
-                    <li><a href="shop-grid-2.php">Samsung Galaxy</a></li>
-                    <li><a href="shop-grid-2.php">Samsung Galaxy</a></li>
-                    <li><a href="shop-grid-2.php">Samsung Galaxy</a></li>
-                    <li><a href="shop-grid-2.php">Samsung Galaxy</a></li>
-                    <li><a href="shop-grid-2.php">Samsung Galaxy</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/game.svg" alt="Ecom"></span><span class="text-link">Gaming Gatgets</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Wireless Routers</a></li>
-                    <li><a href="shop-grid-2.php">Cool New Gadgets</a></li>
-                    <li><a href="shop-grid-2.php">Tech and Gadgets</a></li>
-                    <li><a href="shop-grid-2.php">Geek Gifts and Gadgets</a></li>
-                    <li><a href="shop-grid-2.php">Xbox Accessories</a></li>
-                    <li><a href="shop-grid-2.php">PlayStation Accessories</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/clock.svg" alt="Ecom"></span><span class="text-link">Smart watches</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Smart Watches</a></li>
-                    <li><a href="shop-grid-2.php">Fashion Smart Watches</a></li>
-                    <li><a href="shop-grid-2.php">Smart Bracelets</a></li>
-                    <li><a href="shop-grid-2.php">Pocket Watches</a></li>
-                    <li><a href="shop-grid-2.php">Smart Rings</a></li>
-                    <li><a href="shop-grid-2.php">Other Watches</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/airpods.svg" alt="Ecom"></span><span class="text-link">Wired Headphone</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">On-Ear Headphones</a></li>
-                    <li><a href="shop-grid-2.php">Earbud & In-Ear</a></li>
-                    <li><a href="shop-grid-2.php">DJ Headphones</a></li>
-                    <li><a href="shop-grid-2.php">PC Accessories</a></li>
-                    <li><a href="shop-grid-2.php">PC Game Headsets</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/mouse.svg" alt="Ecom"></span><span class="text-link">Mouse &amp; Keyboard</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Logitech</a></li>
-                    <li><a href="shop-grid-2.php">Redragon</a></li>
-                    <li><a href="shop-grid-2.php">Amazon Basics</a></li>
-                    <li><a href="shop-grid-2.php">Microsoft</a></li>
-                    <li><a href="shop-grid-2.php">MageGee</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/music-play.svg" alt="Ecom"></span><span class="text-link">Headphone</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Car Audio Systems</a></li>
-                    <li><a href="shop-grid-2.php">Cellphones</a></li>
-                    <li><a href="shop-grid-2.php">Desktops</a></li>
-                    <li><a href="shop-grid-2.php">Gaming Consoles</a></li>
-                    <li><a href="shop-grid-2.php">Telephones</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/bluetooth.svg" alt="Ecom"></span><span class="text-link">Bluetooth devices</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Player Accessories</a></li>
-                    <li><a href="shop-grid-2.php">Computer Accessories</a></li>
-                    <li><a href="shop-grid-2.php">Speakers & Audio</a></li>
-                    <li><a href="shop-grid-2.php">Computer Networking</a></li>
-                    <li><a href="shop-grid-2.php">Movies & Films</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/clound.svg" alt="Ecom"></span><span class="text-link">Cloud Software</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Android</a></li>
-                    <li><a href="shop-grid-2.php">Linux & Unix</a></li>
-                    <li><a href="shop-grid-2.php">Macintosh</a></li>
-                    <li><a href="shop-grid-2.php">Windows</a></li>
-                    <li><a href="shop-grid-2.php">iPhone & iOS</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/electricity.svg" alt="Ecom"></span><span class="text-link">Electric accessories</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Antenna Toppers</a></li>
-                    <li><a href="shop-grid-2.php">Automotive Body Armor</a></li>
-                    <li><a href="shop-grid-2.php">Power Inverter</a></li>
-                    <li><a href="shop-grid-2.php">Gas Tank Doors</a></li>
-                    <li><a href="shop-grid-2.php">Hood Scoops & Vents</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/cpu.svg" alt="Ecom"></span><span class="text-link">Mainboard &amp; CPU</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Computer CPU Processors</a></li>
-                    <li><a href="shop-grid-2.php">Internal Fans & Cooling</a></li>
-                    <li><a href="shop-grid-2.php">Graphics Cards</a></li>
-                    <li><a href="shop-grid-2.php">Network I/O Port Cards</a></li>
-                    <li><a href="shop-grid-2.php">Internal Memory Card</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/devices.svg" alt="Ecom"></span><span class="text-link">Desktop PC</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Graphic PC</a></li>
-                    <li><a href="shop-grid-2.php">Office PC</a></li>
-                    <li><a href="shop-grid-2.php">Gaming PC</a></li>
-                    <li><a href="shop-grid-2.php">Server</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/driver.svg" alt="Ecom"></span><span class="text-link">Speaker</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">JBL</a></li>
-                    <li><a href="shop-grid-2.php">Anker</a></li>
-                    <li><a href="shop-grid-2.php">Pyle</a></li>
-                    <li><a href="shop-grid-2.php">Bose</a></li>
-                    <li><a href="shop-grid-2.php">Logitech</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/airpod.svg" alt="Ecom"></span><span class="text-link">Bluetooth Headphone</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">On-Ear Headphones</a></li>
-                    <li><a href="shop-grid-2.php">In-Ear Headphones</a></li>
-                    <li><a href="shop-grid-2.php">Earbud</a></li>
-                    <li><a href="shop-grid-2.php">Over-Ear Headphones</a></li>
-                    <li><a href="shop-grid-2.php">Other</a></li>
-                </ul>
-            </li>
-            <li class="has-children"><a href="shop-grid-2.php"><span class="img-link"><img src="assets/imgs/template/lamp.svg" alt="Ecom"></span><span class="text-link">Computer Decor</span></a>
-                <ul class="sub-menu">
-                    <li><a href="shop-grid-2.php">Copyholders</a></li>
-                    <li><a href="shop-grid-2.php">Office Bookends</a></li>
-                    <li><a href="shop-grid-2.php">Business Card Holders</a></li>
-                    <li><a href="shop-grid-2.php">Lap Desks</a></li>
-                    <li><a href="shop-grid-2.php">Mouse Pads</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
