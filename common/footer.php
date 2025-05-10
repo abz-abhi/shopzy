@@ -186,12 +186,43 @@
             },
             success: function(response) {
                 alert("product added to cart");
-                window.location.reload();
+                $("#cartList").load(window.location.href + " #cartList");
 
             }
         });
 
 
+    }
+
+    function plusQty_session(id) {
+
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                sessionId_plus: id
+            },
+            success: function(response) {
+                $("#cartList").load(window.location.href + " #cartList");
+
+            }
+        });
+    }
+
+       function minusQty_session(id) {
+
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                sessionId_minus: id
+            },
+            success: function(response) {
+                alert("count -")
+                $("#cartList").load(window.location.href + " #cartList");
+
+            }
+        });
     }
 </script>
 

@@ -138,9 +138,9 @@ include('common/header.php') ?>
                             ?>
                             <input class="font-xl color-brand-3" type="text" value="<?php echo $value['qty'] ?>">
 
-                            <button type="button" onclick="minusQty_session(<?php // echo $row_cart['id']; 
+                            <button type="button" onclick="minusQty_session(<?php echo $value['id']; 
                                                                             ?>)" class="minus-cart reset-button"></button>
-                            <button type="button" onclick="plusQty_session(<?php // echo $row_cart['id']; 
+                            <button type="button" onclick="plusQty_session(<?php echo $value['id']; 
                                                                             ?>)" class="plus-cart reset-button"></button>
                           </div>
 
@@ -155,13 +155,6 @@ include('common/header.php') ?>
                       </div>
                     </div>
                   </div>
-
-
-
-
-
-
-
 
 
 

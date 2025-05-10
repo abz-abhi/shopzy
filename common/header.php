@@ -110,7 +110,10 @@
                                 </div>
                             </div>
                         <?php } ?>
-                        <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php"><span>Wishlist</span><span class="number-item font-xs">5</span></a>
+                        <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php">
+                            <span>Wishlist</span>
+                            <span class="number-item font-xs">5</span>
+                        </a>
 
                         <?php
 
@@ -125,8 +128,15 @@
                             } ?>
 
                             <div class="d-inline-block box-dropdown-cart">
-                                <span class="font-lg icon-list icon-cart"><span>Cart</span><span class="number-item font-xs"><?php echo $cart_count; ?></span></span>
-                                <div class="dropdown-cart">
+                                <span class="font-lg icon-list icon-cart">
+                                    <span>Cart</span>
+                                    <span class="number-item font-xs"><?php echo $cart_count; ?></span>
+                                </span>
+                                <div class="dropdown-cart" style=" max-height: 25rem; 
+                                                                   overflow-y: auto; 
+                                                                   overflow-x: hidden;  
+                                                                   padding-right: 10px; 
+                                                                   scroll-behavior: smooth; ">
 
 
                                     <?php
@@ -192,7 +202,11 @@
                                     <span>Cart</span>
                                     <span class="number-item font-xs"><?php echo count($session_cart); ?></span>
                                 </span>
-                                <div class="dropdown-cart">
+                                <div class="dropdown-cart" style=" max-height: 25rem; 
+                                                                   overflow-y: auto; 
+                                                                   overflow-x: hidden;  
+                                                                   padding-right: 10px; 
+                                                                   scroll-behavior: smooth; ">
 
                                     <?php if (isset($_SESSION['cart'])) { ?>
 

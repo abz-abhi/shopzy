@@ -72,11 +72,38 @@ if ($_POST['sessionId_delete']) {
     foreach ($_SESSION['cart'] as $key => $val) {
         if ($val['id'] == $sessionCart) {
             unset($_SESSION['cart'][$key]);
-            echo "item removed";
             exit;
         }
     }
-    echo "item not found";
-} else {
-    echo "id not provided";
+} 
+
+
+if (isset($_POST['sessionId_plus'])) {
+
+    $sessionCart_countPlus = $_POST['sessionId_plus'];
+
+    foreach ($_SESSION['cart'] as $key => $val) {
+
+        if ($val['id'] == $sessionCart_countPlus) {
+
+            $_SESSION['cart'][$key]['qty'] += 1;
+            exit;
+        }
+    }
 }
+
+if (isset($_POST['sessionId_minus'])) {
+
+    $sessionCart_countminus = $_POST['sessionId_minus'];
+
+    foreach ($_SESSION['cart'] as $key => $val) {
+
+        if ($val['id'] == $sessionCart_countminus) {
+
+            $_SESSION['cart'][$key]['qty'] -= 1;
+            exit;
+        }
+    }
+}
+
+
