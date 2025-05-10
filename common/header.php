@@ -181,13 +181,17 @@
                             <?php
 
                             $session_cart = $_SESSION['cart'];
+
                             // foreach ($session_cart as $key => $value) {
                             //     echo $value['id'] . '<br>' . $value['qty'] . '<br>'; // PHP Code to be executed
 
                             // } 
                             ?>
                             <div class="d-inline-block box-dropdown-cart">
-                                <span class="font-lg icon-list icon-cart"><span>Cart</span><span class="number-item font-xs"><?php echo count($session_cart); ?></span></span>
+                                <span class="font-lg icon-list icon-cart">
+                                    <span>Cart</span>
+                                    <span class="number-item font-xs"><?php echo count($session_cart); ?></span>
+                                </span>
                                 <div class="dropdown-cart">
 
                                     <?php if (isset($_SESSION['cart'])) { ?>

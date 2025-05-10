@@ -150,19 +150,48 @@
         })
     }
 
-    function minusQty(QtyPro_id,cartPro_qty) {
+    function minusQty(QtyPro_id) {
         $.ajax({
             type: "POST",
             url: 'controller/common.php',
             data: {
                 qty_pro_id: QtyPro_id,
-                cartItem_qty:cartPro_qty
             },
             success: function(response) {
-                alert("qty decrease");
                 $("#cartList").load(window.location.href + " #cartList");
             }
         });
+    }
+
+    function plusQty(QtyPro_id) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                pro_qtyId: QtyPro_id,
+            },
+            success: function(response) {
+                $("#cartList").load(window.location.href + " #cartList");
+            }
+        });
+    }
+
+    function deleteSession_item(id) {
+
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                sessionId_delete: id
+            },
+            success: function(response) {
+                alert("product added to cart");
+                window.location.reload();
+
+            }
+        });
+
+
     }
 </script>
 

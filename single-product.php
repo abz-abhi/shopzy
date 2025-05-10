@@ -166,7 +166,18 @@ include('common/header.php') ?>
                 if (mysqli_num_rows($check_result) > 0) {
                   $row_cart_item = mysqli_fetch_assoc($check_result);
                   $qty = $row_cart_item['qty'];
-                } else { {
+                } else {
+                  if (isset($_SESSION['cart'])) {
+
+                    foreach ($session_cart as $key => $value) {
+                      if ($value['id'] == $row['id']) {
+                        $qty = $value['qty'];
+                      } else {
+                        $qty = 1;
+                      }
+                    }
+                  } else {
+
                     $qty = 1;
                   }
                 } ?>
@@ -175,8 +186,8 @@ include('common/header.php') ?>
                   class="font-xl color-brand-3"
                   type="text"
                   id="qty" name="qty" value="<?php echo $qty; ?>" />
-                  <span class="minus-cart"></span>
-                  <span class="plus-cart"></span>
+                <span class="minus-cart"></span>
+                <span class="plus-cart"></span>
               </div>
               <div class="button-buy">
 

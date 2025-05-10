@@ -28,64 +28,146 @@ include('common/header.php') ?>
                 <div class="wishlist-remove"><span class="font-md-bold color-brand-3">Remove</span></div>
               </div>
             </div>
+
             <?php
-            $select = mysqli_query($con, "SELECT * FROM `cart` ORDER BY `id` ");
-            while ($row_cart = mysqli_fetch_assoc($select)) {
+            if (isset($_SESSION['user_id'])) {
+              $select = mysqli_query($con, "SELECT * FROM `cart` ORDER BY `id` ");
+              while ($row_cart = mysqli_fetch_assoc($select)) {
 
-              if ($row_cart > 0) {
+                if ($row_cart > 0) {
 
-                $cart_pro_select = mysqli_query($con, "SELECT * FROM `product` WHERE `id`='" . $row_cart['pro_id'] . "' ");
+                  $cart_pro_select = mysqli_query($con, "SELECT * FROM `product` WHERE `id`='" . $row_cart['pro_id'] . "' ");
 
-                $row_cart_pro = mysqli_fetch_assoc($cart_pro_select);
+                  $row_cart_pro = mysqli_fetch_assoc($cart_pro_select);
 
 
             ?>
 
-                <div class="content-wishlist mb-20">
-                  <div class="item-wishlist">
-                    <div class="wishlist-product">
-                      <div class="product-wishlist">
-                        <div class="product-image">
-                          <a href="single-product.php">
-                            <img src="admin/<?php echo $row_cart_pro['image']; ?>" alt="Ecom">
-                          </a>
-                        </div>
-                        <div class="product-info"><a href="single-product.php">
-                            <h6 class="color-brand-3"><?php echo  $row_cart_pro['name']; ?></h6>
-                          </a>
-                          <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
-                            <span class="font-xs color-gray-500"> (65)</span>
+                  <div class="content-wishlist mb-20">
+                    <div class="item-wishlist">
+                      <div class="wishlist-product">
+                        <div class="product-wishlist">
+                          <div class="product-image">
+                            <a href="single-product.php">
+                              <img src="admin/<?php echo $row_cart_pro['image']; ?>" alt="Ecom">
+                            </a>
+                          </div>
+                          <div class="product-info"><a href="single-product.php">
+                              <h6 class="color-brand-3"><?php echo  $row_cart_pro['name']; ?></h6>
+                            </a>
+                            <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <span class="font-xs color-gray-500"> (65)</span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="wishlist-price">
-                      <h4 class="color-brand-3"><?php echo $row_cart['price'] ?></h4>
-                    </div>
-                    <div class="wishlist-status">
-                      <div class="box-quantity">
-                        <div class="input-quantity">
-                          <?php $cart_qty = $row_cart['qty']; ?>
-                          <input class="font-xl color-brand-3" type="text" value="<?php echo $cart_qty ?>">
+                      <div class="wishlist-price">
+                        <h4 class="color-brand-3"><?php echo $row_cart['price'] ?></h4>
+                      </div>
+                      <div class="wishlist-status">
+                        <div class="box-quantity">
+                          <div class="input-quantity">
+                            <?php $cart_qty = $row_cart['qty']; ?>
+                            <input class="font-xl color-brand-3" type="text" value="<?php echo $cart_qty ?>">
 
-                          <button type="button" onclick="minusQty(<?php echo $row_cart['id'];?>)" class="minus-cart reset-button"></button>
-                          <button type="button" onclick="plusQty(<?php echo $row_cart['id'];?>)" class="plus-cart reset-button"></button>
+                            <button type="button" onclick="minusQty(<?php echo $row_cart['id']; ?>)" class="minus-cart reset-button"></button>
+                            <button type="button" onclick="plusQty(<?php echo $row_cart['id']; ?>)" class="plus-cart reset-button"></button>
+                          </div>
+
                         </div>
+                      </div>
+                      <div class="wishlist-action">
+                        <h4 class="color-brand-3"><?php echo  $row_cart['qty'] * $row_cart['price'] ?></h4>
+                      </div>
+                      <div class="wishlist-remove"><button class="btn btn-delete" onclick="deleteCart_item(<?php echo $row_cart['id'] ?>)"></button></div>
+                    </div>
+                  </div>
+              <?php  }
+              }
+            } else { ?>
 
+              <?php
+
+              if (isset($_SESSION['cart'])) {
+                $session_cart = $_SESSION['cart'];
+                foreach ($session_cart as $key => $value) {
+
+                  $result_cartproduct = mysqli_query($con, "SELECT * FROM product WHERE id='" . $value['id'] . "'");
+                  $row_cartproduct = mysqli_fetch_assoc($result_cartproduct);
+
+              ?>
+
+
+
+
+                  <div class="content-wishlist mb-20">
+                    <div class="item-wishlist">
+                      <div class="wishlist-product">
+                        <div class="product-wishlist">
+                          <div class="product-image">
+                            <a href="single-product.php">
+                              <img src="admin/<?php echo $row_cartproduct['image']; ?>" alt="Ecom">
+                            </a>
+                          </div>
+                          <div class="product-info"><a href="single-product.php">
+                              <h6 class="color-brand-3"><?php echo  $row_cartproduct['name']; ?></h6>
+                            </a>
+                            <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                              <span class="font-xs color-gray-500"> (65)</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="wishlist-price">
+
+                        <h4 class="color-brand-3"><?php echo $row_cartproduct['selling_price']
+                                                  ?></h4>
+                      </div>
+                      <div class="wishlist-status">
+                        <div class="box-quantity">
+                          <div class="input-quantity">
+                            <?php // $cart_qty = $row_cartproduct['qty']; 
+                            ?>
+                            <input class="font-xl color-brand-3" type="text" value="<?php echo $value['qty'] ?>">
+
+                            <button type="button" onclick="minusQty_session(<?php // echo $row_cart['id']; 
+                                                                            ?>)" class="minus-cart reset-button"></button>
+                            <button type="button" onclick="plusQty_session(<?php // echo $row_cart['id']; 
+                                                                            ?>)" class="plus-cart reset-button"></button>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="wishlist-action">
+                        <h4 class="color-brand-3"><?php echo $value['qty'] * $value['price']
+                                                  ?></h4>
+                      </div>
+                      <div class="wishlist-remove">
+                        <button class="btn btn-delete" onclick="deleteSession_item(<?php echo $value['id'] ?>)"></button>
                       </div>
                     </div>
-                    <div class="wishlist-action">
-                      <h4 class="color-brand-3"><?php echo  $row_cart['qty'] * $row_cart['price'] ?></h4>
-                    </div>
-                    <div class="wishlist-remove"><button class="btn btn-delete" onclick="deleteCart_item(<?php echo $row_cart['id'] ?>)"></button></div>
                   </div>
-                </div>
-            <?php  }
-            } ?>
+
+
+
+
+
+
+
+
+
+
+            <?php }
+              }
+            }  ?>
             <div class="row mb-40">
               <div class="col-lg-6 col-md-6 col-sm-6-col-6">
                 <a class="btn btn-buy w-auto arrow-back mb-10" href="index.php">Continue shopping</a>
