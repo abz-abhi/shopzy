@@ -75,7 +75,7 @@ if ($_POST['sessionId_delete']) {
             exit;
         }
     }
-} 
+}
 
 
 if (isset($_POST['sessionId_plus'])) {
@@ -107,3 +107,17 @@ if (isset($_POST['sessionId_minus'])) {
 }
 
 
+if (isset($_POST['prod_id_fromCart'])) {
+    $prod_id = $_POST['prod_id_fromCart'];
+    $prod_price = $_POST['prod_price_fromCart'];
+    $user_id = $session_id;
+
+    $checkCart = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` = '$user_id' AND `pro_id` = '$prod_id'");
+
+    if (mysqli_num_rows($checkCart) == 0) {
+
+        $addCart = "INSERT INTO `cart` (`user_id`, `pro_id`, `qty`, `price`, `created_on`, `updated_on`)
+                    VALUES ('$user_id', '$prod_id', 1, '$prod_price', NOW(), NOW())";
+        mysqli_query($con, $addCart);
+    }
+}

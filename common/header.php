@@ -93,7 +93,6 @@
                                         <li><a href="page-account.php">My Orders</a></li>
                                         <li><a href="shop-wishlist.php">My Wishlist</a></li>
                                         <li><a href="page-account.php">Setting</a></li>
-
                                         <li><a href="logout.php">Sign out</a></li>
                                     </ul>
                                 </div>
@@ -190,18 +189,17 @@
                         <?php } else { ?>
                             <?php
 
-                            $session_cart = $_SESSION['cart'];
+                            $session_cart = $_SESSION['cart'] ?? [];
 
-                            // foreach ($session_cart as $key => $value) {
-                            //     echo $value['id'] . '<br>' . $value['qty'] . '<br>'; // PHP Code to be executed
-
-                            // } 
                             ?>
                             <div class="d-inline-block box-dropdown-cart">
                                 <span class="font-lg icon-list icon-cart">
                                     <span>Cart</span>
-                                    <span class="number-item font-xs"><?php echo count($session_cart); ?></span>
+                                    <span class="number-item font-xs">
+                                        <?php echo isset($session_cart) && count($session_cart) > 0 ? count($session_cart) : 0; ?>
+                                    </span>
                                 </span>
+
                                 <div class="dropdown-cart" style=" max-height: 25rem; 
                                                                    overflow-y: auto; 
                                                                    overflow-x: hidden;  
@@ -219,7 +217,9 @@
 
                                         ?>
                                             <div class="item-cart mb-20">
-                                                <div class="cart-image"><img src="admin/<?php echo $row_cartproduct['image']; ?>" alt="Ecom"></div>
+                                                <div class="cart-image">
+                                                    <img src="admin/<?php echo $row_cartproduct['image']; ?>" alt="Ecom">
+                                                </div>
                                                 <div class="cart-info"><a class="font-sm-bold color-brand-3" href="single-product.php"><?php echo $row_cartproduct['name']; ?></a>
                                                     <p><span class="color-brand-2 font-sm-bold"><?php echo $value['qty'];  ?> x $<?php echo $value['price'];  ?></span></p>
                                                 </div>

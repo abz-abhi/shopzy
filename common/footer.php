@@ -104,7 +104,6 @@
                 qty: qty
             },
             success: function(response) {
-                alert("product added to cart");
                 window.location.reload();
 
             }
@@ -126,7 +125,6 @@
                 qty_session: qty
             },
             success: function(response) {
-                alert("product added to cart");
                 window.location.reload();
 
             }
@@ -143,7 +141,6 @@
                 cart_proId: cartPro_id
             },
             success: function(response) {
-                alert("item deleted");
                 $("#cartList").load(window.location.href + " #cartList");
             }
 
@@ -185,7 +182,6 @@
                 sessionId_delete: id
             },
             success: function(response) {
-                alert("product added to cart");
                 $("#cartList").load(window.location.href + " #cartList");
 
             }
@@ -209,7 +205,7 @@
         });
     }
 
-       function minusQty_session(id) {
+    function minusQty_session(id) {
 
         $.ajax({
             type: "POST",
@@ -218,7 +214,22 @@
                 sessionId_minus: id
             },
             success: function(response) {
-                alert("count -")
+                $("#cartList").load(window.location.href + " #cartList");
+
+            }
+        });
+    }
+
+    function addCartfrom_cart(id,price) {
+
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                prod_id_fromCart: id,
+                prod_price_fromCart : price
+            },
+            success: function(response) {
                 $("#cartList").load(window.location.href + " #cartList");
 
             }
