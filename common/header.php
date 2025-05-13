@@ -171,7 +171,6 @@
                                             </div>
                                             <div class="row mt-15">
                                                 <div class="col-6 text-start"><a class="btn btn-cart w-auto" href="shop-cart.php">View cart</a></div>
-                                                <div class="col-6"><a class="btn btn-buy w-auto" href="shop-checkout.php">Checkout</a></div>
                                             </div>
                                         </div>
                                     <?php } else {
@@ -236,7 +235,6 @@
                                             </div>
                                             <div class="row mt-15">
                                                 <div class="col-6 text-start"><a class="btn btn-cart w-auto" href="shop-cart.php">View cart</a></div>
-                                                <div class="col-6"><a class="btn btn-buy w-auto" href="shop-checkout.php">Checkout</a></div>
                                             </div>
                                         </div>
 
@@ -248,20 +246,6 @@
                                 </div>
                             </div>
                         <?php }
-                        ?>
-                        <?php
-                        // echo '<pre>';
-                        // print_r($_SESSION['cart']);
-                        // echo '</pre>';
-
-
-                        // $session_cart = $_SESSION['cart'];
-                        // foreach ($session_cart as $key => $value) {
-                        //     echo $value['id'] . '<br>' . $value['qty'] . '<br>'; // PHP Code to be executed
-
-                        // }
-
-
                         ?>
 
 

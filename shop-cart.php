@@ -172,7 +172,7 @@ include('common/header.php') ?>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="summary-cart" >
+          <div class="summary-cart">
 
             <?php
             if (isset($_SESSION['user_id'])) {
@@ -193,7 +193,7 @@ include('common/header.php') ?>
                     <span class="font-md-bold color-gray-500">Subtotal</span>
                   </div>
                   <div class="col-6 text-end">
-                    <h4 id="subTotal" ><?php echo $total ?></h4>
+                    <h4 id="subTotal"><?php echo $total ?></h4>
                   </div>
                 </div>
               </div>
@@ -217,15 +217,67 @@ include('common/header.php') ?>
                 <div class="row">
                   <div class="col-6"><span class="font-md-bold color-gray-500">Total</span></div>
                   <div class="col-6 text-end">
-                    <h4 id="cartTotal" ><?php echo $total ?></h4>
+                    <h4 id="cartTotal"><?php echo $total ?></h4>
                   </div>
                 </div>
               </div>
-            <?php }
-            ?>
+              <?php } else {
+              if (isset($_SESSION['cart'])) {
+
+                $session_cart = $_SESSION['cart'];
+                $total = 0;
+
+                foreach ($session_cart as $value) {
+
+                  $total += $value['qty'] * $value['price'];
+                }
+              ?>
+                <div class="border-bottom mb-10">
+                  <div class="row">
+                    <div class="col-6">
+                      <span class="font-md-bold color-gray-500">Subtotal</span>
+                    </div>
+                    <div class="col-6 text-end">
+                      <h4 id="subTotal"><?php echo $total ?></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="border-bottom mb-10">
+                  <div class="row">
+                    <div class="col-6"><span class="font-md-bold color-gray-500">Shipping</span></div>
+                    <div class="col-6 text-end">
+                      <h4> Free</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="border-bottom mb-10">
+                  <div class="row">
+                    <div class="col-6"><span class="font-md-bold color-gray-500">Estimate for</span></div>
+                    <div class="col-6 text-end">
+                      <h6>7 Days</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-10">
+                  <div class="row">
+                    <div class="col-6"><span class="font-md-bold color-gray-500">Total</span></div>
+                    <div class="col-6 text-end">
+                      <h4 id="cartTotal"><?php echo $total ?></h4>
+                    </div>
+                  </div>
+                </div>
 
 
-            <div class="box-button"><a class="btn btn-buy" href="shop-checkout.php">Proceed To CheckOut</a></div>
+
+
+              <?php
+              }
+            }
+            if (isset($_SESSION['user_id'])) { ?>
+              <div class="box-button"><a class="btn btn-buy" href="shop-checkout.php">Proceed To CheckOut</a></div>
+            <?php } else { ?>
+              <div class="box-button"><a class="btn btn-buy" href="page-login.php">Proceed To CheckOut</a></div>
+            <?php } ?>
           </div>
         </div>
 
