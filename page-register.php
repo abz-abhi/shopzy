@@ -1,6 +1,42 @@
 <?php
 include('session.php');
-include('common\header.php');
+include('common/header.php');
+
+if (isset($_POST['createAcco'])) {
+
+  $userName = trim($_POST['userName']);
+  $phone = trim($_POST['phoneNum']);
+  $email = trim($_POST['email']);
+  $dateTime = date("Y-m-d H:i:s");
+
+  if ($_POST['password'] == $_POST['confPass']) {
+
+    $encPass = md5($_POST['password']);
+
+    $selectMail = mysqli_query($con, "SELECT `id` FROM `users` WHERE `email` ='" . $email . "' ");
+
+    if (mysqli_num_rows($selectMail) > 0) {
+      echo "❌ email alrder exists";
+    } else {
+
+      $selectNumber = mysqli_query($con, "SELECT `id` FROM `users` WHERE `phone_number` ='" . $phone . "'");
+
+      if (mysqli_num_rows($selectNumber) > 0) {
+        $message = "❌ Phone number alredy exists.";
+      } else {
+        $user_query = " INSERT INTO `users`(`user_level`,`user_name`,`phone_number`,`email`,`password`,`status`,`created_on`,`updated_on`)
+                                          VALUES ('3','$userName','$phone','$email','$encPass','1','$dateTime','$dateTime' ) ";
+
+        if (mysqli_query($con, $user_query)) {
+           echo "<script>window.location.href='page-login.php'</script>";
+        } 
+      }
+    }
+  } else {
+    $message = "❌ Passwords do not match.";
+  }
+}
+
 ?>
 <main class="main">
   <section class="section-box shop-template mt-60">
@@ -9,30 +45,10 @@ include('common\header.php');
         <div class="col-lg-1"></div>
         <div class="col-lg-5">
           <h3>Create an account</h3>
-          <?php
-          if (isset($_POST['createAcco'])) {
-
-            $userName = $_POST['userName'];
-            $email = $_POST['email'];
-            $phone = $_POST['phoneNum'];
-            $dateTime = date("Y-m-d H:i:s");
-
-            if ($_POST['password'] == $_POST['confPass']) {
-              $encPass = md5($_POST['password']);
-
-              $user_query = " INSERT INTO `users`(`user_level`,`user_name`,`phone_number`,`email`,`password`,`status`,`created_on`,`updated_on`)
-                                          VALUES ('3','$userName','$phone','$email','$encPass','1','$dateTime','$dateTime' ) ";
-
-              if (mysqli_query($con, $user_query)) {
-                echo "<script>alert('Registration succes'); window.location.href='page-login.php'</script>";
-              }
-            }
-          }
-
+          <?php  if (!empty($message)){ 
           ?>
-
-
-
+          <div class="alert alert-danger mt-3"><?php echo $message;?> </div>
+          <?php   }  ?>
           <form action="" method="POST">
             <div class="form-register mt-5 mb-10">
               <div class="form-group">
@@ -45,7 +61,7 @@ include('common\header.php');
               </div>
               <div class="form-group">
                 <label class="mb-5 font-sm color-gray-700">Email *</label>
-                <input name="email" class="form-control" type="mail" placeholder="@gmail.com" required>
+                <input name="email" class="form-control" type="email" placeholder="@gmail.com" required>
               </div>
               <div class="form-group">
                 <label class="mb-5 font-sm color-gray-700">Password *</label>
@@ -64,8 +80,11 @@ include('common\header.php');
               </div>
             </div>
           </form>
+
+
         </div>
       </div>
     </div>
   </section>
 </main>
+<?php include('common/footer.php') ?>
