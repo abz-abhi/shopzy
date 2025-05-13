@@ -87,10 +87,9 @@
                                 <div class="dropdown-account">
                                     <ul>
                                         <li><a href="page-account.php">My Account</a></li>
-                                        <li><a href="page-account.php">Order Tracking</a></li>
-                                        <li><a href="page-account.php">My Orders</a></li>
+                                        <li><a href="order-track.php">Order Tracking</a></li>
+                                        <li><a href="order.php">My Orders</a></li>
                                         <li><a href="shop-wishlist.php">My Wishlist</a></li>
-                                        <li><a href="page-account.php">Setting</a></li>
                                         <li><a href="logout.php">Sign out</a></li>
                                     </ul>
                                 </div>
