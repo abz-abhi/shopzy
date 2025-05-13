@@ -31,7 +31,9 @@ include('common/header.php') ?>
 
             <?php
             if (isset($_SESSION['user_id'])) {
-              $select = mysqli_query($con, "SELECT * FROM `cart` ORDER BY `id` ");
+
+            
+              $select = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` ='".$_SESSION['user_id']."' ");
               while ($row_cart = mysqli_fetch_assoc($select)) {
 
                 if ($row_cart > 0) {

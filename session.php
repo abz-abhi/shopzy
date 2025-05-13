@@ -15,20 +15,22 @@ if (isset($_SESSION["user_id"])) {
     $row_user = mysqli_fetch_assoc($result);
 
 
-
     if (isset($_SESSION['cart'])) {
+
         $session_cart = $_SESSION['cart'];
         foreach ($session_cart as $key => $value) {
 
             $selectCart = mysqli_query($con, "SELECT * FROM `cart` WHERE `pro_id` = '" . $value['id'] . "' ");
-            if (mysqli_fetch_assoc($selectCart) < 0) {
+            if (mysqli_fetch_assoc($selectCart) == '') {
 
                 $addCart = "INSERT `cart` (`user_id`, `pro_id`, `qty`, `price`, `created_on`, `updated_on`)
                                    VALUES ('$session_id','" . $value['id'] . "','" . $value['qty'] . "','" . $value['price'] . "','" . date('Y-m-d H:i:s') . "','" . date('Y-m-d H:i:s') . "') ";
                 mysqli_query($con, $addCart);
+
+                unset($_SESSION['cart']);
             }
         }
-        unset($_SESSION['cart']);
+        
     }
 } else {
 }

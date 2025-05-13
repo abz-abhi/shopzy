@@ -81,9 +81,7 @@
                                         echo 'Guest';
                                     } ?></span>
                     <div class="header-shop">
-
-
-
+                        
                         <?php if (isset($_SESSION['user_id'])) { ?>
                             <div class="d-inline-block box-dropdown-cart"><span class="font-lg icon-list icon-account"><span>Account</span></span>
                                 <div class="dropdown-account">

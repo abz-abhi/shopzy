@@ -32,8 +32,8 @@ if ($_POST['cart_pro_id_session'] != '') {
         'price' => $_POST['price_session']
     );
 
-
     $_SESSION['cart'][$item_id] =  $itemData;
+
 }
 
 if ($_POST['cart_proId'] != '') {
