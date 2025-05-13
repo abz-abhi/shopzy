@@ -141,9 +141,11 @@
                 cart_proId: cartPro_id
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
             }
-
         })
     }
 
@@ -155,7 +157,11 @@
                 qty_pro_id: QtyPro_id,
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
+
             }
         });
     }
@@ -168,7 +174,10 @@
                 pro_qtyId: QtyPro_id,
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
             }
         });
     }
@@ -182,8 +191,10 @@
                 sessionId_delete: id
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
-
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
             }
         });
 
@@ -199,8 +210,10 @@
                 sessionId_plus: id
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
-
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
             }
         });
     }
@@ -214,24 +227,28 @@
                 sessionId_minus: id
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
-
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
             }
         });
     }
 
-    function addCartfrom_cart(id,price) {
+    function addCartfrom_cart(id, price) {
 
         $.ajax({
             type: "POST",
             url: 'controller/common.php',
             data: {
                 prod_id_fromCart: id,
-                prod_price_fromCart : price
+                prod_price_fromCart: price
             },
             success: function(response) {
-                $("#cartList").load(window.location.href + " #cartList");
-
+                var url = window.location.href;
+                $("#cartList").load(url + " #cartList");
+                $("#subTotal").load(url + " #subTotal");
+                $("#cartTotal").load(url + " #cartTotal");
             }
         });
     }

@@ -32,8 +32,8 @@ include('common/header.php') ?>
             <?php
             if (isset($_SESSION['user_id'])) {
 
-            
-              $select = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` ='".$_SESSION['user_id']."' ");
+
+              $select = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` ='" . $_SESSION['user_id'] . "' ");
               while ($row_cart = mysqli_fetch_assoc($select)) {
 
                 if ($row_cart > 0) {
@@ -172,42 +172,63 @@ include('common/header.php') ?>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="summary-cart">
-            <div class="border-bottom mb-10">
-              <div class="row">
-                <div class="col-6"><span class="font-md-bold color-gray-500">Subtotal</span></div>
-                <div class="col-6 text-end">
-                  <h4> $2.51</h4>
+          <div class="summary-cart" >
+
+            <?php
+            if (isset($_SESSION['user_id'])) {
+
+
+              $select = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` ='" . $_SESSION['user_id'] . "' ");
+
+              $total = 0;
+
+              while ($row_cart = mysqli_fetch_assoc($select)) {
+
+                $total += $row_cart['price'] * $row_cart['qty'];
+              }
+            ?>
+              <div class="border-bottom mb-10">
+                <div class="row">
+                  <div class="col-6">
+                    <span class="font-md-bold color-gray-500">Subtotal</span>
+                  </div>
+                  <div class="col-6 text-end">
+                    <h4 id="subTotal" ><?php echo $total ?></h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="border-bottom mb-10">
-              <div class="row">
-                <div class="col-6"><span class="font-md-bold color-gray-500">Shipping</span></div>
-                <div class="col-6 text-end">
-                  <h4> Free</h4>
+              <div class="border-bottom mb-10">
+                <div class="row">
+                  <div class="col-6"><span class="font-md-bold color-gray-500">Shipping</span></div>
+                  <div class="col-6 text-end">
+                    <h4> Free</h4>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="border-bottom mb-10">
-              <div class="row">
-                <div class="col-6"><span class="font-md-bold color-gray-500">Estimate for</span></div>
-                <div class="col-6 text-end">
-                  <h6>United Kingdom</h6>
+              <div class="border-bottom mb-10">
+                <div class="row">
+                  <div class="col-6"><span class="font-md-bold color-gray-500">Estimate for</span></div>
+                  <div class="col-6 text-end">
+                    <h6>7 Days</h6>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="mb-10">
-              <div class="row">
-                <div class="col-6"><span class="font-md-bold color-gray-500">Total</span></div>
-                <div class="col-6 text-end">
-                  <h4> $2.51</h4>
+              <div class="mb-10">
+                <div class="row">
+                  <div class="col-6"><span class="font-md-bold color-gray-500">Total</span></div>
+                  <div class="col-6 text-end">
+                    <h4 id="cartTotal" ><?php echo $total ?></h4>
+                  </div>
                 </div>
               </div>
-            </div>
+            <?php }
+            ?>
+
+
             <div class="box-button"><a class="btn btn-buy" href="shop-checkout.php">Proceed To CheckOut</a></div>
           </div>
         </div>
+
       </div>
       <h4 class="color-brand-3">You may also like</h4>
 
@@ -244,7 +265,7 @@ include('common/header.php') ?>
                 </div>
                 <div class="mt-20 box-btn-cart">
                   <?php if (isset($_SESSION['user_id'])) { ?>
-                    
+
                     <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $rowLike['id']; ?>, <?php echo $rowLike['selling_price']; ?>)">Add To Cart</button>
                   <?php } ?>
 
