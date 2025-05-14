@@ -20,3 +20,8 @@ if ($_POST['active_status_id'] != '') {
     $status = " UPDATE `product` SET `status`= '" . $_POST['status_value'] . "' , `updated_on` ='" . date("Y-m-d H:i:s") . "' WHERE id = '" . $_POST['active_status_id'] . "' ";
     mysqli_query($con, $status);
 }
+
+if (isset($_POST['featureId'])) {
+
+    $updateFeature = mysqli_query($con, "UPDATE `product` SET `featured` ='" . $_POST['featureValue'] . "' WHERE `id` = '" . $_POST['featureId'] . "'");
+}

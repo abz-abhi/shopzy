@@ -18,10 +18,14 @@ include('include/db_config.php'); ?>
       <div class="row align-items-center">
         <div class="col-md-3 col-12 me-auto mb-md-0 mb-3">
           <select class="form-select">
-            <option selected="">All category</option>
-            <option>Electronics</option>
-            <option>Clothes</option>
-            <option>Automobile</option>
+            <option selected="" style="overflow: visible;">All category</option>
+
+            <?php
+            $cato = mysqli_query($con, "SELECT * FROM `categories` ORDER BY `id` ");
+            while ($rowCat = mysqli_fetch_array($cato)) {
+            ?>
+              <option><a><?php echo $rowCat['name'] ?></a></option>
+            <?php } ?>
           </select>
         </div>
         <div class="col-md-2 col-6">
@@ -95,6 +99,11 @@ include('include/db_config.php'); ?>
                   <i class="material-icons md-edit"></i> Edit</a>
                 <button class="btn btn-sm font-sm btn-light rounded" onclick="delete_product(<?php echo $row['id'] ?>)">
                   <i class="material-icons md-delete_forever"></i> Delete</button>
+                <?php if ($row['featured'] == 0) { ?>
+                  <button class="btn btn-sm font-sm btn-light rounded" style="background-color: red; color:black" onclick="prodFeatured(<?php echo $row['id'] ?>, 1)"> Featured</button>
+                <?php } else { ?>
+                  <button class="btn btn-sm font-sm btn-light rounded" style="background-color: green; color:white" onclick="prodFeatured(<?php echo $row['id'] ?> ,0 )"> Featured</button>
+                <?php } ?>
               </td>
             </tr>
           <?php } ?>
@@ -128,6 +137,21 @@ include('include/db_config.php'); ?>
       },
       success: function(response) {
         alert("Your data deleted");
+        $("#productTable").load(window.location.href + " #productTable");
+      }
+    });
+  }
+
+  function prodFeatured(id,value) {
+    $.ajax({
+      type: "POST",
+      url: 'controller/common.php',
+      data: {
+        featureId: id,
+        featureValue:value
+      },
+      success: function(response) {
+        alert("button clicked");
         $("#productTable").load(window.location.href + " #productTable");
       }
     });

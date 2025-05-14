@@ -190,7 +190,7 @@ if (isset($_POST['editProduct'])) {
                 </div>
                 <div class="card-body">
                     <div class="row gx-2">
-                        <div class="col-sm-6 mb-3">
+                        <div class="col-sm-12 mb-3">
                             <label class="form-label">Category</label>
                             <select class="form-select" name="category_id">
                                 <option value="">select</option>

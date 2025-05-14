@@ -33,11 +33,10 @@ include('include/db_config.php'); ?>
             $targetPath = $uploadDir . basename($proimgName);
             $categorie_id = $_POST['category_id'];
 
-
             if (move_uploaded_file($proimgTemp, $targetPath)) {
 
-              $query = "INSERT INTO `product`(`name`,`categorie_id`,`selling_price`,`mrp`,`discription`,`image`,`status`,`created_on`,`updated_on`)
-                                  VALUES('$productname','$categorie_id','$sellprice','$mrp','$description','$targetPath','1','$date_time','$date_time')";
+              echo $query = "INSERT INTO `product`(`name`,`categorie_id`,`selling_price`,`mrp`,`discription`,`image`,`status`,`featured`,`created_on`,`updated_on`)
+                                  VALUES('$productname','$categorie_id','$sellprice','$mrp','$description','$targetPath','1','1','$date_time','$date_time')";
 
               if (mysqli_query($con, $query)) {
 
@@ -56,12 +55,11 @@ include('include/db_config.php'); ?>
                     $fileType = strtolower(pathinfo($targetGallPath, PATHINFO_EXTENSION));
 
                     if (in_array($fileType,  $allowedFileType)) {
-                      
+
 
                       if (move_uploaded_file($gallImgTemp, $targetGallPath)) {
- 
+
                         $sqlVal = "('$pro_id','" . $targetGallPath . "','" . $date_time . "')";
-         
                       } else {
 
                         $response = array(
@@ -102,7 +100,7 @@ include('include/db_config.php'); ?>
                     "message" => "Please select a file to upload."
                   );
                 }
-                echo '<script>alert("Registration successful!"); window.location.href="add-product.php"</script>';
+                echo '<script>alert("Product added"); window.location.href="add-product.php"</script>';
               } else {
                 echo "error !";
               }
@@ -130,7 +128,7 @@ include('include/db_config.php'); ?>
                 rows="4"></textarea>
             </div>
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-6">
                 <div class="mb-4">
                   <label class="form-label">MRP</label>
                   <div class="row gx-2"></div>
@@ -141,7 +139,7 @@ include('include/db_config.php'); ?>
                     type="number" />
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-6">
                 <div class="mb-4">
                   <label class="form-label">Selling price</label>
                   <input
@@ -150,14 +148,6 @@ include('include/db_config.php'); ?>
                     placeholder="$"
                     type="number" />
                 </div>
-              </div>
-              <div class="col-lg-4">
-                <label class="form-label">Currency</label>
-                <select class="form-select">
-                  <option>USD</option>
-                  <option>EUR</option>
-                  <option>RUBL</option>
-                </select>
               </div>
             </div>
         </div>
@@ -182,7 +172,7 @@ include('include/db_config.php'); ?>
         </div>
         <div class="card-body">
           <div class="row gx-2">
-            <div class="col-sm-6 mb-3">
+            <div class="col-sm-12 mb-3">
               <label class="form-label">Category</label>
               <select class="form-select" name="category_id" required>
                 <option value="">select</option>
@@ -218,7 +208,7 @@ include('include/db_config.php'); ?>
         class="btn btn-light rounded font-sm mr-5 text-body hover-up">
         Save to draft
       </button>
-      <button onclick="count" name="addProduct" class="btn btn-md rounded font-sm hover-up">
+      <button type="submit" name="addProduct" class="btn btn-md rounded font-sm hover-up">
         Add product
       </button>
       </form>
