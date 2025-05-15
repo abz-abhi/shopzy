@@ -249,6 +249,8 @@
                 $("#cartList").load(url + " #cartList");
                 $("#subTotal").load(url + " #subTotal");
                 $("#cartTotal").load(url + " #cartTotal");
+
+                
             }
         });
     }

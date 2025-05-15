@@ -192,13 +192,16 @@ include('common/header.php') ?>
                   </div>
                   <div class="image-box">
                     <span class="label bg-brand-2">-17%</span>
-                    <a href="single-product.php">
+                    <a href="single-product.php?prod_id=<?php echo $FeatureRow['id']; ?>&cat_id=<?php echo $FeatureRow['categorie_id']; ?>">
                       <img src="admin/<?php echo $FeatureRow['image'] ?>" alt="Ecom">
                     </a>
                   </div>
                   <div class="info-right">
                     <a class="font-xs color-gray-500" href="shop-vendor-single.html"><?php echo $FeatureRow['name'] ?></a><br>
-                    <a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $FeatureRow['discription'] ?></a>
+                    <a class="color-brand-3 font-sm-bold description-clamp" href="single-product.php?prod_id=<?php echo $FeatureRow['id']; ?>&cat_id=<?php echo $FeatureRow['categorie_id']; ?>">
+                      <?php echo $FeatureRow['discription']; ?>
+                    </a>
+
                     <div class="rating">
                       <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                       <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
@@ -212,7 +215,7 @@ include('common/header.php') ?>
                       <span class="color-gray-500 price-line"><?php echo $FeatureRow['mrp'] ?></span>
                     </div>
                     <div class="mt-20 box-btn-cart">
-                      <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
+                      <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $FeatureRow['id']; ?>, <?php echo $FeatureRow['selling_price']; ?>)">Add To Cart</button>
                     </div>
                   </div>
                 </div>

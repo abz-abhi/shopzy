@@ -1,3 +1,5 @@
+<?php include('session.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +15,18 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg">
     <link href="./assets/css/style.css?v=3.0.0" rel="stylesheet">
     <title>Shopzy</title>
+    <style>
+        .description-clamp {
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            /* Number of lines to show */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: 6em;
+            /* Optional: helps with consistent layout */
+        }
+    </style>
 </head>
 
 <body>
@@ -53,7 +67,7 @@
 
                                         while ($row = mysqli_fetch_assoc($result)) { ?>
                                             <li><a href="catogery-product.php?$cat_id=<?php echo $row['id'] ?>"><?php echo $row['name']; ?></a></li>
-                                        <?php } ?>
+                                        <?php  } ?>
                                     </ul>
                                 </li>
                                 <li class="has-children"><a>Shop</a>
@@ -255,3 +269,10 @@
             </div>
         </div>
     </header>
+
+<!-- 
+    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/wow.js"></script>
+    <script src="assets/js/vendors/select2.min.js"></script>
+    <script src="assets/js/vendors/scrollup.js"></script>
+    <script src="assets/js/main.js?v=3.0.0"></script> -->

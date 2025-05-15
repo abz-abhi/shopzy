@@ -1,9 +1,10 @@
-<?php 
+<?php
 include('session.php');
 include('common/header.php');
 
 ?>
 <main class="main">
+    <!-- Banner 1  -->
     <section class="section-box" style="margin-top: 50px;">
         <div class="container">
             <div class="row">
@@ -49,6 +50,7 @@ include('common/header.php');
             </div>
         </div>
     </section>
+    <!-- Latest deals   -->
     <section class="section-box pt-30">
         <div class="container">
             <div class="head-main bd-gray-200">
@@ -121,6 +123,7 @@ include('common/header.php');
             </div>
         </div>
     </section>
+    <!-- Banner 2  -->
     <div class="section-box mt-30 mb-50">
         <div class="container">
             <div class="box-ads-2 box-ads-3"> <img src="assets/imgs/page/homepage8/ads1.png" alt="Ecom">
@@ -131,6 +134,7 @@ include('common/header.php');
             </div>
         </div>
     </div>
+    <!-- Top Selling Books -->
     <section class="section-box mt-50">
         <div class="container">
             <div class="row">
@@ -192,6 +196,7 @@ include('common/header.php');
             </div>
         </div>
     </section>
+    <!-- Banner 3  -->
     <section class="section-box mt-50">
         <div class="container">
             <div class="row">
@@ -224,6 +229,7 @@ include('common/header.php');
             </div>
         </div>
     </section>
+    <!-- Banner 4  -->
     <section class="section-box mt-30">
         <div class="container">
             <div class="row">
@@ -306,8 +312,9 @@ include('common/header.php');
             </div>
         </div>
     </section>
+    <!-- Last container -->
     <section class="section-box mt-50">
-        <div class="container">
+        <div class="container" style="background-color: red;">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box-slider-item">
@@ -435,7 +442,7 @@ include('common/header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12" style="background-color: red;">
                     <div class="box-slider-item">
                         <div class="head">
                             <h5>Trending</h5>
@@ -446,7 +453,7 @@ include('common/header.php');
                                     <div class="swiper-wrapper pt-5">
                                         <div class="swiper-slide">
                                             <?php
-                                            $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 3 OFFSET  ");
+                                            $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 3 OFFSET 9 ");
                                             if ($result && mysqli_num_rows($result) > 0) {
                                                 while ($row = mysqli_fetch_assoc($result)) {
                                             ?>
@@ -480,176 +487,5 @@ include('common/header.php');
             </div>
         </div>
     </section>
-    <section class="section-box mt-90 mb-50">
-        <div class="container">
-            <ul class="list-col-5">
-                <li>
-                    <div class="item-list">
-                        <div class="icon-left"><img src="assets/imgs/template/delivery.svg" alt="Ecom"></div>
-                        <div class="info-right">
-                            <h5 class="font-lg-bold color-gray-100">Free Delivery</h5>
-                            <p class="font-sm color-gray-500">From all orders over $10</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item-list">
-                        <div class="icon-left"><img src="assets/imgs/template/support.svg" alt="Ecom"></div>
-                        <div class="info-right">
-                            <h5 class="font-lg-bold color-gray-100">Support 24/7</h5>
-                            <p class="font-sm color-gray-500">Shop with an expert</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item-list">
-                        <div class="icon-left"><img src="assets/imgs/template/voucher.svg" alt="Ecom"></div>
-                        <div class="info-right">
-                            <h5 class="font-lg-bold color-gray-100">Gift voucher</h5>
-                            <p class="font-sm color-gray-500">Refer a friend</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item-list">
-                        <div class="icon-left"><img src="assets/imgs/template/return.svg" alt="Ecom"></div>
-                        <div class="info-right">
-                            <h5 class="font-lg-bold color-gray-100">Return &amp; Refund</h5>
-                            <p class="font-sm color-gray-500">Free return over $200</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="item-list">
-                        <div class="icon-left"><img src="assets/imgs/template/secure.svg" alt="Ecom"></div>
-                        <div class="info-right">
-                            <h5 class="font-lg-bold color-gray-100">Secure payment</h5>
-                            <p class="font-sm color-gray-500">100% Protected</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <div class="modal fade" id="ModalQuickview" tabindex="-1" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content apply-job-form">
-                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="modal-body p-30">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="gallery-image">
-                                <div class="galleries-2">
-                                    <div class="detail-gallery">
-                                        <div class="product-image-slider-2">
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-1.jpg" alt="product image"></figure>
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-2.jpg" alt="product image"></figure>
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-3.jpg" alt="product image"></figure>
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-4.jpg" alt="product image"></figure>
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-5.jpg" alt="product image"></figure>
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-6.jpg" alt="product image"></figure>
-                                            <figure class="border-radius-10"><img src="assets/imgs/page/product/img-gallery-7.jpg" alt="product image"></figure>
-                                        </div>
-                                    </div>
-                                    <div class="slider-nav-thumbnails-2">
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-1.jpg" alt="product image"></div>
-                                        </div>
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-2.jpg" alt="product image"></div>
-                                        </div>
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-3.jpg" alt="product image"></div>
-                                        </div>
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-4.jpg" alt="product image"></div>
-                                        </div>
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-5.jpg" alt="product image"></div>
-                                        </div>
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-6.jpg" alt="product image"></div>
-                                        </div>
-                                        <div>
-                                            <div class="item-thumb"><img src="assets/imgs/page/product/img-gallery-7.jpg" alt="product image"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="box-tags">
-                                <div class="d-inline-block mr-25"><span class="font-sm font-medium color-gray-900">Category:</span><a class="link" href="#">Smartphones</a></div>
-                                <div class="d-inline-block"><span class="font-sm font-medium color-gray-900">Tags:</span><a class="link" href="#">Blue</a>,<a class="link" href="#">Smartphone</a></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="product-info">
-                                <h5 class="mb-15">SAMSUNG Galaxy S22 Ultra, 8K Camera & Video, Brightest Display Screen, S Pen Pro</h5>
-                                <div class="info-by"><span class="bytext color-gray-500 font-xs font-medium">by</span><a class="byAUthor color-gray-900 font-xs font-medium" href="shop-vendor-list.html"> Ecom Tech</a>
-                                    <div class="rating d-inline-block"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500 font-medium"> (65 reviews)</span></div>
-                                </div>
-                                <div class="border-bottom pt-10 mb-20"></div>
-                                <div class="box-product-price">
-                                    <h3 class="color-brand-3 price-main d-inline-block mr-10">$2856.3</h3><span class="color-gray-500 price-line font-xl line-througt">$3225.6</span>
-                                </div>
-                                <div class="product-description mt-10 color-gray-900">
-                                    <ul class="list-dot">
-                                        <li>8k super steady video</li>
-                                        <li>Nightography plus portait mode</li>
-                                        <li>50mp photo resolution plus bright display</li>
-                                        <li>Adaptive color contrast</li>
-                                        <li>premium design & craftmanship</li>
-                                        <li>Long lasting battery plus fast charging</li>
-                                    </ul>
-                                </div>
-                                <div class="box-product-color mt-10">
-                                    <p class="font-sm color-gray-900">Color:<span class="color-brand-2 nameColor">Pink Gold</span></p>
-                                    <ul class="list-colors">
-                                        <li class="disabled"><img src="assets/imgs/page/product/img-gallery-1.jpg" alt="Ecom" title="Pink"></li>
-                                        <li><img src="assets/imgs/page/product/img-gallery-2.jpg" alt="Ecom" title="Gold"></li>
-                                        <li><img src="assets/imgs/page/product/img-gallery-3.jpg" alt="Ecom" title="Pink Gold"></li>
-                                        <li><img src="assets/imgs/page/product/img-gallery-4.jpg" alt="Ecom" title="Silver"></li>
-                                        <li class="active"><img src="assets/imgs/page/product/img-gallery-5.jpg" alt="Ecom" title="Pink Gold"></li>
-                                        <li class="disabled"><img src="assets/imgs/page/product/img-gallery-6.jpg" alt="Ecom" title="Black"></li>
-                                        <li class="disabled"><img src="assets/imgs/page/product/img-gallery-7.jpg" alt="Ecom" title="Red"></li>
-                                    </ul>
-                                </div>
-                                <div class="box-product-style-size mt-10">
-                                    <div class="row">
-                                        <div class="col-lg-12 mb-10">
-                                            <p class="font-sm color-gray-900">Style:<span class="color-brand-2 nameStyle">S22</span></p>
-                                            <ul class="list-styles">
-                                                <li class="disabled" title="S22 Ultra">S22 Ultra</li>
-                                                <li class="active" title="S22">S22</li>
-                                                <li title="S22 + Standing Cover">S22 + Standing Cover</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-lg-12 mb-10">
-                                            <p class="font-sm color-gray-900">Size:<span class="color-brand-2 nameSize">512GB</span></p>
-                                            <ul class="list-sizes">
-                                                <li class="disabled" title="1GB">1GB</li>
-                                                <li class="active" title="512 GB">512 GB</li>
-                                                <li title="256 GB">256 GB</li>
-                                                <li title="128 GB">128 GB</li>
-                                                <li class="disabled" title="64GB">64GB</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="buy-product mt-5">
-                                    <p class="font-sm mb-10">Quantity</p>
-                                    <div class="box-quantity">
-                                        <div class="input-quantity">
-                                            <input class="font-xl color-brand-3" type="text" value="1"><span class="minus-cart"></span><span class="plus-cart"></span>
-                                        </div>
-                                        <div class="button-buy"><a class="btn btn-cart" href="shop-cart.php">Add to cart</a><a class="btn btn-buy" href="shop-checkout.php">Buy now</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </main>
-<?php include('common/footer.php') ?>
+<?php include('common/footer.php'); ?>
