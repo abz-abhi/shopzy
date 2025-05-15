@@ -302,7 +302,7 @@ include('common/header.php') ?>
               </div>
               <div class="info-right">
                 <a class="font-xs color-gray-500" href="shop-vendor-single.html"><?php echo $rowLike['name']; ?></a><br>
-                <a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $rowLike['discription']; ?></a>
+                <a class="color-brand-3 font-sm-bold description-clamp" href="single-product.php"><?php echo $rowLike['discription']; ?></a>
                 <div class="rating">
                   <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                   <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
@@ -319,9 +319,11 @@ include('common/header.php') ?>
                   <?php if (isset($_SESSION['user_id'])) { ?>
 
                     <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $rowLike['id']; ?>, <?php echo $rowLike['selling_price']; ?>)">Add To Cart</button>
-                  <?php } ?>
-
-
+                  <?php } else {
+                  ?> 
+                    <button class="btn btn-cart" onclick="addCartfrom_session(<?php echo $rowLike['id']; ?>,<?php echo $rowLike['selling_price']; ?>)">Add To Cart</button>
+                  <?php
+                  } ?>
                 </div>
                 <ul class="list-features">
                   <li>27-inch (diagonal) Retina 5K display</li>

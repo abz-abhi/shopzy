@@ -33,7 +33,6 @@ if ($_POST['cart_pro_id_session'] != '') {
     );
 
     $_SESSION['cart'][$item_id] =  $itemData;
-
 }
 
 if ($_POST['cart_proId'] != '') {
@@ -119,5 +118,29 @@ if (isset($_POST['prod_id_fromCart'])) {
         $addCart = "INSERT INTO `cart` (`user_id`, `pro_id`, `qty`, `price`, `created_on`, `updated_on`)
                     VALUES ('$user_id', '$prod_id', 1, '$prod_price', NOW(), NOW())";
         mysqli_query($con, $addCart);
+    }
+}
+
+
+if (isset($_POST["prod_id_fromSess"]) && isset($_POST["prod_price_fromSess"])) {
+
+    $prodID = $_POST["prod_id_fromSess"];
+    $prodPrice = $_POST["prod_price_fromSess"];
+
+    if (!isset($_SESSION["cart"])) {
+        $_SESSION["cart"] = [];
+    }
+
+    if (isset($_SESSION["cart"][$prodID])) {
+        $_SESSION["cart"][$prodID]['qty'] += 1;
+        echo "updated qty";
+    } else {
+        // If not in cart, add new item
+        $_SESSION["cart"][$prodID] = [
+            'id' => $prodID,
+            'qty' => 1,
+            'price' => $prodPrice
+        ];
+        echo "added to cart";
     }
 }

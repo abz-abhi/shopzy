@@ -140,7 +140,7 @@ include('common/header.php');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="head-main">
-                        <h3 class="mb-5">Top Selling Books</h3>
+                        <h3 class="mb-5">Top Selling Items</h3>
                         <p class="font-base color-gray-500">Special products in this month.</p>
                         <div class="box-button-slider">
                             <div class="swiper-button-next swiper-button-next-group-1"></div>
@@ -162,12 +162,12 @@ include('common/header.php');
                                                     <div class="card-grid-style-2">
                                                         <label class="label font-xs color-gray-500 bg-success">New</label>
                                                         <div class="image-box">
-                                                            <a href="single-product.php">
+                                                            <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>">
                                                                 <img src="admin/<?php echo $row['image']; ?>" alt="Ecom"></a>
                                                         </div>
                                                         <div class="info-right">
                                                             <span class="font-xs color-gray-500"><?php echo $row['name']; ?></span><br>
-                                                            <a class="color-brand-3 font-sm-bold" href="single-product.php"><?php echo $row['discription']; ?></a>
+                                                            <a class="color-brand-3 font-sm-bold description-clamp" href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription']; ?></a>
                                                             <div class="rating">
                                                                 <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                                 <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
@@ -236,17 +236,17 @@ include('common/header.php');
                 <!-- Item-->
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="card-grid-style-2 card-grid-style-2-small">
-                        <div class="image-box"><a href="shop-fullwidth.html"><img src="assets/imgs/page/homepage8/img1.png" alt="Ecom"></a>
-                            <div class="mt-10 text-center"><a class="btn btn-gray" href="shop-fullwidth.html">View all</a></div>
+                        <div class="image-box"><a><img src="assets/imgs/page/homepage8/img1.png" alt="Ecom"></a>
+                            <div class="mt-10 text-center"><a class="btn btn-gray">View all</a></div>
                         </div>
-                        <div class="info-right"><a class="color-brand-3 font-sm-bold" href="shop-fullwidth.html">
+                        <div class="info-right"><a class="color-brand-3 font-sm-bold">
                                 <h6>Business & Money</h6>
                             </a>
                             <ul class="list-links-disc">
-                                <li><a class="font-sm" href="shop-fullwidth.html">Accounting</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Biography & History</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Business Culture</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Economics</a></li>
+                                <li><a class="font-sm">Accounting</a></li>
+                                <li><a class="font-sm">Biography & History</a></li>
+                                <li><a class="font-sm">Business Culture</a></li>
+                                <li><a class="font-sm">Economics</a></li>
                             </ul>
                         </div>
                     </div>
@@ -255,17 +255,17 @@ include('common/header.php');
                 <!-- Item-->
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="card-grid-style-2 card-grid-style-2-small">
-                        <div class="image-box"><a href="shop-fullwidth.html"><img src="assets/imgs/page/homepage8/img2.png" alt="Ecom"></a>
-                            <div class="mt-10 text-center"><a class="btn btn-gray" href="shop-fullwidth.html">View all</a></div>
+                        <div class="image-box"><a><img src="assets/imgs/page/homepage8/img2.png" alt="Ecom"></a>
+                            <div class="mt-10 text-center"><a class="btn btn-gray">View all</a></div>
                         </div>
-                        <div class="info-right"><a class="color-brand-3 font-sm-bold" href="shop-fullwidth.html">
+                        <div class="info-right"><a class="color-brand-3 font-sm-bold">
                                 <h6>Biographies</h6>
                             </a>
                             <ul class="list-links-disc">
-                                <li><a class="font-sm" href="shop-fullwidth.html">HD DVD Players</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Projection Screens</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Television Accessories</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">TV-DVD Combos</a></li>
+                                <li><a class="font-sm">HD DVD Players</a></li>
+                                <li><a class="font-sm">Projection Screens</a></li>
+                                <li><a class="font-sm">Television Accessories</a></li>
+                                <li><a class="font-sm">TV-DVD Combos</a></li>
                             </ul>
                         </div>
                     </div>
@@ -274,17 +274,17 @@ include('common/header.php');
                 <!-- Item-->
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="card-grid-style-2 card-grid-style-2-small">
-                        <div class="image-box"><a href="shop-fullwidth.html"><img src="assets/imgs/page/homepage8/img3.png" alt="Ecom"></a>
-                            <div class="mt-10 text-center"><a class="btn btn-gray" href="shop-fullwidth.html">View all</a></div>
+                        <div class="image-box"><a><img src="assets/imgs/page/homepage8/img3.png" alt="Ecom"></a>
+                            <div class="mt-10 text-center"><a class="btn btn-gray">View all</a></div>
                         </div>
-                        <div class="info-right"><a class="color-brand-3 font-sm-bold" href="shop-fullwidth.html">
+                        <div class="info-right"><a class="color-brand-3 font-sm-bold">
                                 <h6>Children's Books</h6>
                             </a>
                             <ul class="list-links-disc">
-                                <li><a class="font-sm" href="shop-fullwidth.html">Action & Adventure</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Activities, Crafts</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Arts, Music</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Early Learning</a></li>
+                                <li><a class="font-sm">Action & Adventure</a></li>
+                                <li><a class="font-sm">Activities, Crafts</a></li>
+                                <li><a class="font-sm">Arts, Music</a></li>
+                                <li><a class="font-sm">Early Learning</a></li>
                             </ul>
                         </div>
                     </div>
@@ -293,17 +293,17 @@ include('common/header.php');
                 <!-- Item-->
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                     <div class="card-grid-style-2 card-grid-style-2-small">
-                        <div class="image-box"><a href="shop-fullwidth.html"><img src="assets/imgs/page/homepage8/img4.png" alt="Ecom"></a>
-                            <div class="mt-10 text-center"><a class="btn btn-gray" href="shop-fullwidth.html">View all</a></div>
+                        <div class="image-box"><a><img src="assets/imgs/page/homepage8/img4.png" alt="Ecom"></a>
+                            <div class="mt-10 text-center"><a class="btn btn-gray">View all</a></div>
                         </div>
-                        <div class="info-right"><a class="color-brand-3 font-sm-bold" href="shop-fullwidth.html">
+                        <div class="info-right"><a class="color-brand-3 font-sm-bold">
                                 <h6>Education & Teaching</h6>
                             </a>
                             <ul class="list-links-disc">
-                                <li><a class="font-sm" href="shop-fullwidth.html">Higher & Continuing</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Schools & Teaching</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Study Guides</a></li>
-                                <li><a class="font-sm" href="shop-fullwidth.html">Test Preparation </a></li>
+                                <li><a class="font-sm">Higher & Continuing</a></li>
+                                <li><a class="font-sm">Schools & Teaching</a></li>
+                                <li><a class="font-sm">Study Guides</a></li>
+                                <li><a class="font-sm">Test Preparation </a></li>
                             </ul>
                         </div>
                     </div>
@@ -314,8 +314,9 @@ include('common/header.php');
     </section>
     <!-- Last container -->
     <section class="section-box mt-50">
-        <div class="container" style="background-color: red;">
+        <div class="container">
             <div class="row">
+                <!-- Best Seller -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box-slider-item">
                         <div class="head">
@@ -333,10 +334,10 @@ include('common/header.php');
                                             ?>
                                                     <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                         <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                            <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
                                                         <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <a class="color-brand-3 font-xs-bold description-clamp" href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription'] ?></a>
                                                             <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                                 <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                             </div>
@@ -358,6 +359,7 @@ include('common/header.php');
                         </div>
                     </div>
                 </div>
+                <!-- Featured products -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box-slider-item">
                         <div class="head">
@@ -369,16 +371,16 @@ include('common/header.php');
                                     <div class="swiper-wrapper pt-5">
                                         <div class="swiper-slide">
                                             <?php
-                                            $result = mysqli_query($con, "SELECT * FROM `product` WHERE `categorie_id` ='" . $_GET['$cat_id'] . "' LIMIT 3 OFFSET 3 ");
+                                            $result = mysqli_query($con, "SELECT * FROM `product` WHERE `featured` ='1' LIMIT 3 ");
                                             if ($result && mysqli_num_rows($result) > 0) {
                                                 while ($row = mysqli_fetch_assoc($result)) {
                                             ?>
                                                     <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                         <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                            <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
                                                         <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <a class="color-brand-3 font-xs-bold description-clamp" href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription'] ?></a>
                                                             <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                                 <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                             </div>
@@ -400,6 +402,7 @@ include('common/header.php');
                         </div>
                     </div>
                 </div>
+                <!-- Most viewed -->
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box-slider-item">
                         <div class="head">
@@ -417,10 +420,10 @@ include('common/header.php');
                                             ?>
                                                     <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                         <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                            <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
                                                         <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <a class="color-brand-3 font-xs-bold description-clamp" href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription'] ?></a>
                                                             <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                                 <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                             </div>
@@ -442,7 +445,8 @@ include('common/header.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12" style="background-color: red;">
+                <!-- Trending -->
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box-slider-item">
                         <div class="head">
                             <h5>Trending</h5>
@@ -459,10 +463,10 @@ include('common/header.php');
                                             ?>
                                                     <div class="card-grid-style-2 card-grid-none-border hover-up">
                                                         <div class="image-box"><span class="label bg-brand-2">-17%</span>
-                                                            <a href="single-product.php"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
+                                                            <a href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><img src="admin/<?php echo $row['image'] ?>" alt="Ecom"></a>
                                                         </div>
                                                         <div class="info-right"><span class="font-xs color-gray-500"><?php echo $row['name'] ?></span><br>
-                                                            <a class="color-brand-3 font-xs-bold" href="single-product.php"><?php echo $row['discription'] ?></a>
+                                                            <a class="color-brand-3 font-xs-bold description-clamp" href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription'] ?></a>
                                                             <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
                                                                 <img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span>
                                                             </div>

@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <header class="header sticky-bar">
+    <header class="header sticky-bar" id="cartCount">
         <div class="container">
             <div class="main-header">
                 <div class="header-left">
@@ -85,18 +85,15 @@
                                 </li>
                             </ul>
                         </nav>
-                        <div class="burger-icon burger-icon-white">
-                            <span class="burger-icon-top"></span>
-                            <span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span>
-                        </div>
                     </div>
                     <span> Welcome <?php if (isset($_SESSION['user_id'])) {
                                         echo $row_user['user_name'];
                                     } else {
                                         echo 'Guest';
                                     } ?></span>
-                    <div class="header-shop">
 
+
+                    <div class="header-shop">
                         <?php if (isset($_SESSION['user_id'])) { ?>
                             <div class="d-inline-block box-dropdown-cart"><span class="font-lg icon-list icon-account"><span>Account</span></span>
                                 <div class="dropdown-account">
@@ -139,9 +136,9 @@
                             } ?>
 
                             <div class="d-inline-block box-dropdown-cart">
-                                <span class="font-lg icon-list icon-cart">
+                                <span class="font-lg icon-list icon-cart" >
                                     <span>Cart</span>
-                                    <span class="number-item font-xs"><?php echo $cart_count; ?></span>
+                                    <span class="number-item font-xs" ><?php echo $cart_count; ?></span>
                                 </span>
                                 <div class="dropdown-cart" style=" max-height: 25rem; 
                                                                    overflow-y: auto; 
@@ -270,7 +267,7 @@
         </div>
     </header>
 
-<!-- 
+    <!-- 
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/wow.js"></script>
     <script src="assets/js/vendors/select2.min.js"></script>
