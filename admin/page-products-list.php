@@ -151,7 +151,6 @@ include('include/db_config.php'); ?>
         featureValue:value
       },
       success: function(response) {
-        alert("button clicked");
         $("#productTable").load(window.location.href + " #productTable");
       }
     });

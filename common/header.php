@@ -23,15 +23,16 @@
                     <div class="header-logo"><a class="d-flex" href="index.php"><img alt="Ecom" src="assets/imgs/template/logo.svg"></a></div>
                     <div class="header-search">
                         <div class="box-header-search">
-                            <form class="form-search" method="post" action="#">
+                            <form class="form-search" method="post" action="">
                                 <div class="box-category">
                                     <select class="select-active select2-hidden-accessible">
                                         <option>All categories</option>
                                         <?php
                                         $result = mysqli_query($con, "SELECT * FROM categories ORDER BY id") or die(mysqli_error($con));
 
-                                        while ($row = mysqli_fetch_assoc($result)) { ?>
-                                            <option><a><?php echo $row['name'] ?></a> </option>
+                                        while ($rowAllcat = mysqli_fetch_assoc($result)) { ?>
+
+                                            <option value="<?php $rowAllcat['id'] ?>"><?php echo $rowAllcat['name'] ?></option>
                                         <?php } ?>
                                     </select>
                                 </div>
@@ -48,14 +49,14 @@
                                 <li class="has-children"><a class="active" href="index.php">Categories</a>
                                     <ul class="sub-menu two-col">
                                         <?php
-                                        $result = mysqli_query($con, "SELECT * FROM `categories` ORDER BY `id`  ");
+                                        $result = mysqli_query($con, "SELECT * FROM `categories` ORDER BY `id`") or die(mysqli_error($con));
 
                                         while ($row = mysqli_fetch_assoc($result)) { ?>
                                             <li><a href="catogery-product.php?$cat_id=<?php echo $row['id'] ?>"><?php echo $row['name']; ?></a></li>
                                         <?php } ?>
                                     </ul>
                                 </li>
-                                <li class="has-children"><a href="shop-grid-2.php">Shop</a>
+                                <li class="has-children"><a>Shop</a>
                                     <ul class="sub-menu two-col">
                                         <li><a href="shop-cart.php">Shop Cart</a></li>
                                         <li><a href="shop-compare.php">Shop Compare</a></li>
@@ -81,7 +82,7 @@
                                         echo 'Guest';
                                     } ?></span>
                     <div class="header-shop">
-                        
+
                         <?php if (isset($_SESSION['user_id'])) { ?>
                             <div class="d-inline-block box-dropdown-cart"><span class="font-lg icon-list icon-account"><span>Account</span></span>
                                 <div class="dropdown-account">
