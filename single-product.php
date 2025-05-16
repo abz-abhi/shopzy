@@ -6,18 +6,6 @@ include('common/header.php') ?>
   <div class="section-box">
     <div class="breadcrumbs-div">
       <div class="container">
-        <ul class="breadcrumb">
-          <li><a class="font-xs color-gray-1000" href="index.php">Home</a></li>
-          <li>
-            <a class="font-xs color-gray-500" href="shop-grid-2.php">Electronics</a>
-          </li>
-          <li>
-            <a class="font-xs color-gray-500" href="shop-grid-2.php">Cell phone</a>
-          </li>
-          <li>
-            <a class="font-xs color-gray-500" href="shop-grid-2.php">Accessories</a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
@@ -33,105 +21,39 @@ include('common/header.php') ?>
         <div class="col-lg-6">
           <div class="gallery-image">
             <div class="galleries">
+              <!-- Product gallery box -->
               <div class="detail-gallery">
                 <label class="label">-17%</label>
                 <div class="product-image-slider">
-
-                  <figure class="border-radius-10">
-                    <img
-                      src="admin/<?php echo $row['image']; ?>"
-                      alt=" product image" />
-                  </figure>
-                  <figure class="border-radius-10">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-2.jpg"
-                      alt="product image" />
-                  </figure>
-                  <figure class="border-radius-10">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-3.jpg"
-                      alt="product image" />
-                  </figure>
-                  <figure class="border-radius-10">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-4.jpg"
-                      alt="product image" />
-                  </figure>
-                  <figure class="border-radius-10">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-5.jpg"
-                      alt="product image" />
-                  </figure>
-                  <figure class="border-radius-10">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-6.jpg"
-                      alt="product image" />
-                  </figure>
-                  <figure class="border-radius-10">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-7.jpg"
-                      alt="product image" />
-                  </figure>
-
+                  <?php
+                  $selectGall = mysqli_query($con, "SELECT * FROM `product_gallery` WHERE `pro_id`='" . $_GET['prod_id'] . "'");
+                  while ($gallRow = mysqli_fetch_array($selectGall)) {
+                  ?>
+                    <figure class="border-radius-10">
+                      <img src="admin/<?php echo $gallRow['image']; ?>" alt="product image" />
+                    </figure>
+                  <?php } ?>
                 </div>
               </div>
+
+              <!-- Thumbnail navigation (optional) -->
               <div class="slider-nav-thumbnails">
-
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-1.jpg"
-                      alt="product image" />
+                <?php
+                // Re-run query or store earlier results in an array if needed
+                $selectThumbs = mysqli_query($con, "SELECT * FROM `product_gallery` WHERE `pro_id`='" . $_GET['prod_id'] . "'");
+                while ($thumbRow = mysqli_fetch_array($selectThumbs)) {
+                ?>
+                  <div>
+                    <div class="item-thumb">
+                      <img src="admin/<?php echo $thumbRow['image']; ?>" alt="product image thumbnail" />
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-2.jpg"
-                      alt="product image" />
-                  </div>
-                </div>
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-3.jpg"
-                      alt="product image" />
-                  </div>
-                </div>
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-4.jpg"
-                      alt="product image" />
-                  </div>
-                </div>
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-5.jpg"
-                      alt="product image" />
-                  </div>
-                </div>
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-6.jpg"
-                      alt="product image" />
-                  </div>
-                </div>
-                <div>
-                  <div class="item-thumb">
-                    <img
-                      src="assets/imgs/page/product/img-gallery-7.jpg"
-                      alt="product image" />
-                  </div>
-                </div>
-
-
+                <?php } ?>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col-lg-6">
           <h3 class="color-brand-3 mb-25">
             <?php echo $row['name'] ?>
@@ -153,7 +75,7 @@ include('common/header.php') ?>
             <span class="color-gray-500 price-line font-xl line-througt"><?php echo $row['mrp'] ?></span>
           </div>
 
-          <div class="product-description mt-20 color-gray-900">
+          <div class="product-description mt-20 color-gray-900 ">
             <?php echo $row['discription'] ?>
           </div>
 
@@ -685,9 +607,9 @@ include('common/header.php') ?>
                   </div>
                   <div class="info-right">
                     <a
-                      class="font-xs color-gray-500">
+                      class="font-xs color-gray-500 ">
                       <?php echo $row['name'] ?></a><br /><a
-                      class="color-brand-3 font-sm-bold">
+                      class="color-brand-3 font-sm-bold description-clamp">
                       <?php echo $row['discription'] ?></a>
                     <div class="rating">
                       <img
@@ -707,7 +629,14 @@ include('common/header.php') ?>
                       <span class="color-gray-500 price-line"><?php echo $row['mrp'] ?></span>
                     </div>
                     <div class="mt-20 box-btn-cart">
-                      <a class="btn btn-cart" href="shop-cart.php">Add To Cart</a>
+                      <?php if (isset($_SESSION['user_id'])) { ?>
+
+                        <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $row['id']; ?>, <?php echo $row['selling_price']; ?>)">Add To Cart</button>
+                      <?php } else {
+                      ?>
+                        <button class="btn btn-cart" onclick="addCartfrom_session(<?php echo $row['id']; ?>,<?php echo $row['selling_price']; ?>)">Add To Cart</button>
+                      <?php
+                      } ?>
                     </div>
                   </div>
                 </div>

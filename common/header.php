@@ -267,7 +267,7 @@
         </div>
     </header>
 
-    <!-- 
+<!--     
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/wow.js"></script>
     <script src="assets/js/vendors/select2.min.js"></script>
