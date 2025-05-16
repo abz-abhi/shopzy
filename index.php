@@ -175,6 +175,8 @@ include('common/header.php') ?>
           </div>
         </div>
       </div>
+
+
       <div class="tab-content">
         <div class="tab-pane fade active show" id="tab-all" role="tabpanel" aria-labelledby="tab-all">
           <div class="list-products-5">
@@ -187,8 +189,20 @@ include('common/header.php') ?>
               <div class="card-grid-style-3">
                 <div class="card-grid-inner">
                   <div class="tools">
-                    <a class="btn btn-wishlist btn-tooltip mb-10" href="shop-wishlist.php" aria-label="Add To Wishlist"></a>
-                    <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
+
+                    <?php if (isset($_SESSION['user_id'])) { ?>
+
+
+                      <button class="btn btn-wishlist btn-tooltip mb-10" style="background-color: green;" onclick="AddWishlist_User(<?php echo $FeatureRow['id']; ?>, <?php echo $_SESSION['user_id']; ?>)" aria-label="Add To Wishlist"></button>
+                      <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
+                    <?php } else {
+                    ?>
+                      <a class="btn btn-wishlist btn-tooltip mb-10" style="background-color: red;" onclick="AddWishlist(<?php echo $FeatureRow['id'] ?>,<?php echo $_SESSION['user_id'] ?>)" aria-label="Add To Wishlist"></a>
+                      <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
+                    <?php }
+                    ?>
+
+
                   </div>
                   <div class="image-box">
                     <span class="label bg-brand-2">-17%</span>
@@ -232,7 +246,7 @@ include('common/header.php') ?>
                     <!-- <div class="mt-20 box-btn-cart">
                       <button class="btn btn-cart" onclick="addCartfrom_cart(<?php // echo $FeatureRow['id']; 
                                                                               ?>, <?php // echo $FeatureRow['selling_price']; 
-                                                                                                                  ?>)">Add To Cart</button>
+                                                                                  ?>)">Add To Cart</button>
                     </div> -->
 
 

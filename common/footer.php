@@ -276,7 +276,33 @@
             }
         });
     }
+
+
+
+
+    function AddWishlist_User(prodID, userId) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                proId_wishlistUser: prodID,
+                userId_wishlistUser: userId
+            },
+            success: function(response) {
+                alert("button clicked")
+                // var url = window.location.href;
+                // $("#cartList").load(url + " #cartList");
+                // $("#subTotal").load(url + " #subTotal");
+                // $("#cartTotal").load(url + " #cartTotal");
+                // $("#cartCount").load(url + " #cartCount");
+
+            }
+        });
+    }
 </script>
+
+
+
 
 
 

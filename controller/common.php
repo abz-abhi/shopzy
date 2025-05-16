@@ -1,4 +1,5 @@
 <?php
+
 include("../session.php");
 include("../admin/include/db_config.php");
 
@@ -142,5 +143,25 @@ if (isset($_POST["prod_id_fromSess"]) && isset($_POST["prod_price_fromSess"])) {
             'price' => $prodPrice
         ];
         echo "added to cart";
+    }
+}
+
+
+
+if (isset($_POST["proId_wishlistUser"]) && isset($_POST["userId_wishlistUser"])) {
+
+    $prodId = mysqli_real_escape_string($con, $_POST['proId_wishlistUser']);
+    $userId = mysqli_real_escape_string($con, $_POST['userId_wishlistUser']);
+
+    // Check if item already exists in wishlis
+    $checkExist = mysqli_query($con, "SELECT * FROM `wishlist` WHERE `user_id` = '$userId' AND `prod_id` = '$prodId'");
+
+    if (mysqli_num_rows($checkExist) > 0) {
+        echo "Item already in wishlist";
+    } else {
+
+
+        $insertWishlist = mysqli_query($con, "INSERT INTO `wishlist` (`prod_id`, `user_id`, `created_on`)
+                                              VALUES ('$prodId', '$userId', NOW())");
     }
 }
