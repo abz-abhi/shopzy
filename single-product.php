@@ -124,7 +124,12 @@ include('common/header.php') ?>
             </div>
           </div>
           <div class="border-bottom pt-30 mb-20"></div>
-          <a class="mr-30" href="shop-wishlist.php">
+
+
+
+
+
+          <a class="mr-30" onclick="AddWishlist_User(<?php echo $row['id']; ?>, <?php echo $_SESSION['user_id']; ?>)">
             <span class="btn btn-wishlist mr-5 opacity-100 transform-none"></span>
             <span class="font-md color-gray-900">Add to Wish list</span>
           </a>
@@ -132,6 +137,23 @@ include('common/header.php') ?>
             <span class="btn btn-compare mr-5 opacity-100 transform-none"></span>
             <span class="font-md color-gray-900">Add to Compare</span>
           </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div class="info-product mt-20 font-md color-gray-900">
             <div class="mt-20">
               <a class="font-md color-gray-900" href="shop-compare.php">Compare with similar items</a>
@@ -589,14 +611,21 @@ include('common/header.php') ?>
               <div class="card-grid-style-3">
                 <div class="card-grid-inner">
                   <div class="tools">
-                    <a
-                      class="btn btn-wishlist btn-tooltip mb-10"
-                      href="shop-wishlist.php"
-                      aria-label="Add To Wishlist"></a>
-                    <a
-                      class="btn btn-compare btn-tooltip mb-10"
-                      href="shop-compare.php"
-                      aria-label="Compare"></a>
+
+
+                    <?php if (isset($_SESSION['user_id'])) { ?>
+
+
+                      <button class="btn btn-wishlist btn-tooltip mb-10" style="background-color: green;" onclick="AddWishlist_User(<?php echo $row['id']; ?>, <?php echo $_SESSION['user_id']; ?>)" aria-label="Add To Wishlist"></button>
+                      <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
+                    <?php } else {
+                    ?>
+                      <a class="btn btn-wishlist btn-tooltip mb-10" style="background-color: red;" onclick="AddWishlist(<?php echo $FeatureRow['id'] ?>,<?php echo $_SESSION['user_id'] ?>)" aria-label="Add To Wishlist"></a>
+                      <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
+                    <?php }
+                    ?>
+
+
                   </div>
                   <div class="image-box">
                     <span class="label bg-brand-2">-17%</span>

@@ -116,7 +116,7 @@ include('common/header.php');
                                                         <span class="font-xs color-gray-500">(65)</span>
                                                     </div>
                                                 </div>
-                                            </div><a class="color-brand-3 font-sm-bold" href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription']; ?></a>
+                                            </div><a class="color-brand-3 font-sm-bold description-clamp " href="single-product.php?prod_id=<?php echo $row['id']; ?>&cat_id=<?php echo $row['categorie_id']; ?>"><?php echo $row['discription']; ?></a>
                                             <div class="price-info"><strong class="font-lg-bold color-brand-2 price-main"><?php echo $row['selling_price']; ?></strong>
                                                 <span class="color-gray-500 price-line"><?php echo $row['mrp']; ?></span>
                                             </div>
@@ -145,7 +145,7 @@ include('common/header.php');
             </div>
         </div>
     </div>
-    <!-- Top Selling Books -->
+    <!-- Top Selling Items -->
     <section class="section-box mt-50">
         <div class="container">
             <div class="row">
