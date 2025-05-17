@@ -289,12 +289,27 @@
                 userId_wishlistUser: userId
             },
             success: function(response) {
-                alert("button clicked")
-                // var url = window.location.href;
-                // $("#cartList").load(url + " #cartList");
-                // $("#subTotal").load(url + " #subTotal");
-                // $("#cartTotal").load(url + " #cartTotal");
-                // $("#cartCount").load(url + " #cartCount");
+                alert("Added to wishlist")
+                var url = window.location.href;
+                $("#cartCount").load(url + " #cartCount");
+
+            }
+        });
+    }
+
+
+    function user_deleteWishlist(wish_id) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                user_wishlistId: wish_id,
+            },
+            success: function(response) {
+                alert("Delete")
+                var url = window.location.href;
+                $("#wishlistBox").load(url + " #wishlistBox");
+                $("#cartCount").load(url + " #cartCount");
 
             }
         });

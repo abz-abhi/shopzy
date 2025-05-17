@@ -9,6 +9,9 @@ include('common/header.php') ?>
       </div>
     </div>
   </div>
+
+  <!-- Product gallery and single items -->
+
   <section class="section-box shop-template">
 
     <?php
@@ -113,6 +116,7 @@ include('common/header.php') ?>
               </div>
               <div class="button-buy">
 
+
                 <?php if (isset($_SESSION['user_id'])) { ?>
                   <button class="btn btn-cart" onclick="add_cart(<?php echo $row['id'] ?>,<?php echo $row['selling_price'] ?>);">Add to cart</button>
                 <?php } else { ?>
@@ -141,19 +145,6 @@ include('common/header.php') ?>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div class="info-product mt-20 font-md color-gray-900">
             <div class="mt-20">
               <a class="font-md color-gray-900" href="shop-compare.php">Compare with similar items</a>
@@ -163,6 +154,9 @@ include('common/header.php') ?>
         <div class="border-bottom pt-20 mb-40"></div>
       </div>
   </section>
+
+  <!-- Description banner -->
+
   <section class="section-box shop-template">
     <div class="container">
       <div class="pt-30 mb-10">
@@ -616,7 +610,7 @@ include('common/header.php') ?>
                     <?php if (isset($_SESSION['user_id'])) { ?>
 
 
-                      <button class="btn btn-wishlist btn-tooltip mb-10" style="background-color: green;" onclick="AddWishlist_User(<?php echo $row['id']; ?>, <?php echo $_SESSION['user_id']; ?>)" aria-label="Add To Wishlist"></button>
+                      <button class="btn btn-wishlist btn-tooltip mb-10" onclick="AddWishlist_User(<?php echo $row['id']; ?>, <?php echo $_SESSION['user_id']; ?>)" aria-label="Add To Wishlist"></button>
                       <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
                     <?php } else {
                     ?>
@@ -805,6 +799,9 @@ include('common/header.php') ?>
       </div>
     </div>
   </section>
+
+  <!-- Recently banner  -->
+
   <section class="section-box mt-90 mb-50">
     <div class="container">
       <ul class="list-col-5">

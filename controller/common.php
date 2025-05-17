@@ -165,3 +165,11 @@ if (isset($_POST["proId_wishlistUser"]) && isset($_POST["userId_wishlistUser"]))
                                               VALUES ('$prodId', '$userId', NOW())");
     }
 }
+
+
+if (isset($_POST["user_wishlistId"])) {
+
+    $wishlist_id = $_POST["user_wishlistId"];
+
+    $delete = mysqli_query($con, "DELETE FROM `wishlist` WHERE `id`='$wishlist_id'");
+}

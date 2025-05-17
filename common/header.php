@@ -110,22 +110,35 @@
                             <div class="d-inline-block box-dropdown-cart"><span class="font-lg icon-list icon-account"><span>Account</span></span>
                                 <div class="dropdown-account">
                                     <ul>
-
                                         <li><a href="page-register.php">Register</a></li>
                                         <li><a href="page-login.php">Login</a></li>
-
                                     </ul>
                                 </div>
                             </div>
                         <?php } ?>
-                        <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php">
-                            <span>Wishlist</span>
-                            <span class="number-item font-xs">5</span>
-                        </a>
 
-                        <?php
+                        <?php if (isset($_SESSION['user_id'])) {
 
-                        if (isset($_SESSION['user_id'])) {
+                            $user_id = $_SESSION['user_id'];
+
+                            $selectWish_count = mysqli_query($con, "SELECT * FROM `wishlist` WHERE `user_id` = '$user_id'");
+                            
+                            if (mysqli_num_rows($selectWish_count) > 0) {
+                                $wishlist_count = mysqli_num_rows($selectWish_count);
+                            } else {
+                                $wishlist_count = 0;
+                            } 
+                            
+                            ?>
+
+                            <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php" >
+                                <span>Wishlist</span>
+                                <span class="number-item font-xs"><?php echo $wishlist_count ?></span>
+                            </a>
+
+                            <?php
+
+
 
                             $check_result = mysqli_query($con, "SELECT * FROM cart WHERE  user_id='$session_id' ");
 
@@ -136,9 +149,9 @@
                             } ?>
 
                             <div class="d-inline-block box-dropdown-cart">
-                                <span class="font-lg icon-list icon-cart" >
+                                <span class="font-lg icon-list icon-cart">
                                     <span>Cart</span>
-                                    <span class="number-item font-xs" ><?php echo $cart_count; ?></span>
+                                    <span class="number-item font-xs"><?php echo $cart_count; ?></span>
                                 </span>
                                 <div class="dropdown-cart" style=" max-height: 25rem; 
                                                                    overflow-y: auto; 
@@ -267,7 +280,7 @@
         </div>
     </header>
 
-<!--     
+    <!--     
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/wow.js"></script>
     <script src="assets/js/vendors/select2.min.js"></script>

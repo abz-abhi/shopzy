@@ -87,7 +87,7 @@ include('common/header.php');
                                             <?php if (isset($_SESSION['user_id'])) { ?>
 
 
-                                                <button class="btn btn-wishlist btn-tooltip mb-10" style="background-color: green;" onclick="AddWishlist_User(<?php echo $row['id']; ?>, <?php echo $_SESSION['user_id']; ?>)" aria-label="Add To Wishlist"></button>
+                                                <button class="btn btn-wishlist btn-tooltip mb-10" onclick="AddWishlist_User(<?php echo $row['id']; ?>, <?php echo $_SESSION['user_id']; ?>)" aria-label="Add To Wishlist"></button>
                                                 <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
                                             <?php } else {
                                             ?>
