@@ -1,13 +1,13 @@
 <?php
 include('session.php');
 include('common/header.php') ?>
+
 <main class="main">
   <div class="section-box">
     <div class="breadcrumbs-div">
       <div class="container">
         <ul class="breadcrumb">
           <li><a class="font-xs color-gray-1000" href="index.php">Home</a></li>
-          <li><a class="font-xs color-gray-500" href="shop-grid-2.php">Shop</a></li>
           <li><a class="font-xs color-gray-500" href="shop-cart.php">Cart</a></li>
         </ul>
       </div>
@@ -18,7 +18,6 @@ include('common/header.php') ?>
       <div class="row">
         <div class="col-lg-9">
           <div class="box-carts" id="cartList">
-
             <div class="head-wishlist">
               <div class="item-wishlist">
                 <div class="wishlist-product"><span class="font-md-bold color-brand-3">Product</span></div>
@@ -320,7 +319,7 @@ include('common/header.php') ?>
 
                     <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $rowLike['id']; ?>, <?php echo $rowLike['selling_price']; ?>)">Add To Cart</button>
                   <?php } else {
-                  ?> 
+                  ?>
                     <button class="btn btn-cart" onclick="addCartfrom_session(<?php echo $rowLike['id']; ?>,<?php echo $rowLike['selling_price']; ?>)">Add To Cart</button>
                   <?php
                   } ?>

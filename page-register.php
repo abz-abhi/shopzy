@@ -80,8 +80,6 @@ if (isset($_POST['createAcco'])) {
               </div>
             </div>
           </form>
-
-
         </div>
       </div>
     </div>

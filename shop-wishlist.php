@@ -146,15 +146,7 @@ include('common/header.php') ?>
 
                     </div>
                     <div class="wishlist-action">
-
-
-
-                      <?php if (isset($_SESSION['user_id'])) { ?>
-
-                        <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $result_prod['id']; ?>, <?php echo $result_prod['selling_price']; ?>)">Add To Cart</button>
-                      <?php } ?>
-
-
+                      <button class="btn btn-cart" onclick="addCartfrom_session(<?php echo $result_prod['id']; ?>, <?php echo $result_prod['selling_price']; ?>)">Add To Cart</button>
                     </div>
                     <div class="wishlist-remove">
                       <a class="btn btn-delete" onclick="session_deleteWishlist(<?php echo $value['id'] ?>)"></a>

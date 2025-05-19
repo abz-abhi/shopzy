@@ -198,7 +198,7 @@ include('common/header.php') ?>
                       <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
                     <?php } else {
                     ?>
-                      <a class="btn btn-wishlist btn-tooltip mb-10" style="background-color: red;" onclick="AddWishlist_session(<?php echo $FeatureRow['id'] ?>)" aria-label="Add To Wishlist"></a>
+                      <a class="btn btn-wishlist btn-tooltip mb-10" onclick="AddWishlist_session(<?php echo $FeatureRow['id'] ?>)" aria-label="Add To Wishlist"></a>
                       <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
                     <?php  }  ?>
 
@@ -239,18 +239,6 @@ include('common/header.php') ?>
                       <button class="btn btn-cart" onclick="addCartfrom_session(<?php echo $FeatureRow['id']; ?>,<?php echo $FeatureRow['selling_price']; ?>)">Add To Cart</button>
                     <?php
                     } ?>
-
-
-
-
-                    <!-- <div class="mt-20 box-btn-cart">
-                      <button class="btn btn-cart" onclick="addCartfrom_cart(<?php // echo $FeatureRow['id']; 
-                                                                              ?>, <?php // echo $FeatureRow['selling_price']; 
-                                                                                  ?>)">Add To Cart</button>
-                    </div> -->
-
-
-
 
                   </div>
                 </div>

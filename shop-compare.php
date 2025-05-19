@@ -7,7 +7,6 @@ include('common/header.php'); ?>
           <div class="container">
             <ul class="breadcrumb">
               <li><a class="font-xs color-gray-1000" href="index.php">Home</a></li>
-              <li><a class="font-xs color-gray-500" href="shop-grid-2.php">Shop</a></li>
               <li><a class="font-xs color-gray-500" href="shop-compare.php">Compare</a></li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('session.php');
 include('common/header.php');
 
@@ -70,5 +70,6 @@ include('common/header.php');
         <div class="col-lg-5"></div>
       </div>
     </div>
+  </section>
 </main>
 <?php include('common/footer.php'); ?>
