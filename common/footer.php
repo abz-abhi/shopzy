@@ -314,6 +314,39 @@
             }
         });
     }
+
+    function AddWishlist_session(prodID) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                proId_wishlistSession: prodID,
+            },
+            success: function(response) {
+                alert("Added to wishlist")
+                var url = window.location.href;
+                $("#cartCount").load(url + " #cartCount");
+
+            }
+        });
+    }
+
+    function session_deleteWishlist(sess_wishId) {
+        $.ajax({
+            type: "POST",
+            url: 'controller/common.php',
+            data: {
+                session_wishlistId: sess_wishId,
+            },
+            success: function(response) {
+                alert("Delete")
+                var url = window.location.href;
+                $("#wishlistBox").load(url + " #wishlistBox");
+                $("#cartCount").load(url + " #cartCount");
+
+            }
+        });
+    }
 </script>
 
 

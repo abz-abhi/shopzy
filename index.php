@@ -106,6 +106,7 @@ include('common/header.php') ?>
 
           $catSel = mysqli_query($con, "SELECT * FROM `categories` ORDER BY `id`");
 
+
           while ($catRow = mysqli_fetch_assoc($catSel)) {
 
           ?>
@@ -197,10 +198,9 @@ include('common/header.php') ?>
                       <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
                     <?php } else {
                     ?>
-                      <a class="btn btn-wishlist btn-tooltip mb-10" style="background-color: red;" onclick="AddWishlist(<?php echo $FeatureRow['id'] ?>,<?php echo $_SESSION['user_id'] ?>)" aria-label="Add To Wishlist"></a>
+                      <a class="btn btn-wishlist btn-tooltip mb-10" style="background-color: red;" onclick="AddWishlist_session(<?php echo $FeatureRow['id'] ?>)" aria-label="Add To Wishlist"></a>
                       <a class="btn btn-compare btn-tooltip mb-10" href="shop-compare.php" aria-label="Compare"></a>
-                    <?php }
-                    ?>
+                    <?php  }  ?>
 
 
                   </div>

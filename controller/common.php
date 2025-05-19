@@ -173,3 +173,36 @@ if (isset($_POST["user_wishlistId"])) {
 
     $delete = mysqli_query($con, "DELETE FROM `wishlist` WHERE `id`='$wishlist_id'");
 }
+
+
+if (isset($_POST["proId_wishlistSession"])) {
+
+    $prodID = $_POST["proId_wishlistSession"];
+
+    if (!isset($_SESSION["wishlist"])) {
+        $_SESSION["wishlist"] = [];
+    }
+
+    if (isset($_SESSION["wishlist"][$prodID])) {
+        $_SESSION["wishlist"][$prodID];
+        echo "updated wishlist";
+    } else {
+        $_SESSION["wishlist"][$prodID] = [
+            'id' => $prodID
+        ];
+        echo "added to wishlist";
+    }
+}
+
+if (isset($_POST["session_wishlistId"])) {
+
+    $session_wishlistId = $_POST["session_wishlistId"];
+
+    foreach ($_SESSION['wishlist'] as $key => $val) {
+        if ($val['id'] == $session_wishlistId) {
+            unset($_SESSION['wishlist'][$key]);
+            exit;
+        }
+    }
+}
+

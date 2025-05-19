@@ -83,11 +83,7 @@ include('common/header.php') ?>
                     <?php if (isset($_SESSION['user_id'])) { ?>
 
                       <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $result_prod['id']; ?>, <?php echo $result_prod['selling_price']; ?>)">Add To Cart</button>
-                    <?php } else {
-                    ?>
-                      <button class="btn btn-cart" onclick="addCartfrom_session(<?php echo $FeatureRow['id']; ?>,<?php echo $FeatureRow['selling_price']; ?>)">Add To Cart</button>
-                    <?php
-                    } ?>
+                    <?php } ?>
 
 
                   </div>
@@ -96,7 +92,83 @@ include('common/header.php') ?>
                   </div>
                 </div>
 
-          <?php   }
+                <?php }
+            }
+          } else {
+            if (isset($_SESSION['wishlist'])) {
+
+              $session_wishlist = $_SESSION['wishlist'];
+
+
+              foreach ($session_wishlist as $key => $value) {
+
+                $select_Prod = mysqli_query($con, "SELECT * FROM `product` WHERE `id` = '" . $value['id'] . "' ");
+
+                while ($result_prod = mysqli_fetch_assoc($select_Prod)) {
+
+
+
+                ?>
+
+
+
+
+
+                  <div class="item-wishlist">
+                    <div class="wishlist-product">
+                      <div class="product-wishlist">
+                        <div class="product-image"><a href="single-product.php"><img src="admin/<?php echo $result_prod['image'] ?>" alt="Ecom"></a></div>
+                        <div class="product-info"><a href="single-product.php">
+                            <h6 class="color-brand-3"><?php echo $result_prod['name'] ?></h6>
+                          </a>
+                          <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <span class="font-xs color-gray-500"> (65)</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wishlist-price">
+                      <h4 class="color-brand-3"><?php echo $result_prod['selling_price'] ?></h4>
+                    </div>
+                    <div class="wishlist-status">
+
+                      <?php if ($result_prod['status'] == 0) { ?>
+                        <span class="btn btn-gray font-md-bold color-brand-3" style="background-color: red; color:black !important ;">No Stock</span>
+                        <?php } else {
+                        if ($result_prod['status'] == 1) { ?>
+                          <span class="btn btn-gray font-md-bold color-brand-3" style="background-color: green; color:white !important;">In Stock</span>
+                      <?php }
+                      } ?>
+
+                    </div>
+                    <div class="wishlist-action">
+
+
+
+                      <?php if (isset($_SESSION['user_id'])) { ?>
+
+                        <button class="btn btn-cart" onclick="addCartfrom_cart(<?php echo $result_prod['id']; ?>, <?php echo $result_prod['selling_price']; ?>)">Add To Cart</button>
+                      <?php } ?>
+
+
+                    </div>
+                    <div class="wishlist-remove">
+                      <a class="btn btn-delete" onclick="session_deleteWishlist(<?php echo $value['id'] ?>)"></a>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+          <?php }
+              }
             }
           } ?>
 

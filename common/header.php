@@ -122,16 +122,16 @@
                             $user_id = $_SESSION['user_id'];
 
                             $selectWish_count = mysqli_query($con, "SELECT * FROM `wishlist` WHERE `user_id` = '$user_id'");
-                            
+
                             if (mysqli_num_rows($selectWish_count) > 0) {
                                 $wishlist_count = mysqli_num_rows($selectWish_count);
                             } else {
                                 $wishlist_count = 0;
-                            } 
-                            
-                            ?>
+                            }
 
-                            <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php" >
+                        ?>
+
+                            <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php">
                                 <span>Wishlist</span>
                                 <span class="number-item font-xs"><?php echo $wishlist_count ?></span>
                             </a>
@@ -211,8 +211,19 @@
                             <?php
 
                             $session_cart = $_SESSION['cart'] ?? [];
+                            $session_wishlist = $_SESSION['wishlist'] ?? [];
+
 
                             ?>
+
+                            <a class="font-lg icon-list icon-wishlist" href="shop-wishlist.php">
+                                <span>Wishlist</span>
+                                <span class="number-item font-xs">
+                                    <?php echo isset($session_wishlist) && count($session_wishlist) > 0 ? count($session_wishlist) : 0; ?></span>
+                            </a>
+
+
+
                             <div class="d-inline-block box-dropdown-cart">
                                 <span class="font-lg icon-list icon-cart">
                                     <span>Cart</span>
@@ -269,6 +280,9 @@
 
                                 </div>
                             </div>
+
+
+
                         <?php }
                         ?>
 

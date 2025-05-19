@@ -155,7 +155,7 @@ include('common/header.php') ?>
       </div>
   </section>
 
-  <!-- Description banner -->
+  <!-- Description banner & related products-->
 
   <section class="section-box shop-template">
     <div class="container">
