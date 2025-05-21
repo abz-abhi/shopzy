@@ -289,7 +289,6 @@
                 userId_wishlistUser: userId
             },
             success: function(response) {
-                alert("Added to wishlist")
                 var url = window.location.href;
                 $("#cartCount").load(url + " #cartCount");
 
@@ -306,7 +305,6 @@
                 user_wishlistId: wish_id,
             },
             success: function(response) {
-                alert("Delete")
                 var url = window.location.href;
                 $("#wishlistBox").load(url + " #wishlistBox");
                 $("#cartCount").load(url + " #cartCount");
@@ -323,7 +321,6 @@
                 proId_wishlistSession: prodID,
             },
             success: function(response) {
-                alert("Added to wishlist")
                 var url = window.location.href;
                 $("#cartCount").load(url + " #cartCount");
 
@@ -339,7 +336,6 @@
                 session_wishlistId: sess_wishId,
             },
             success: function(response) {
-                alert("Delete")
                 var url = window.location.href;
                 $("#wishlistBox").load(url + " #wishlistBox");
                 $("#cartCount").load(url + " #cartCount");
