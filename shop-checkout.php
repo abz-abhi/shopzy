@@ -17,149 +17,184 @@ include('common/header.php'); ?>
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="box-border">
-            <div class="box-payment"><a class="btn btn-gpay"><img src="assets/imgs/page/checkout/gpay.svg" alt="Ecom"></a><a class="btn btn-paypal"><img src="assets/imgs/page/checkout/paypal.svg" alt="Ecom"></a><a class="btn btn-amazon"><img src="assets/imgs/page/checkout/amazon.svg" alt="Ecom"></a></div>
-            <div class="border-bottom-4 text-center mb-20">
-              <div class="text-or font-md color-gray-500">Or</div>
+
+
+          <?php
+          if (isset($_POST['saveAddressOrder'])) {
+            $logEmail = trim($_POST['logEmail']);
+
+            $user_id = $_SESSION['user_id'];
+            $firstname = trim($_POST['firstname']);
+            $lastname = trim($_POST['lastname']);
+            $address = trim($_POST['address']);
+            $city = trim($_POST['city']);
+            $postcode = trim($_POST['postcode']);
+            $companyName = trim($_POST['companyName']);
+            $phoneNumber = trim($_POST['phoneNumber']);
+            $dateTime = date('Y-m-d H:i:s');
+
+            // Update email in users table
+            $selectedLogUser = mysqli_query($con, "SELECT * FROM `users` WHERE `id` = '$user_id'") or die(mysqli_error($con));
+            if (mysqli_num_rows($selectedLogUser) > 0) {
+              $updateLogData = mysqli_query($con, "UPDATE `users` SET `email` = '$logEmail' WHERE `id` = '$user_id'") or die(mysqli_error($con));
+            }
+
+            // Update or insert into shipping table
+            $selectUser = mysqli_query($con, "SELECT * FROM `shipping` WHERE `user_id`= '$user_id'") or die(mysqli_error($con));
+            if (mysqli_fetch_assoc($selectUser)) {
+              $updateAddress = mysqli_query($con, "UPDATE `shipping` SET 
+        `first_name` = '$firstname',
+        `last_name` = '$lastname',
+        `adress` = '$address',
+        `city` = '$city',
+        `pincode` = '$postcode',
+        `company` = '$companyName',
+        `phone_number` = '$phoneNumber',
+        `updated_on` = '$dateTime'
+        WHERE `user_id` = '$user_id'") or die(mysqli_error($con));
+            } else {
+              $insertqurey = mysqli_query(
+                $con,
+                "INSERT INTO `shipping` (`user_id`, `first_name`, `last_name`, `adress`, `city`, `pincode`, `company`, `phone_number`, `created_on`, `updated_on`) 
+      VALUES ('$user_id', '$firstname', '$lastname', '$address', '$city', '$postcode', '$companyName', '$phoneNumber', '$dateTime', '$dateTime')"
+              ) or die(mysqli_error($con));
+            }
+          }
+          ?>
+
+          <form action="" method="POST">
+            <div class="box-border">
+
+              <div class="row">
+                <div class="col-lg-6 col-sm-6 mb-20">
+                  <h5 class="font-md-bold color-brand-3 text-sm-start text-center">Contact information</h5>
+                </div>
+
+                <?php
+                $selectUser = mysqli_query($con, "SELECT * FROM `users` WHERE `id` = '$user_id'");
+                $userRow = mysqli_fetch_array($selectUser);
+                ?>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="logEmail" type="text" value="<?php echo $userRow['email']; ?>" placeholder="Email*" required>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <h5 class="font-md-bold color-brand-3 mt-15 mb-20">Shipping address</h5>
+                </div>
+
+                <?php
+                $select_User = mysqli_query($con, "SELECT * FROM `shipping` WHERE `user_id` = '$user_id'") or die(mysqli_error($con));
+                $detailsUser = mysqli_fetch_array($select_User);
+                ?>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="firstname" type="text" value="<?php echo $detailsUser['first_name'] ?? ''; ?>" placeholder="First name*" required>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="lastname" type="text" value="<?php echo $detailsUser['last_name'] ?? ''; ?>" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="address" type="text" value="<?php echo $detailsUser['adress'] ?? ''; ?>" placeholder="Address*" required>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="city" type="text" value="<?php echo $detailsUser['city'] ?? ''; ?>" placeholder="City*" required>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="postcode" type="text" value="<?php echo $detailsUser['pincode'] ?? ''; ?>" placeholder="PostCode / ZIP*" required>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="companyName" type="text" value="<?php echo $detailsUser['company'] ?? ''; ?>" placeholder="Company name">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input class="form-control font-sm" name="phoneNumber" type="text" value="<?php echo $detailsUser['phone_number'] ?? ''; ?>" placeholder="Phone*" required>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <input class="btn btn-buy w-auto" name="saveAddressOrder" type="submit" value="Save change">
+                  <div class="box-payment" style="margin-top: 20px;">
+                    <a class="btn btn-amazon" style="gap: 40px;"><img src="assets/imgs/page/checkout/cod.png" alt="Ecom" style="min-width: 50px; min-height: 50px;">
+                      <p style="color: green;">Available</p>
+                    </a>
+                    <a class="btn btn-gpay"><img src="assets/imgs/page/checkout/gpay.svg" alt="Ecom">
+                      <p style="color: red;">Unavailable</p>
+                    </a>
+                    <a class="btn btn-paypal"><img src="assets/imgs/page/checkout/paypal.svg" alt="Ecom">
+                      <p style="color: red;">Unavailable</p>
+                    </a>
+                  </div>
+                </div>
+
+
+
+              </div>
             </div>
-            <div class="row">
-              <div class="col-lg-6 col-sm-6 mb-20">
-                <h5 class="font-md-bold color-brand-3 text-sm-start text-center">Contact information</h5>
-              </div>
-              <div class="col-lg-6 col-sm-6 mb-20 text-sm-end text-center"><span class="font-sm color-brand-3">Already have an account?</span><a class="font-sm color-brand-1" href="page-login.php"> Login</a></div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="Email*">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <label class="font-sm color-brand-3" for="checkboxOffers">
-                    <input class="checkboxOffer" id="checkboxOffers" type="checkbox">Keep me up to date on news and exclusive offers
-                  </label>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <h5 class="font-md-bold color-brand-3 mt-15 mb-20">Shipping address</h5>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="First name*">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="Last name*">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="Address 1*">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="Address 2*">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <select class="form-control font-sm select-style1 color-gray-700">
-                    <option value="">Select an option...</option>
-                    <option value="1">Option 1</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="City*">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="PostCode / ZIP*">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="Company name">
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <input class="form-control font-sm" type="text" placeholder="Phone*">
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="form-group mb-0">
-                  <textarea class="form-control font-sm" placeholder="Additional Information" rows="5"></textarea>
-                </div>
-              </div>
-            </div>
-          </div>
+          </form>
           <div class="row mt-20">
             <div class="col-lg-6 col-5 mb-20"><a class="btn font-sm-bold color-brand-1 arrow-back-1" href="shop-cart.php">Return to Cart</a></div>
             <div class="col-lg-6 col-7 mb-20 text-end"><a class="btn btn-buy w-auto arrow-next" href="shop-checkout.php">Place an Order</a></div>
           </div>
         </div>
+
         <div class="col-lg-6">
           <div class="box-border">
             <h5 class="font-md-bold mb-20">Your Order</h5>
             <div class="listCheckout">
-              <div class="item-wishlist">
-                <div class="wishlist-product">
-                  <div class="product-wishlist">
-                    <div class="product-image"><a href="single-product.php"><img src="assets/imgs/page/product/img-sub.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="single-product.php">
-                        <h6 class="color-brand-3">Gateway 23.8&quot; All-in-one Desktop, Fully Adjustable Stand</h6>
-                      </a>
-                      <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
+
+              <?php
+              $selectCart = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` = '$user_id' ") or die(mysqli_error($con));
+              while ($rowCart = mysqli_fetch_array($selectCart)) {
+
+                $selectProd = mysqli_query($con, "SELECT * FROM `product` WHERE `id` = '" . $rowCart['pro_id'] . "'   ")  or die(mysqli_error($con));
+                while ($cartProd = mysqli_fetch_array($selectProd)) {
+
+                  $singleTotal = $rowCart['qty'] * $rowCart['price'];
+                  $total += $singleTotal;
+
+              ?>
+
+                  <div class="item-wishlist">
+                    <div class="wishlist-product">
+                      <div class="product-wishlist">
+                        <div class="product-image"><img src="admin/<?php echo $cartProd['image'] ?>" alt="Ecom"></div>
+                        <div class="product-info">
+                          <h6 class="color-brand-3 description-clamp"><?php echo $cartProd['discription'] ?></h6>
+
+                          <div class="rating">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <img src="assets/imgs/template/icons/star.svg" alt="Ecom">
+                            <span class="font-xs color-gray-500"> (65)</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wishlist-status">
+                      <h5 class="color-gray-500">x<?php echo $rowCart['qty'] ?></h5>
+                    </div>
+                    <div class="wishlist-price">
+                      <h4 class="color-brand-3 font-lg-bold"><?php echo $rowCart['qty'] * $rowCart['price']; ?></h4>
                     </div>
                   </div>
-                </div>
-                <div class="wishlist-status">
-                  <h5 class="color-gray-500">x1</h5>
-                </div>
-                <div class="wishlist-price">
-                  <h4 class="color-brand-3 font-lg-bold">$2.51</h4>
-                </div>
-              </div>
-              <div class="item-wishlist">
-                <div class="wishlist-product">
-                  <div class="product-wishlist">
-                    <div class="product-image"><a href="single-product.php"><img src="assets/imgs/page/product/img-sub2.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="single-product.php">
-                        <h6 class="color-brand-3">HP 24 All-in-One PC, Intel Core i3-1115G4, 4GB RAM</h6>
-                      </a>
-                      <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="wishlist-status">
-                  <h5 class="color-gray-500">x1</h5>
-                </div>
-                <div class="wishlist-price">
-                  <h4 class="color-brand-3 font-lg-bold">$1.51</h4>
-                </div>
-              </div>
-              <div class="item-wishlist">
-                <div class="wishlist-product">
-                  <div class="product-wishlist">
-                    <div class="product-image"><a href="single-product.php"><img src="assets/imgs/page/product/img-sub3.png" alt="Ecom"></a></div>
-                    <div class="product-info"><a href="single-product.php">
-                        <h6 class="color-brand-3">Dell Optiplex 9020 Small Form Business Desktop Tower PC</h6>
-                      </a>
-                      <div class="rating"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><img src="assets/imgs/template/icons/star.svg" alt="Ecom"><span class="font-xs color-gray-500"> (65)</span></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="wishlist-status">
-                  <h5 class="color-gray-500">x1</h5>
-                </div>
-                <div class="wishlist-price">
-                  <h4 class="color-brand-3 font-lg-bold">$3.51</h4>
-                </div>
-              </div>
+              <?php }
+              } ?>
             </div>
             <div class="form-group d-flex mt-15">
               <input class="form-control mr-15" placeholder="Enter Your Coupon">
@@ -168,7 +203,7 @@ include('common/header.php'); ?>
             <div class="form-group mb-0">
               <div class="row mb-10">
                 <div class="col-lg-6 col-6"><span class="font-md-bold color-brand-3">Subtotal</span></div>
-                <div class="col-lg-6 col-6 text-end"><span class="font-lg-bold color-brand-3">$6.51</span></div>
+                <div class="col-lg-6 col-6 text-end"><span class="font-lg-bold color-brand-3"><?php echo $total ?></span></div>
               </div>
               <div class="border-bottom mb-10 pb-5">
                 <div class="row">
@@ -178,9 +213,10 @@ include('common/header.php'); ?>
               </div>
               <div class="row">
                 <div class="col-lg-6 col-6"><span class="font-md-bold color-brand-3">Total</span></div>
-                <div class="col-lg-6 col-6 text-end"><span class="font-lg-bold color-brand-3">$6.51</span></div>
+                <div class="col-lg-6 col-6 text-end"><span class="font-lg-bold color-brand-3"><?php echo $total ?></span></div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

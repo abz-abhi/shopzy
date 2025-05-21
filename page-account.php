@@ -64,7 +64,7 @@ include('common/header.php');
 
   ?>
   <section class="section-box shop-template mt-30">
-    <?php $user_id = $_SESSION['user_id'];
+    <?php 
     $selectUser = mysqli_query($con, "SELECT * FROM `users` WHERE `id` = '$user_id' ");
     $userRow = mysqli_fetch_array($selectUser); ?>
     <div class="container box-account-template">
