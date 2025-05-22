@@ -60,9 +60,54 @@ include('common/header.php'); ?>
               ) or die(mysqli_error($con));
             }
           }
+
+          if (isset($_POST["placeOrder"]) && $_POST['esr_tocken'] == $_SESSION['esr_tocken']) {
+
+
+
+            $user_id = $_SESSION['user_id']; // Critical fix
+
+            $selectShippingId = mysqli_query($con, "SELECT * FROM `shipping` WHERE `user_id` = '$user_id' ");
+            $resultId = mysqli_fetch_assoc($selectShippingId);
+            $selectCart = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` = '$user_id' ") or die(mysqli_error($con));
+
+            $total = 0; // Fix: Initialize total
+            while ($rowCart = mysqli_fetch_array($selectCart)) {
+              $singleTotal = $rowCart['qty'] * $rowCart['price'];
+              $total += $singleTotal;
+            }
+
+
+            $shippingId = $resultId["id"];
+            $dateTime = date('Y-m-d H:i:s');
+            $uniqid = uniqid();
+
+            $insertQurey = mysqli_query($con, "INSERT INTO `orders`(`uniqe_id`, `user_id`, `shipping_id`, `sub_total`, `status`, `created_on`, `updated_on`)
+                                                               VALUES ('$uniqid','$user_id','$shippingId','$total','1','$dateTime','$dateTime')") or die(mysqli_error($con));
+
+
+            if (isset($insertQurey)) {
+              $deleteCart = mysqli_query($con, "DELETE FROM `cart` WHERE `user_id` = '$user_id' ");
+              if ($deleteCart) {
+                echo "<script> alert('order placced'); window.location.href = 'index.php';</script>";
+                exit();
+              }
+            }
+          }
           ?>
 
           <form action="" method="POST">
+
+
+            <?php
+
+            $esr_tocken = uniqid(12);
+
+            $_SESSION['esr_tocken'] = $esr_tocken;
+
+            ?>
+            <input type="hidden" name="esr_tocken" value="<?php echo $esr_tocken; ?>">
+
             <div class="box-border">
 
               <div class="row">
@@ -139,17 +184,15 @@ include('common/header.php'); ?>
                     </a>
                   </div>
                 </div>
-
-
-
               </div>
             </div>
-          </form>
-          <div class="row mt-20">
-            <div class="col-lg-6 col-5 mb-20"><a class="btn font-sm-bold color-brand-1 arrow-back-1" href="shop-cart.php">Return to Cart</a></div>
-            <div class="col-lg-6 col-7 mb-20 text-end"><a class="btn btn-buy w-auto arrow-next" href="shop-checkout.php">Place an Order</a></div>
-          </div>
+            <div class="row mt-20">
+              <div class="col-lg-6 col-5 mb-20"><a class="btn font-sm-bold color-brand-1 arrow-back-1" href="shop-cart.php">Return to Cart</a></div>
+              <div class="col-lg-6 col-7 mb-20 text-end"><button type="submit" class="btn btn-primary" name="placeOrder" value="1">Place Order</button>
+              </div>
+            </div>
         </div>
+        </form>
 
         <div class="col-lg-6">
           <div class="box-border">
