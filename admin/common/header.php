@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -37,6 +38,15 @@
                     <a class="menu-link" href="dashboard.php">
                         <i class="icon material-icons md-home"></i>
                         <span class="text">Dashboard</span></a>
+                </li>
+                <li class="menu-item has-submenu">
+                    <a class="menu-link" href="page-products-list.php">
+                        <i class="icon material-icons md-list_alt"></i>
+                        <span class="text">Orders</span>
+                    </a>
+                    <div class="submenu">
+                        <a href="order-list.php">Order List</a>
+                    </div>
                 </li>
                 <li class="menu-item has-submenu">
                     <a class="menu-link" href="page-products-list.php"><i class="icon material-icons md-shopping_bag"></i><span class="text">Products</span></a>

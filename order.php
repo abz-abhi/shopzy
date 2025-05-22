@@ -11,130 +11,74 @@ include('common/header.php');
                 <br class="d-none d-lg-block">manage your shipping and billing addresses and edit your password and account details.
             </p>
             <div class="box-tabs mb-100">
-
                 <div class="border-bottom mt-20 mb-40"></div>
-                    <div >
+                <div>
+
+                    <?php
+                    $user_id = $_SESSION['user_id'];
+                    $SelectOrder = mysqli_query($con, "SELECT * FROM `orders` WHERE `user_id` = '$user_id' ");
+
+                    while ($OrderRow = mysqli_fetch_assoc($SelectOrder)) {
+
+                        $dateString = $OrderRow['updated_on'];
+                        $formattedDate = date("d M Y", strtotime($dateString));
+
+                    ?>
+
                         <div class="box-orders">
                             <div class="head-orders">
                                 <div class="head-left">
-                                    <h5 class="mr-20">Order ID: #EWFDSAF1321655</h5><span class="font-md color-brand-3 mr-20">Date: 18 September 2022</span><span class="label-delivery">Delivery in progress</span>
+                                    <h5 class="mr-20">Order ID: #<?php echo $OrderRow['uniqe_id']; ?></h5>
+                                    <span class="font-md color-brand-3 mr-20">Date: <?php echo $formattedDate ?></span>
+
+                                    <?php if ($OrderRow['status'] == 1) { ?>
+                                        <span class="label-delivery">Order placed</span>
+                                    <?php } else if ($OrderRow['status'] == 2) { ?>
+                                        <span class="label-delivery">In Production</span>
+                                    <?php } else if ($OrderRow['status'] == 3) { ?>
+                                        <span class="label-delivery">In shipping</span>
+                                    <?php } else if ($OrderRow['status'] == 4) { ?>
+                                        <span class="label-delivery">Shipping Final Mile</span>
+                                    <?php } else { ?>
+                                        <span class="label-delivery">Delivered</span>
+                                    <?php } ?>
+
                                 </div>
-                                <div class="head-right"><a class="btn btn-buy font-sm-bold w-auto">View Order</a></div>
+                                <div class="head-right"><a class="btn btn-buy font-sm-bold w-auto" href="order-track.php">Track Order</a></div>
                             </div>
                             <div class="body-orders">
                                 <div class="list-orders">
-                                    <div class="item-orders">
-                                        <div class="image-orders"><img src="assets/imgs/page/account/img-1.png" alt="Ecom"></div>
-                                        <div class="info-orders">
-                                            <h5>Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h5>
+                                    <?php
+                                    $selectItem = mysqli_query($con, "SELECT * FROM `order_items` WHERE `order_id` = '" . $OrderRow['uniqe_id'] . "' ");
+
+                                    while ($result_item = mysqli_fetch_assoc($selectItem)) {
+
+                                        $select_prod = mysqli_query($con,"SELECT * FROM `product` WHERE `id` =  '".$result_item['item_id']."' ");
+
+                                        while ($result_prod = mysqli_fetch_assoc($select_prod)) {
+
+                                    ?>
+                                        <div class="item-orders">
+                                            <div class="image-orders"><img src="admin/<?php echo $result_prod['image'] ?>" alt="Ecom"></div>
+                                            <div class="info-orders">
+                                                <h5><?php echo $result_prod['discription'] ?></h6>
+                                            </div>
+                                            <div class="quantity-orders">
+                                                <h6>Quantity: <?php echo $result_item['qty'] ?></h6>
+                                            </div>
+                                            <div class="price-orders">
+                                                <h3><?php echo $result_item['total'] ?></h3>
+                                            </div>
                                         </div>
-                                        <div class="quantity-orders">
-                                            <h5>Quantity: 01</h5>
-                                        </div>
-                                        <div class="price-orders">
-                                            <h3>$2.51</h3>
-                                        </div>
-                                    </div>
-                                    <div class="item-orders">
-                                        <div class="image-orders"><img src="assets/imgs/page/account/img-1.png" alt="Ecom"></div>
-                                        <div class="info-orders">
-                                            <h5>Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h5>
-                                        </div>
-                                        <div class="quantity-orders">
-                                            <h5>Quantity: 01</h5>
-                                        </div>
-                                        <div class="price-orders">
-                                            <h3>$2.51</h3>
-                                        </div>
-                                    </div>
+                                    <?php } } ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="box-orders">
-                            <div class="head-orders">
-                                <div class="head-left">
-                                    <h5 class="mr-20">Order ID: #EWFDSAF1321655</h5><span class="font-md color-brand-3 mr-20">Date: 18 September 2022</span><span class="label-delivery label-delivered">Delivered</span>
-                                </div>
-                                <div class="head-right"><a class="btn btn-buy font-sm-bold w-auto">View Order</a></div>
-                            </div>
-                            <div class="body-orders">
-                                <div class="list-orders">
-                                    <div class="item-orders">
-                                        <div class="image-orders"><img src="assets/imgs/page/account/img-1.png" alt="Ecom"></div>
-                                        <div class="info-orders">
-                                            <h5>Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h5>
-                                        </div>
-                                        <div class="quantity-orders">
-                                            <h5>Quantity: 01</h5>
-                                        </div>
-                                        <div class="price-orders">
-                                            <h3>$2.51</h3>
-                                        </div>
-                                    </div>
-                                    <div class="item-orders">
-                                        <div class="image-orders"><img src="assets/imgs/page/account/img-1.png" alt="Ecom"></div>
-                                        <div class="info-orders">
-                                            <h5>Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h5>
-                                        </div>
-                                        <div class="quantity-orders">
-                                            <h5>Quantity: 01</h5>
-                                        </div>
-                                        <div class="price-orders">
-                                            <h3>$2.51</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-orders">
-                            <div class="head-orders">
-                                <div class="head-left">
-                                    <h5 class="mr-20">Order ID: #EWFDSAF1321655</h5><span class="font-md color-brand-3 mr-20">Date: 18 September 2022</span><span class="label-delivery label-cancel">Cancel</span>
-                                </div>
-                                <div class="head-right"><a class="btn btn-buy font-sm-bold w-auto">View Order</a></div>
-                            </div>
-                            <div class="body-orders">
-                                <div class="list-orders">
-                                    <div class="item-orders">
-                                        <div class="image-orders"><img src="assets/imgs/page/product/ss.jpg" alt="Ecom"></div>
-                                        <div class="info-orders">
-                                            <h5>Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h5>
-                                        </div>
-                                        <div class="quantity-orders">
-                                            <h5>Quantity: 01</h5>
-                                        </div>
-                                        <div class="price-orders">
-                                            <h3>$2.51</h3>
-                                        </div>
-                                    </div>
-                                    <div class="item-orders">
-                                        <div class="image-orders"><img src="assets/imgs/page/product/ss2.jpg" alt="Ecom"></div>
-                                        <div class="info-orders">
-                                            <h5>Samsung 36" French door 28 cu. ft. Smart Energy Star Refrigerator</h5>
-                                        </div>
-                                        <div class="quantity-orders">
-                                            <h5>Quantity: 01</h5>
-                                        </div>
-                                        <div class="price-orders">
-                                            <h3>$2.51</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <nav>
-                            <ul class="pagination">
-                                <li class="page-item"><a class="page-link page-prev" href="#"></a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                                <li class="page-item"><a class="page-link page-next" href="#"></a></li>
-                            </ul>
-                        </nav>
-                    </div>
+
+                    <?php
+                    } ?>
+
+                </div>
             </div>
         </div>
         </div>

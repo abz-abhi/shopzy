@@ -43,55 +43,75 @@ include('common/header.php'); ?>
             $selectUser = mysqli_query($con, "SELECT * FROM `shipping` WHERE `user_id`= '$user_id'") or die(mysqli_error($con));
             if (mysqli_fetch_assoc($selectUser)) {
               $updateAddress = mysqli_query($con, "UPDATE `shipping` SET 
-        `first_name` = '$firstname',
-        `last_name` = '$lastname',
-        `adress` = '$address',
-        `city` = '$city',
-        `pincode` = '$postcode',
-        `company` = '$companyName',
-        `phone_number` = '$phoneNumber',
-        `updated_on` = '$dateTime'
-        WHERE `user_id` = '$user_id'") or die(mysqli_error($con));
+                                                                        `first_name` = '$firstname',
+                                                                        `last_name` = '$lastname',
+                                                                        `adress` = '$address',
+                                                                        `city` = '$city',
+                                                                        `pincode` = '$postcode',
+                                                                        `company` = '$companyName',
+                                                                        `phone_number` = '$phoneNumber',
+                                                                        `updated_on` = '$dateTime'
+                                                                         WHERE `user_id` = '$user_id'");
             } else {
               $insertqurey = mysqli_query(
                 $con,
                 "INSERT INTO `shipping` (`user_id`, `first_name`, `last_name`, `adress`, `city`, `pincode`, `company`, `phone_number`, `created_on`, `updated_on`) 
-      VALUES ('$user_id', '$firstname', '$lastname', '$address', '$city', '$postcode', '$companyName', '$phoneNumber', '$dateTime', '$dateTime')"
-              ) or die(mysqli_error($con));
+                                        VALUES ('$user_id', '$firstname', '$lastname', '$address', '$city', '$postcode', '$companyName', '$phoneNumber', '$dateTime', '$dateTime')"
+              );
             }
           }
 
+
           if (isset($_POST["placeOrder"]) && $_POST['esr_tocken'] == $_SESSION['esr_tocken']) {
 
-
-
-            $user_id = $_SESSION['user_id']; // Critical fix
+            $payMeathod = $_POST['payment_option'];
 
             $selectShippingId = mysqli_query($con, "SELECT * FROM `shipping` WHERE `user_id` = '$user_id' ");
-            $resultId = mysqli_fetch_assoc($selectShippingId);
-            $selectCart = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` = '$user_id' ") or die(mysqli_error($con));
-
-            $total = 0; // Fix: Initialize total
-            while ($rowCart = mysqli_fetch_array($selectCart)) {
-              $singleTotal = $rowCart['qty'] * $rowCart['price'];
-              $total += $singleTotal;
-            }
 
 
-            $shippingId = $resultId["id"];
-            $dateTime = date('Y-m-d H:i:s');
-            $uniqid = uniqid();
+            if (mysqli_num_rows($selectShippingId) > 0) {
 
-            $insertQurey = mysqli_query($con, "INSERT INTO `orders`(`uniqe_id`, `user_id`, `shipping_id`, `sub_total`, `status`, `created_on`, `updated_on`)
-                                                               VALUES ('$uniqid','$user_id','$shippingId','$total','1','$dateTime','$dateTime')") or die(mysqli_error($con));
+              $resultId = mysqli_fetch_assoc($selectShippingId);
+              $user_id = $_SESSION['user_id'];
+              $shippingId = $resultId["id"];
+              $dateTime = date('Y-m-d H:i:s');
+              $uniqid = uniqid();
 
 
-            if (isset($insertQurey)) {
-              $deleteCart = mysqli_query($con, "DELETE FROM `cart` WHERE `user_id` = '$user_id' ");
-              if ($deleteCart) {
-                echo "<script> alert('order placced'); window.location.href = 'index.php';</script>";
-                exit();
+
+
+
+
+              $selectCart = mysqli_query($con, "SELECT * FROM `cart` WHERE `user_id` = '$user_id' ") or die(mysqli_error($con));
+              $total = 0;
+
+              while ($rowCart = mysqli_fetch_array($selectCart)) {
+                $singleTotal = $rowCart['qty'] * $rowCart['price'];
+                $total += $singleTotal;
+
+                $item_id = $rowCart['pro_id'];
+                $item_qty = $rowCart['qty'];
+                $item_price = $rowCart['price'];
+                $item_quantity = $rowCart['quantity'];
+
+                $insertItem = mysqli_query($con, "INSERT INTO `order_items`(`user_id`, `order_id`, `item_id`, `qty`, `price`, `total`, `created_on`, `updated_on`) 
+                                                                              VALUES ('$user_id','$uniqid','$item_id','$item_qty','$item_price','$singleTotal','$dateTime','$dateTime') ");
               }
+
+              $insertQurey = mysqli_query($con, "INSERT INTO `orders`(`uniqe_id`, `user_id`, `shipping_id`, `sub_total`,`pay_method`,`status`, `created_on`, `updated_on`)
+                                                               VALUES ('$uniqid','$user_id','$shippingId','$total','$payMeathod','1','$dateTime','$dateTime')");
+
+
+              if (isset($insertQurey)) {
+                $deleteCart = mysqli_query($con, "DELETE FROM `cart` WHERE `user_id` = '$user_id' ");
+                if ($deleteCart) {
+                  echo "<script> alert('order placed'); window.location.href = 'index.php';</script>";
+                  exit();
+                }
+              }
+            } else {
+              echo "<script> alert('save shipping address'); window.location.href = 'shop-checkout.php';</script>";
+              exit();
             }
           }
           ?>
@@ -172,17 +192,32 @@ include('common/header.php'); ?>
                 </div>
                 <div class="col-lg-12">
                   <input class="btn btn-buy w-auto" name="saveAddressOrder" type="submit" value="Save change">
-                  <div class="box-payment" style="margin-top: 20px;">
-                    <a class="btn btn-amazon" style="gap: 40px;"><img src="assets/imgs/page/checkout/cod.png" alt="Ecom" style="min-width: 50px; min-height: 50px;">
-                      <p style="color: green;">Available</p>
-                    </a>
-                    <a class="btn btn-gpay"><img src="assets/imgs/page/checkout/gpay.svg" alt="Ecom">
-                      <p style="color: red;">Unavailable</p>
-                    </a>
-                    <a class="btn btn-paypal"><img src="assets/imgs/page/checkout/paypal.svg" alt="Ecom">
-                      <p style="color: red;">Unavailable</p>
-                    </a>
+
+                  <div class="box-payment" style="margin-top: 20px; display: flex; gap: 20px;">
+                    <!-- COD -->
+                    <label class="btn btn-amazon" style="display: flex; flex-direction: column; align-items: center; padding: 10px;">
+                      <input type="checkbox" name="payment_option" value="cod" style="margin-bottom: 10px;" required>
+                      <img src="assets/imgs/page/checkout/cod.png" alt="Ecom" style="min-width: 50px; min-height: 50px;">
+                      <p style="color: green; margin-top: 10px;">Available</p>
+                    </label>
+
+                    <!-- GPay -->
+                    <label class="btn btn-gpay" style="display: flex; flex-direction: column; align-items: center; padding: 10px;">
+                      <input type="checkbox" name="payment_option" value="gpay" style="margin-bottom: 10px;" disabled>
+                      <img src="assets/imgs/page/checkout/gpay.svg" alt="Ecom" style="min-width: 50px; min-height: 50px;">
+                      <p style="color: red; margin-top: 10px;">Unavailable</p>
+                    </label>
+
+                    <!-- PayPal -->
+                    <label class="btn btn-paypal" style="display: flex; flex-direction: column; align-items: center; padding: 10px;">
+                      <input type="checkbox" name="payment_option" value="paypal" style="margin-bottom: 10px;" disabled>
+                      <img src="assets/imgs/page/checkout/paypal.svg" alt="Ecom" style="min-width: 50px; min-height: 50px;">
+                      <p style="color: red; margin-top: 10px;">Unavailable</p>
+                    </label>
                   </div>
+
+
+
                 </div>
               </div>
             </div>
