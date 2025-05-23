@@ -196,7 +196,7 @@ include('common/header.php'); ?>
                   <div class="box-payment" style="margin-top: 20px; display: flex; gap: 20px;">
                     <!-- COD -->
                     <label class="btn btn-amazon" style="display: flex; flex-direction: column; align-items: center; padding: 10px;">
-                      <input type="checkbox" name="payment_option" value="cod" style="margin-bottom: 10px;" required>
+                      <input type="checkbox" name="payment_option" value="COD" style="margin-bottom: 10px;" required>
                       <img src="assets/imgs/page/checkout/cod.png" alt="Ecom" style="min-width: 50px; min-height: 50px;">
                       <p style="color: green; margin-top: 10px;">Available</p>
                     </label>
