@@ -116,7 +116,7 @@ include('include/db_config.php'); ?>
 
                         <hr>
 
-                        
+
 
                         <hr>
 
@@ -145,26 +145,34 @@ include('include/db_config.php'); ?>
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3">
-                <div class="card mb-4">
+                <div class="card mb-4" id="orderStatus">
                     <div class="card-header">
                         <h4>Change Order Status</h4>
                     </div>
                     <div class="card-body">
                         <div class="mb-3">
-                            <select class="form-select mb-2">
-                                <option selected>Avoiding Payment</option>
-                                <option>Processing</option>
-                                <option>Shipped</option>
-                                <option>Delivered</option>
-                                <option>Cancelled</option>
+                            <select class="form-select mb-2" id="statusSelect_<?php echo $resultOrder['uniqe_id']; ?>" required>
+                                <option value="">Select Status</option>
+                                <?php
+                                $selectStatus = mysqli_query($con, "SELECT * FROM `order_status` ORDER BY `id`");
+                                while ($countStatus = mysqli_fetch_assoc($selectStatus)) {
+                                    $selected = ($countStatus['id'] == $resultOrder['status']) ? 'selected' : '';
+                                    echo '<option value="' . $countStatus['id'] . '" ' . $selected . '>' . $countStatus['status'] . '</option>';
+                                }
+                                ?>
                             </select>
-                            <button class="btn btn-primary w-100">Change</button>
+
+                            <button
+                                onclick="update_orderStatus(document.getElementById('statusSelect_<?php echo $resultOrder['uniqe_id']; ?>').value,'<?php echo $resultOrder['uniqe_id']; ?>')"
+                                type="button"
+                                class="btn btn-primary w-100">
+                                Change
+                            </button>
                         </div>
+
                     </div>
                 </div>
-
                 <div class="card mb-4">
                     <div class="card-header">
                         <h4>Other Action</h4>
@@ -181,6 +189,22 @@ include('include/db_config.php'); ?>
     </section>
 
     <footer class="main-footer font-xs"></footer>
+
+    <script>
+        function update_orderStatus(orderStatus_Id, uniqeId) {
+            $.ajax({
+                type: "POST",
+                url: 'controller/common.php',
+                data: {
+                    order_statusID: orderStatus_Id,
+                    UID: uniqeId
+                },
+                success: function(response) {
+                    // $("#orderStatus").load(window.location.href + " #orderStatus");
+                }
+            });
+        }
+    </script>
 
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>

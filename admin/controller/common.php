@@ -25,3 +25,11 @@ if (isset($_POST['featureId'])) {
 
     $updateFeature = mysqli_query($con, "UPDATE `product` SET `featured` ='" . $_POST['featureValue'] . "' WHERE `id` = '" . $_POST['featureId'] . "'");
 }
+
+if (isset($_POST["order_statusID"]) && isset($_POST["UID"])) {
+
+    $status_id = $_POST["order_statusID"];
+    $statusUID = $_POST["UID"];
+
+    $update = mysqli_query($con, "UPDATE `orders` SET `status` = '$status_id' WHERE `uniqe_id` = '$statusUID'");
+}

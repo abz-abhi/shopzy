@@ -32,15 +32,15 @@ include('common/header.php');
                                     <span class="font-md color-brand-3 mr-20">Date: <?php echo $formattedDate ?></span>
 
                                     <?php if ($OrderRow['status'] == 1) { ?>
-                                        <span class="label-delivery">Order placed</span>
+                                        <span class="badge bg-primary">Order placed</span>
                                     <?php } else if ($OrderRow['status'] == 2) { ?>
-                                        <span class="label-delivery">In Production</span>
+                                        <span class="badge bg-info text-dark">In Production</span>
                                     <?php } else if ($OrderRow['status'] == 3) { ?>
-                                        <span class="label-delivery">In shipping</span>
+                                        <span class="badge bg-warning text-dark">In shipping</span>
                                     <?php } else if ($OrderRow['status'] == 4) { ?>
-                                        <span class="label-delivery">Shipping Final Mile</span>
+                                        <span class="badge bg-secondary">Shipping Final Mile</span>
                                     <?php } else { ?>
-                                        <span class="label-delivery">Delivered</span>
+                                        <span class="badge bg-success">Delivered</span>
                                     <?php } ?>
 
                                 </div>
@@ -67,7 +67,7 @@ include('common/header.php');
                                                 <h6>Quantity: <?php echo $result_item['qty'] ?></h6>
                                             </div>
                                             <div class="price-orders">
-                                                <h3><?php echo $result_item['total'] ?></h3>
+                                                <h4>₹ <?php echo $result_item['total'] ?></h4>
                                             </div>
                                         </div>
                                     <?php } } ?>
