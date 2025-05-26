@@ -57,8 +57,9 @@ include('include/db_config.php');
                                         </td>
                                         <td style="vertical-align: middle;"><?php echo $ResOrder['pay_method'] ?></td>
                                         <td style="vertical-align: middle;"><?php echo $ResOrder['sub_total'] ?></td>
-                                        <td style="vertical-align: middle;"><a href="view-edit.php" class="badge bg-info text-dark">View Or Edit</a></td>
-                                        
+                                        <td style="vertical-align: middle;"><a href="view-edit.php?order_id=<?php echo $ResOrder['uniqe_id']; ?>" class="badge bg-info text-dark">View Or Edit</a>
+                                        </td>
+
                                     </tr>
                             <?php }
                             } ?>
@@ -69,6 +70,3 @@ include('include/db_config.php');
         </div>
     </div>
 </div>
-
-
-

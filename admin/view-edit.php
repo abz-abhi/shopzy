@@ -11,28 +11,54 @@ include('include/db_config.php'); ?>
                     <h2 class="content-title">Order Detail</h2>
                 </div>
             </div>
+            <?php
+            $orderId = $_GET['order_id'];
+
+            $selectOrder = mysqli_query($con, "SELECT * FROM `orders` WHERE `uniqe_id` = '$orderId' ");
+            $resultOrder = mysqli_fetch_assoc($selectOrder);
+
+            ?>
             <div class="col-lg-9">
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h4>09-2905025-882eeb7</h4>
-                        <p class="text-muted">Order Date: 22-05-2025 06:19 AM</p>
+                        <h3>OD-<?php echo $resultOrder['uniqe_id'] ?></h3>
+                        <p class="text-muted">Order Date: <?php echo $resultOrder['created_on'] ?> </p>
                     </div>
+                    <?php
+
+                    $user_id = $resultOrder['user_id'];
+                    $shippingId = $resultOrder['shipping_id'];
+                    $selectUser = mysqli_query($con, "SELECT * FROM `users` WHERE `id` = '$user_id' ");
+                    $resultUser = mysqli_fetch_assoc($selectUser);
+
+
+
+                    ?>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
-                                <h5>Customer Details</h5>
+                                <h4>Customer Details</h4>
                                 <div class="mb-3">
-                                    <p><strong>Name:</strong> kunjappan</p>
-                                    <p><strong>Email:</strong> kunjappan@gmail.com</p>
-                                    <p><strong>Contact Number:</strong> +123456789</p>
-                                    <p><strong>Delivery Address:</strong> sdfscdfs.asdfasdf.asdfasdf.64.464</p>
-                                    <p><strong>Delivery Contact no:</strong> 4.64644</p>
+                                    <p><strong style="font-weight: bold;">Name:</strong> <?php echo $resultUser['user_name'] ?></p>
+                                    <p><strong style="font-weight: bold;">Email:</strong> <?php echo $resultUser['email'] ?></p>
+                                    <p><strong style="font-weight: bold;">Contact Number:</strong> <?php echo $resultUser['phone_number'] ?></p>
+
+                                    <?php
+
+                                    $selectAddress = mysqli_query($con, "SELECT * FROM `shipping` WHERE `id` = '$shippingId' ");
+                                    $resultAddress = mysqli_fetch_assoc($selectAddress);
+
+
+                                    ?>
+                                    <p><strong style="font-weight: bold;">Delivery Address:</strong> <?php echo $resultAddress['adress']; ?></p>
+                                    <p><strong style="font-weight: bold;">Delivery Contact no:</strong> <?php echo $resultAddress['phone_number'] ?></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <h5>Status</h5>
                                 <div class="mb-3">
-                                    <p class="text-danger"><strong>Avoiding Payment</strong></p>
+                                    <p class="text-warning"><strong>
+                                            Awaiting Payment </strong></p>
                                     <table class="table table-bordered">
                                         <tr>
                                             <th>Order Type</th>
@@ -40,76 +66,80 @@ include('include/db_config.php'); ?>
                                         </tr>
                                         <tr>
                                             <th>Payment Mode</th>
-                                            <td>COD</td>
+                                            <td><?php echo $resultOrder['pay_method']; ?></td>
                                         </tr>
                                     </table>
                                 </div>
                             </div>
                         </div>
-
                         <hr>
-
                         <h5 class="mt-4">Order Items</h5>
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th># ITEM</th>
+                                    <th>#</th>
+                                    <th>ITEM</th>
                                     <th>UNIT COST</th>
                                     <th>QTY</th>
                                     <th>TOTAL</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>$709.0</td>
-                                    <td>1</td>
-                                    <td>$2700.0</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>$900.0</td>
-                                    <td>1</td>
-                                    <td>$950.0</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>$830.0</td>
-                                    <td>1</td>
-                                    <td>$630.0</td>
-                                </tr>
+
+
+                                <?php
+                                $selectItems = mysqli_query($con, "SELECT * FROM `order_items` WHERE `order_id` = '$orderId' ");
+                                $count = 1;
+                                while ($resItems = mysqli_fetch_assoc($selectItems)) {
+
+                                    $itemId = $resItems['item_id'];
+
+                                    $selectProd = mysqli_query($con, "SELECT * FROM `product` WHERE `id` = '$itemId' ");
+                                    $resProd = mysqli_fetch_assoc($selectProd);
+
+                                ?>
+
+                                    <tr>
+                                        <td><?php echo $count ?></td>
+                                        <td><?php echo $resProd['name'] ?></td>
+                                        <td><?php echo $resItems['price'] ?></td>
+                                        <td><?php echo $resItems['qty'] ?></td>
+                                        <td><?php echo $resItems['total'] ?></td>
+                                    </tr>
+
+                                <?php $count++;
+                                }
+                                ?>
+
                             </tbody>
                         </table>
 
                         <hr>
 
-                        <h5 class="mt-4">Order Timeline</h5>
-                        <p><strong>22 May 2025, 08:19 am</strong><br>
-                            Order placed by Kunjappan.</p>
+                        
 
                         <hr>
 
-                        <h5 class="mt-4">Code: ring Perils Vibrator</h5>
                         <table class="table table-bordered">
                             <tr>
                                 <th>Subtotal</th>
-                                <td>$12530.00</td>
+                                <td>₹<?php echo $resultOrder['sub_total'] ?></td>
                             </tr>
                             <tr>
                                 <th>Delivery Charge</th>
-                                <td>$100.00</td>
+                                <td>₹0</td>
                             </tr>
                             <tr>
                                 <th>Handling Charge (2)%</th>
-                                <td>$0</td>
+                                <td>₹0</td>
                             </tr>
                             <tr>
                                 <th>GST</th>
-                                <td>$810.00</td>
+                                <td>₹0</td>
                             </tr>
                             <tr class="table-active">
                                 <th>Order Total</th>
-                                <td><strong>$13540.00</strong></td>
+                                <td><strong>₹<?php echo $resultOrder['sub_total'] ?></strong></td>
                             </tr>
                         </table>
                     </div>
