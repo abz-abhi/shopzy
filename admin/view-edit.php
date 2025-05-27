@@ -18,7 +18,7 @@ include('include/db_config.php'); ?>
             $resultOrder = mysqli_fetch_assoc($selectOrder);
 
             ?>
-            <div class="col-lg-9">
+            <div class="col-lg-9" style="background-color: re;">
                 <div class="card mb-4">
                     <div class="card-header">
                         <h3>OD-<?php echo $resultOrder['uniqe_id'] ?></h3>
@@ -179,7 +179,10 @@ include('include/db_config.php'); ?>
                     </div>
                     <div class="card-body">
                         <button class="btn btn-outline-danger w-100 mb-2">Cancel Order</button>
-                        <button class="btn btn-primary w-100 mb-2">Print Invoice</button>
+                        <a href="export-pdf.php?order_id=<?php echo $orderId ?>" target="_blank" class="btn btn-primary w-100 mb-2">
+                            Print Invoice
+                        </a>
+
                         <button class="btn btn-secondary w-100 mb-2">Email Customer</button>
                         <button class="btn btn-danger w-100">Refund Order</button>
                     </div>
